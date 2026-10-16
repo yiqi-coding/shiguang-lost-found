@@ -1,0 +1,328 @@
+# =============================================================================
+# 拾光 · 验证问题模板库 + 认领可信度规则
+# -----------------------------------------------------------------------------
+# 本文件同时是「验证问题模板」与「可信度评分规则」的配置源。
+# app/credibility.py 只读本文件，不硬编码任何权重 / 阈值 / 同义词。
+#
+# 安全约束：服务端只返回 matched / score / reason（模糊理由），
+#          绝不回显 standard_answer 或 answers 关键字的原文。
+# =============================================================================
+
+version: "1.0"
+
+# -----------------------------------------------------------------------------
+# 一、可信度总分权重
+#     可信度分 = 0.60×隐藏特征答案匹配 + 0.20×候选物品综合匹配分
+#              + 0.10×发布信息完整度 + 0.10×行为/风险规则分
+# -----------------------------------------------------------------------------
+weights:
+  answer_match: 0.60
+  candidate_match: 0.20
+  completeness: 0.10
+  behavior: 0.10
+
+# 各分项缺数据时的中性分（绝不抛异常）
+# 注意：behavior 的「无信号」中性分取 0.85 —— 没有风险信号不等于有风险，
+#       若取 0.6 会让「全部答对」的可信度被无端拉低。
+neutral_scores:
+  answer_match: 0.50       # 没有任何可评分的问题
+  candidate_match: 0.50    # 没有传入候选匹配分
+  completeness: 0.30       # 没有任何可检查的字段
+  behavior: 0.85           # 没有行为信号（默认视为低风险）
+
+scoring:
+  clamp_min: 0.0
+  clamp_max: 1.0
+  round_digits: 4
+  # 风险等级阈值：score ≥ low_min → low；≥ medium_min → medium；否则 high
+  #
+  # ⚠ 冻结值来源：docs/api-contract.md §2.6（可信度分对应的风险等级）。
+  #    契约是唯一权威，即使此处曾标定过其他数值（如 0.80/0.55），也必须与契约一致。
+  #    如需调整，必须先改契约并登记变更记录，再同步本文件与后端配置。
+  #
+  # ⚠ 不要与 answer_matching.fuzzy.confident_threshold（0.50，单题答案相似度判定）
+  #    混淆：那一个是「一道题答得像不像」，这一组是「整份认领申请的风险等级」。
+  risk_levels:
+    low_min: 0.75
+    medium_min: 0.45
+    high_below: 0.45
+
+# -----------------------------------------------------------------------------
+# 二、答案匹配规则
+# -----------------------------------------------------------------------------
+answer_matching:
+  # 中文/英文混排的归一化（关键字段走精确/规范化匹配）
+  normalization:
+    fullwidth_to_halfwidth: true
+    lowercase: true
+    strip_whitespace: true
+    strip_punctuation: true
+    # 关键字段（如蓝牙名称）额外处理：去掉分隔符，保证「YiQi AirPods」==「yiqi-airpods」
+    unicodedata_nfkc: true
+  # 模糊匹配：字符 bigram Dice 相似度（同义词替换后再算，取两者较大值）
+  fuzzy:
+    ngram_size: 2
+    # 相似度 → 得分 的分段映射（confident 阈值以上视为命中）
+    # 阈值经实测标定：同义改写（「盒子右边刮了一道」vs「盒体右侧有一道划痕」）≈0.55，
+    # 因此 confident 取 0.50；矛盾回答（「没有划痕」）≈0.1，仍会被判为不一致。
+    confident_threshold: 0.50     # ≥ 该值 → matched = true
+    partial_threshold: 0.28       # ≥ 该值 → 部分命中（matched = false，但给部分分）
+    confident_score: 1.0
+    partial_score: 0.50
+    below_score: 0.0
+  # 精确匹配（关键字段）
+  exact:
+    match_score: 1.0
+    partial_score: 0.60           # 一方包含另一方（如「yiqi-airpods」vs「yiqi-airpods-pro」）
+    mismatch_score: 0.0
+    # 常见混淆字符归一（0/O、1/l/I），避免手输蓝牙名误判
+    confusion_pairs: [["0", "o"], ["1", "l"], ["1", "i"]]
+  # 关键字段的「互斥取值组」：两侧分别命中同一组内**不同**取值时直接判为不一致。
+  # 用于兜住模糊匹配的天花板：如「红色保温杯」vs「蓝色保温杯」措辞高度相似，
+  # 但颜色互相矛盾，不能因为 bigram 相似度高就判命中。
+  # 注意：只需登记**真正互斥**的取值。同义表达（右边/右侧、刮痕/划痕）由
+  # synonym_groups 负责归一，不要放进这里，否则会把正确表述误判为冲突。
+  conflict_groups:
+    - id: color_any
+      terms: [黑色, 白色, 银色, 灰色, 蓝色, 红色, 绿色, 黄色, 粉色, 紫色, 棕色, 透明]
+    - id: side_left_right
+      terms: [左侧, 右侧, 左边, 右边]
+    - id: exists
+      terms: [没有, 无, 不是, 不带, 未带, 丢失, 有, 带有, 是, 在, 齐全, 带着]
+    - id: inside_outside
+      terms: [内侧, 外侧, 里面, 外面, 内部, 外部]
+
+  # 未作答 / 题目不可评分
+  unanswered:
+    score: 0.0
+    reason: "该问题未作答或答案过短，无法验证"
+  min_answer_length: 2            # 归一化后短于此长度视为未作答
+  max_reason_length: 60           # 理由文本长度上限（同时保证不回显答案）
+  # 同义归一后还要抹平的口语填充词（数量词/语气词），避免「有一道划痕」与
+  # 「刮了一道」因措辞差异而漏配。仅在 canonicalize 阶段使用，不影响原文。
+  strip_fillers: [有一道, 有一处, 有点, 有一些, 一道, 一处, 一条, 一些, 一个, 左右, 大概, 好像, 似乎, 应该是, 应该是, 的]
+
+# -----------------------------------------------------------------------------
+# 三、同义词 / 等价表达组
+#     fuzzy_with_synonyms 模式：先做同义词组替换，再做模糊匹配，从而容忍
+#     「划痕」vs「刮痕」、「右侧」vs「右边」这类合理同义表达。
+# -----------------------------------------------------------------------------
+synonym_groups:
+  - id: scratch
+    canonical: 划痕
+    terms: [划痕, 刮痕, 划伤, 刮花, 划损, 刮了一道, 划了一道, 有一道痕, 一道痕, scratch]
+    match_mode: fuzzy_with_synonyms
+  - id: right_side
+    canonical: 右侧
+    terms: [右侧, 右边, 右面, 右方, 右手边, 靠右, 盒体右, right]
+    match_mode: fuzzy_with_synonyms
+  - id: left_side
+    canonical: 左侧
+    terms: [左侧, 左边, 左面, 左方, 左手边, 靠左, left]
+    match_mode: fuzzy_with_synonyms
+  - id: top_lid
+    canonical: 盒盖
+    terms: [盒盖, 盖子, 盖子上, 上盖, 顶盖, 盖内]
+    match_mode: fuzzy_with_synonyms
+  - id: bluetooth_name
+    canonical: 蓝牙名称
+    terms: [蓝牙名称, 蓝牙名, 设备名称, 蓝牙设备名, device name, bluetooth name]
+    match_mode: field_exact
+  - id: sticker
+    canonical: 贴纸
+    terms: [贴纸, 贴画, 贴花, 卡通贴, 贴了一张]
+    match_mode: fuzzy_with_synonyms
+  - id: wear
+    canonical: 磨损
+    terms: [磨损, 磨痕, 磨花, 刮花, 掉漆, 掉色]
+    match_mode: fuzzy_with_synonyms
+  - id: engrave
+    canonical: 刻字
+    terms: [刻字, 刻有, 雕刻, 印记, 记号]
+    match_mode: fuzzy_with_synonyms
+  - id: accessory_present
+    canonical: 齐全
+    terms: [齐全, 都在, 带着, 带了, 配有, 附有, 一起]
+    match_mode: fuzzy_with_synonyms
+
+# -----------------------------------------------------------------------------
+# 四、发布信息完整度：字段 → 权重（内部归一化）
+# -----------------------------------------------------------------------------
+completeness:
+  fields:
+    title: 0.10
+    description: 0.15
+    category: 0.10
+    color: 0.10
+    brand: 0.05
+    location: 0.15
+    event_time: 0.15
+    image_url: 0.05
+    public_features: 0.15
+  fields_aliases:              # 兼容不同字段命名
+    title: [title, name]
+    description: [description, desc, detail]
+    category: [category, category_name]
+    color: [color]
+    brand: [brand, brand_model]
+    location: [location, place, location_text]
+    event_time: [event_time, lost_time, found_time, time]
+    image_url: [image_url, image, image_ref]
+    public_features: [public_features, features, visible_features]
+  # 描述长度达到该值即视为「描述充分」
+  description_min_length: 12
+
+# -----------------------------------------------------------------------------
+# 五、行为 / 风险规则分
+#     score 从 1.0 起，命中规则则按 penalty 扣分；命中即写入 risk_tips。
+# -----------------------------------------------------------------------------
+behavior:
+  base_score: 1.0
+  # ⚠ 无任何行为信号时使用的中性分（没有风险信号 ≠ 有风险，因此取偏高的值）
+  neutral_score: 0.85
+  # 风险提示触发阈值（可配置，避免散落在代码里）
+  tips_thresholds:
+    answer_match_low_below: 0.50    # 答案匹配分低于此值 → 追加「匹配度较低」提示
+    candidate_match_low_below: 0.50 # 候选匹配分低于此值 → 追加「注意认领错物品」提示
+  rules:
+    # ---- 最典型的冒领信号：隐藏特征几乎全部答不上来 ----
+    # 说明：① 信号名 `answer_match_score` 由 credibility.py 在评分时自动注入，
+    #          因此即使没有其他行为信号也会参与求值；
+    #       ② condition 必须写**完整信号名 + 比较后缀**（answer_match_score_lt），
+    #          不能简写为 answer_match_lt —— 规则引擎按后缀剥离得到信号名，
+    #          简写会去查不存在的 `answer_match` 信号而永不触发；
+    #       ③ 这是让「全部答错」落到 high 风险等级的关键规则，请勿删除。
+    - id: very_low_answer_match
+      penalty: 0.35
+      tip: "隐藏特征回答与登记信息几乎不吻合，冒领风险高，必须线下核验"
+      condition: answer_match_score_lt
+      threshold: 0.30
+    - id: too_fast_claim
+      penalty: 0.25
+      tip: "认领申请提交过快，建议人工核验认领人身份"
+      condition: claim_elapsed_minutes_lt
+      threshold: 3
+    - id: repeated_claims
+      penalty: 0.20
+      tip: "同一用户短期内多次认领申请，建议人工复核"
+      condition: claim_count_recent_gte
+      threshold: 3
+    - id: many_failed_attempts
+      penalty: 0.20
+      tip: "历史验证失败次数较多"
+      condition: failed_attempts_gte
+      threshold: 3
+    - id: vague_description
+      penalty: 0.10
+      tip: "描述信息较模糊，关键特征缺失"
+      condition: description_length_lt
+      threshold: 8
+    - id: device_name_mismatch
+      penalty: 0.35
+      tip: "提供的设备名称与登记信息不一致，存在冒领风险"
+      condition: device_name_conflict_is_true
+    - id: location_mismatch
+      penalty: 0.15
+      tip: "认领人描述的地点与登记地点明显不一致"
+      condition: location_conflict_is_true
+    - id: inconsistent_answer
+      penalty: 0.20
+      tip: "多次答案前后不一致"
+      condition: inconsistent_answers_is_true
+    - id: unverified_identity
+      penalty: 0.10
+      tip: "认领人尚未完成实名/学号核验"
+      condition: identity_verified_is_false
+
+# -----------------------------------------------------------------------------
+# 六、风险提示（依据风险等级补充）
+# -----------------------------------------------------------------------------
+risk_tips:
+  high:
+    - "可信度偏低，必须线下核验证件后再交付物品"
+    - "建议由管理员人工复核全部验证问答记录"
+  medium:
+    - "存在部分关键特征未确认，建议补充一次线下核验"
+  low:
+    - "验证结果较好，可按常规流程交付并留存记录"
+  answer_match_low:
+    - "隐藏特征回答匹配度较低，建议追加提问"
+  candidate_conflict:
+    - "候选物品综合匹配分偏低，注意是否认领了错误物品"
+
+# -----------------------------------------------------------------------------
+# 七、验证问题模板库（供管理端/前端取题；placeholder 由 hidden_features 填充）
+# -----------------------------------------------------------------------------
+question_templates:
+  - id: q_custom_feature
+    category: "*"
+    type: hidden_feature
+    question: "请描述这件物品上最不容易被外人注意到的一个细节。"
+    field: hidden_features
+    placeholder: "{hidden_feature}"
+    match_mode: fuzzy_with_synonyms
+    weight: 1.0
+    standard_answer_source: hidden_features
+    required: true
+    reason_hint: "隐藏细节描述"
+  - id: q_scratch_detail
+    category: [无线耳机, 水杯, 背包]
+    type: hidden_feature
+    question: "物品表面是否有划痕或磨损？大约在什么位置？"
+    field: hidden_features
+    placeholder: "{hidden_feature}"
+    match_mode: fuzzy_with_synonyms
+    weight: 1.0
+    standard_answer_source: hidden_features
+    required: true
+    reason_hint: "外观损伤细节"
+  - id: q_bluetooth_name
+    category: [无线耳机]
+    type: field
+    question: "该设备的蓝牙显示名称是什么？（如不确定请说明）"
+    field: hidden_features
+    placeholder: "{hidden_feature}"
+    match_mode: field_exact
+    weight: 1.5
+    standard_answer_source: hidden_features
+    required: true
+    reason_hint: "设备名称精确匹配"
+  - id: q_card_info
+    category: [校园卡, 证件卡]
+    type: field
+    question: "卡片上的姓名与学号后六位分别是多少？"
+    field: hidden_features
+    placeholder: "{hidden_feature}"
+    match_mode: field_exact
+    weight: 1.5
+    standard_answer_source: hidden_features
+    required: true
+    reason_hint: "证件信息精确匹配"
+  - id: q_inside_mark
+    category: [水杯, 书籍]
+    type: hidden_feature
+    question: "杯内/书内是否有记号、贴纸或写字？内容是什么？"
+    field: hidden_features
+    placeholder: "{hidden_feature}"
+    match_mode: fuzzy_with_synonyms
+    weight: 1.0
+    standard_answer_source: hidden_features
+    required: false
+    reason_hint: "内部标记"
+  - id: q_accessory
+    category: "*"
+    type: hidden_feature
+    question: "物品丢失/拾取时附带哪些配件？"
+    field: hidden_features
+    placeholder: "{hidden_feature}"
+    match_mode: fuzzy_with_synonyms
+    weight: 0.8
+    standard_answer_source: hidden_features
+    required: false
+    reason_hint: "配件齐套情况"
+
+# 每类物品建议抽取的验证问题数量
+question_selection:
+  max_questions: 3
+  min_questions: 1
+  prefer_required: true
