@@ -91,6 +91,14 @@ cd M2-2026-10-13-commit-2 && python scripts/e2e_demo.py
 
 ---
 
+## 许可
+
+本项目采用 [MIT License](LICENSE)。
+
+演示数据集为人工构造的脱敏数据；第三方依赖（FastAPI、Vue、SQLAlchemy 等）遵循各自的开源许可协议。
+
+---
+
 ## 安全约定
 
 - `.env` 与任何密钥**不进入版本库**（已被 `.gitignore` 拦截），只提交 `.env.example`。
