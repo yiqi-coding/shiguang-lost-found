@@ -1,0 +1,48 @@
+# 拾光 · 后端依赖（本机 Windows + 离线 wheel 安装版）
+# 由 backend/requirements.txt 派生，仅做与平台相关的等价调整：
+#   1) uvicorn[standard] → uvicorn：uvloop 无 Windows 预编译 wheel，
+#      而 uvicorn 在 Windows 上自动使用 asyncio selector 事件循环，功能不受影响；
+#   2) python-magic 保留（sys_platform != win32 标记使其在本机自动跳过）；
+#   3) 其余依赖与版本与 backend/requirements.txt 完全一致。
+
+# ---- Web 框架 ----
+fastapi==0.115.6
+uvicorn==0.34.0
+gunicorn==23.0.0
+python-multipart==0.0.20
+
+# ---- 数据校验与配置 ----
+pydantic==2.10.4
+pydantic-settings==2.7.0
+
+# ---- 数据库 ----
+SQLAlchemy==2.0.36
+alembic==1.14.0
+PyMySQL==1.1.1
+cryptography==44.0.0
+
+# ---- 缓存 ----
+redis==5.2.1
+
+# ---- 认证与安全 ----
+PyJWT==2.10.1
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.1
+
+# ---- 文件与图片校验 ----
+Pillow==11.0.0
+
+# ---- 华为云 OBS ----
+esdk-obs-python==3.23.12
+
+# ---- HTTP 客户端（调用 MaaS / 算法服务） ----
+httpx==0.28.1
+
+# ---- 测试 ----
+pytest==8.3.4
+pytest-asyncio==0.25.0
+pytest-cov==6.0.0
+
+# ---- 代码质量（开发期） ----
+ruff==0.8.4
+mypy==1.14.0

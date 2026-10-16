@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "model_version": "baseline-1.0",
+    "dataset_version": "demo-2026.09.30",
+    "dataset_size": {
+      "items": 120,
+      "matches": 60
+    },
+    "split": {
+      "train": 72,
+      "val": 24,
+      "test": 24
+    },
+    "weights": {
+      "category": 0.2,
+      "text": 0.25,
+      "image": 0.2,
+      "time": 0.15,
+      "location": 0.15,
+      "brand_model": 0.05
+    },
+    "threshold": "MATCH_MIN_DISPLAY_SCORE=0.35",
+    "top_k": 5,
+    "executed_at": "2026-10-13T19:19:39+08:00",
+    "seed": 20260930,
+    "engine": "MatchEngine(baseline-1.0)",
+    "image_backend": "mock",
+    "eval_split": "test",
+    "ablation": "all",
+    "dataset_source": "file:data/demo_items.json+data/demo_matches.json",
+    "candidate_pool": {
+      "post_type": "found",
+      "scope": "all_found_items",
+      "size": 60,
+      "mirrored": false,
+      "query_scope": "test",
+      "note": "候选池 = 全部 found 物品（检索语料固定，共 60 条）；查询 = 所选子集内 label==positive 的 lost 物品。--split 只筛选查询集，不裁剪候选池，否则测试集召回必然退化为 0。"
+    },
+    "sample_counts": {
+      "positive": 3,
+      "negative": 5,
+      "hard_negative": 3,
+      "evaluated_split": "test"
+    },
+    "config_warnings": []
+  },
+  "metrics": {
+    "Recall@1": 1.0,
+    "Recall@5": 1.0,
+    "Precision@1": 1.0,
+    "MRR": 1.0,
+    "正负样本区分准确率": 1.0,
+    "可信认领验证准确率": 1.0,
+    "误通过率": 0.0,
+    "误拒绝率": 0.0,
+    "平均响应时间": {
+      "mean_ms": 188.608,
+      "p50_ms": 180.015,
+      "p95_ms": 212.685,
+      "max_ms": 212.685,
+      "samples": 3
+    }
+  },
+  "metrics_detail": {
+    "ranking": {
+      "queries": 3,
+      "hit_count": 3,
+      "miss_count": 0,
+      "mean_rank": 1.0,
+      "median_rank": 1.0
+    },
+    "discrimination": {
+      "overall": {
+        "pairs": 24,
+        "wins": 24,
+        "ties": 0,
+        "accuracy": 1.0
+      },
+      "vs_negative": {
+        "pairs": 15,
+        "accuracy": 1.0
+      },
+      "vs_hard_negative": {
+        "pairs": 9,
+        "accuracy": 1.0
+      },
+      "score_ranges": {
+        "positive": {
+          "min": 0.8263,
+          "max": 0.8866,
+          "mean": 0.8581,
+          "count": 3
+        },
+        "hard_negative": {
+          "min": 0.7056,
+          "max": 0.7978,
+          "mean": 0.7597,
+          "count": 3
+        },
+        "negative": {
+          "min": 0.2318,
+          "max": 0.2636,
+          "mean": 0.2479,
+          "count": 5
+        }
+      }
+    },
+    "credibility": {
+      "correct_answers": 3,
+      "wrong_answers": 9,
+      "correct_answered_as_low": 3,
+      "correct_risk_levels": {
+        "low": 3
+      },
+      "wrong_risk_levels": {
+        "high": 9
+      },
+      "expected_rule": "全对答案 → low（通过）；全错答案 → high（拒绝）"
+    },
+    "latency": {
+      "unit": "ms",
+      "measure": "单次 MatchEngine.match_pair(lost, found) 调用耗时（仅测正样本查询的候选池打分）",
+      "mean_ms": 188.608,
+      "p50_ms": 180.015,
+      "p95_ms": 212.685,
+      "max_ms": 212.685,
+      "samples": 3
+    }
+  },
+  "error_cases": [],
+  "notes": [
+    "划分按 (category, post_type) 分组后组内确定性洗牌，train/val/test = 60%/20%/20%，每个子集都覆盖 6 个类别与 lost/found 两种 post_type。",
+    "测试集不得在调权重过程中反复使用（需求 §9.2）：测试集结果只用于最终报告，每次使用都在 data/eval/ 留下记录文件。",
+    "error_cases 只记录样本 id、排名与分数，不含任何隐藏特征内容（安全红线）。",
+    "可信认领验证的答案在内存中构造，产物中不出现标准答案原文。",
+    "本评估的全部指标都由引擎实时重算，不使用 demo_matches.json 里预存的 reference_score / expected_total_score_range（该两列对 36 条负样本中的 27 条已陈旧，偏差 -0.02~-0.05，属于数据集生成时的配置版本差异，详见 tests/test_metrics.py TestDatasetConsistency 与本报告说明）。",
+    "消融实验按「维度子集 + 权重重新归一化」重算总分，未修改 app/matcher.py。",
+    "维度分之和（D 组重算）与 engine.total_score 的最大偏差 = 0.000e+00，在 1e-9 容差内一致（adjustments 全为 0）。"
+  ]
+}

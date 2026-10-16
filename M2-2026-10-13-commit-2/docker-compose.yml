@@ -1,0 +1,147 @@
+# =============================================================================
+# 拾光 · 本地/云端编排文件
+# -----------------------------------------------------------------------------
+# 启动：docker compose up -d
+# 迁移：docker compose exec backend alembic upgrade head
+# 日志：docker compose logs -f backend
+# 停止：docker compose down          （保留数据卷）
+#        docker compose down -v       （⚠ 删除数据卷，仅限重建环境）
+#
+# 网络隔离：
+#   public   —— 可访问外网，仅 frontend 与 backend 接入
+#   internal —— internal: true，mysql / redis / algorithm 无法访问外网
+# =============================================================================
+
+services:
+  # ---------------------------------------------------------------- 数据库
+  mysql:
+    image: mysql:8.0
+    container_name: shiguang-mysql
+    command:
+      - --default-authentication-plugin=mysql_native_password
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_0900_ai_ci
+      - --default-time-zone=+00:00
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?MYSQL_ROOT_PASSWORD 必须设置}
+      MYSQL_DATABASE: shiguang
+      MYSQL_USER: ${MYSQL_USER:-shiguang_app}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?MYSQL_PASSWORD 必须设置}
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./scripts/init_db.sql:/docker-entrypoint-initdb.d/01_init.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-u", "root", "-p${MYSQL_ROOT_PASSWORD}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 40s
+    networks: [internal]
+    restart: unless-stopped
+
+  # ------------------------------------------------------------------ 缓存
+  redis:
+    image: redis:7-alpine
+    container_name: shiguang-redis
+    command:
+      - redis-server
+      - --requirepass
+      - ${REDIS_PASSWORD:?REDIS_PASSWORD 必须设置}
+      - --appendonly
+      - "yes"
+      - --maxmemory
+      - 256mb
+      - --maxmemory-policy
+      - allkeys-lru
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD}", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks: [internal]
+    restart: unless-stopped
+
+  # -------------------------------------------------------------- 算法服务
+  algorithm:
+    build:
+      context: .
+      dockerfile: algorithm/Dockerfile
+    image: shiguang-algorithm:1.0.0
+    container_name: shiguang-algorithm
+    environment:
+      APP_ENV: ${APP_ENV:-production}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      MAAS_ENDPOINT: ${MAAS_ENDPOINT:-}
+      MAAS_API_KEY: ${MAAS_API_KEY:-}
+      MAAS_MODEL: ${MAAS_MODEL:-}
+      MAAS_ENABLED: ${MAAS_ENABLED:-false}
+    expose:
+      - "9000"          # ⚠ 只暴露给内部网络，不映射宿主机端口
+    networks: [internal]
+    restart: unless-stopped
+
+  # ------------------------------------------------------------------ 后端
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: shiguang-backend:1.0.0
+    container_name: shiguang-backend
+    env_file:
+      - .env
+    environment:
+      # 容器内网络地址覆盖 .env 中的宿主机地址
+      APP_ENV: ${APP_ENV:-production}
+      DATABASE_URL: mysql+pymysql://${MYSQL_USER:-shiguang_app}:${MYSQL_PASSWORD}@mysql:3306/shiguang?charset=utf8mb4
+      REDIS_URL: redis://:${REDIS_PASSWORD}@redis:6379/0
+      ALGORITHM_SERVICE_URL: http://algorithm:9000
+      STORAGE_BACKEND: ${STORAGE_BACKEND:-obs}
+      LOCAL_STORAGE_DIR: /app/storage
+    volumes:
+      - backend_storage:/app/storage
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      algorithm:
+        condition: service_started
+    expose:
+      - "8000"
+    networks: [internal, public]
+    restart: unless-stopped
+
+  # ------------------------------------------------------------------ 前端
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        VITE_API_BASE_URL: /api/v1
+        VITE_APP_TITLE: 拾光
+    image: shiguang-frontend:1.0.0
+    container_name: shiguang-frontend
+    ports:
+      - "${HTTP_PORT:-80}:80"
+    depends_on:
+      - backend
+    networks: [public]
+    restart: unless-stopped
+
+volumes:
+  mysql_data:
+    name: shiguang_mysql_data
+  redis_data:
+    name: shiguang_redis_data
+  backend_storage:
+    name: shiguang_backend_storage
+
+networks:
+  public:
+    name: shiguang_public
+  internal:
+    name: shiguang_internal
+    internal: true      # 关键：数据库/Redis/算法服务无法访问外网

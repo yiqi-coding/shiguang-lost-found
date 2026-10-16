@@ -1,0 +1,7034 @@
+[
+  {
+    "id": 1001,
+    "post_type": "lost",
+    "category": "无线耳机",
+    "title": "无线耳机",
+    "description": "黑色AppleAirPods Pro 2无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是塑料，椭圆形充电盒，盒体右侧有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "Apple",
+    "location": "东湖校区第三食堂门口",
+    "event_time": "2026-09-28T08:00:00",
+    "public_features": [
+      "椭圆形充电盒",
+      "盒体右侧有划痕"
+    ],
+    "hidden_features": [
+      "盒盖内侧有一道3厘米划痕",
+      "蓝牙名称 YiQi-AirPods"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "Apple",
+      "model": "AirPods Pro 2",
+      "color": "黑色",
+      "material": "塑料",
+      "visible_features": [
+        "椭圆形充电盒",
+        "盒体右侧有划痕"
+      ],
+      "accessories": [
+        "左右耳机",
+        "充电盒"
+      ],
+      "keywords": [
+        "无线耳机",
+        "黑色",
+        "Apple",
+        "塑料",
+        "蓝牙耳机",
+        "无线"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/lost-1001-v0.jpg",
+    "material": "塑料",
+    "model": "AirPods Pro 2",
+    "accessories": [
+      "左右耳机",
+      "充电盒"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "黑色",
+      "无线"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 2001,
+    "post_type": "found",
+    "category": "无线耳机",
+    "title": "无线耳机",
+    "description": "黑色AppleAirPods Pro 2无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是塑料，椭圆形充电盒，盒体右侧有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "Apple",
+    "location": "东湖校区第一教学楼门口",
+    "event_time": "2026-09-28T08:00:00",
+    "public_features": [
+      "椭圆形充电盒",
+      "盒体右侧有划痕"
+    ],
+    "hidden_features": [
+      "盒盖内侧有一道3厘米划痕",
+      "蓝牙名称 YiQi-AirPods"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "Apple",
+      "model": "AirPods Pro 2",
+      "color": "黑色",
+      "material": "塑料",
+      "visible_features": [
+        "椭圆形充电盒",
+        "盒体右侧有划痕"
+      ],
+      "accessories": [
+        "左右耳机",
+        "充电盒"
+      ],
+      "keywords": [
+        "无线耳机",
+        "黑色",
+        "Apple",
+        "塑料",
+        "蓝牙耳机",
+        "无线"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/found-2001-v0.jpg",
+    "material": "塑料",
+    "model": "AirPods Pro 2",
+    "accessories": [
+      "左右耳机",
+      "充电盒"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "黑色",
+      "无线"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 1002,
+    "post_type": "lost",
+    "category": "无线耳机",
+    "title": "无线耳机（二代）",
+    "description": "白色华为FreeBuds 5i无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是塑料，鹅卵石形充电盒，左耳柄有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": "华为",
+    "location": "东湖校区大学生活动中心一楼服务台",
+    "event_time": "2026-10-01T11:17:00",
+    "public_features": [
+      "鹅卵石形充电盒",
+      "左耳柄有磨损"
+    ],
+    "hidden_features": [
+      "左耳塞网罩有一处凹陷",
+      "蓝牙名称 HUAWEI-FreeBuds-5i-8821"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "华为",
+      "model": "FreeBuds 5i",
+      "color": "白色",
+      "material": "塑料",
+      "visible_features": [
+        "鹅卵石形充电盒",
+        "左耳柄有磨损"
+      ],
+      "accessories": [
+        "左右耳机",
+        "充电盒"
+      ],
+      "keywords": [
+        "无线耳机",
+        "白色",
+        "华为",
+        "塑料",
+        "蓝牙耳机",
+        "降噪"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/lost-1002-v1.jpg",
+    "material": "塑料",
+    "model": "FreeBuds 5i",
+    "accessories": [
+      "左右耳机",
+      "充电盒"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "白色",
+      "降噪"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 2002,
+    "post_type": "found",
+    "category": "无线耳机",
+    "title": "无线耳机（在自习区捡到）",
+    "description": "白色华为FreeBuds 5i无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是塑料，鹅卵石形充电盒，左耳柄有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": "华为",
+    "location": "东湖校区图书馆一楼门口",
+    "event_time": "2026-10-01T11:17:00",
+    "public_features": [
+      "鹅卵石形充电盒",
+      "左耳柄有磨损"
+    ],
+    "hidden_features": [
+      "左耳塞网罩有一处凹陷",
+      "蓝牙名称 HUAWEI-FreeBuds-5i-8821"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "华为",
+      "model": "FreeBuds 5i",
+      "color": "白色",
+      "material": "塑料",
+      "visible_features": [
+        "鹅卵石形充电盒",
+        "左耳柄有磨损"
+      ],
+      "accessories": [
+        "左右耳机",
+        "充电盒"
+      ],
+      "keywords": [
+        "无线耳机",
+        "白色",
+        "华为",
+        "塑料",
+        "蓝牙耳机",
+        "降噪"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/found-2002-v1.jpg",
+    "material": "塑料",
+    "model": "FreeBuds 5i",
+    "accessories": [
+      "左右耳机",
+      "充电盒"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "白色",
+      "降噪"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 1003,
+    "post_type": "lost",
+    "category": "无线耳机",
+    "title": "无线耳机（旧款）",
+    "description": "银色索尼WH-1000XM4无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是金属，头戴式，耳罩有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "银色",
+    "brand": "索尼",
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-04T14:34:00",
+    "public_features": [
+      "头戴式",
+      "耳罩有磨损"
+    ],
+    "hidden_features": [
+      "头梁内侧贴有一张褪色贴纸",
+      "蓝牙名称 WH-1000XM4-SZ"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "索尼",
+      "model": "WH-1000XM4",
+      "color": "银色",
+      "material": "金属",
+      "visible_features": [
+        "头戴式",
+        "耳罩有磨损"
+      ],
+      "accessories": [
+        "耳机线",
+        "收纳袋"
+      ],
+      "keywords": [
+        "无线耳机",
+        "银色",
+        "索尼",
+        "金属",
+        "头戴耳机",
+        "降噪"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/lost-1003-v2.jpg",
+    "material": "金属",
+    "model": "WH-1000XM4",
+    "accessories": [
+      "耳机线",
+      "收纳袋"
+    ],
+    "keywords": [
+      "头戴耳机",
+      "银色",
+      "降噪"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 2003,
+    "post_type": "found",
+    "category": "无线耳机",
+    "title": "无线耳机（放在服务台）",
+    "description": "银色索尼WH-1000XM4无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是金属，头戴式，耳罩有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "银色",
+    "brand": "索尼",
+    "location": "东湖校区大学生活动中心二楼报告厅",
+    "event_time": "2026-10-04T14:34:00",
+    "public_features": [
+      "头戴式",
+      "耳罩有磨损"
+    ],
+    "hidden_features": [
+      "头梁内侧贴有一张褪色贴纸",
+      "蓝牙名称 WH-1000XM4-SZ"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "索尼",
+      "model": "WH-1000XM4",
+      "color": "银色",
+      "material": "金属",
+      "visible_features": [
+        "头戴式",
+        "耳罩有磨损"
+      ],
+      "accessories": [
+        "耳机线",
+        "收纳袋"
+      ],
+      "keywords": [
+        "无线耳机",
+        "银色",
+        "索尼",
+        "金属",
+        "头戴耳机",
+        "降噪"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/found-2003-v2.jpg",
+    "material": "金属",
+    "model": "WH-1000XM4",
+    "accessories": [
+      "耳机线",
+      "收纳袋"
+    ],
+    "keywords": [
+      "头戴耳机",
+      "银色",
+      "降噪"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 1004,
+    "post_type": "lost",
+    "category": "无线耳机",
+    "title": "无线耳机（备用）",
+    "description": "蓝色漫步者LolliPods Plus无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是塑料，方形充电盒，盒角有磕碰，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": "漫步者",
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-07T17:51:00",
+    "public_features": [
+      "方形充电盒",
+      "盒角有磕碰"
+    ],
+    "hidden_features": [
+      "盒底刻有一位舍友的手机号尾号",
+      "蓝牙名称 EDIFIER-LP-0527"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "漫步者",
+      "model": "LolliPods Plus",
+      "color": "蓝色",
+      "material": "塑料",
+      "visible_features": [
+        "方形充电盒",
+        "盒角有磕碰"
+      ],
+      "accessories": [
+        "左右耳机",
+        "数据线"
+      ],
+      "keywords": [
+        "无线耳机",
+        "蓝色",
+        "漫步者",
+        "塑料",
+        "蓝牙耳机",
+        "半入耳"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/lost-1004-v3.jpg",
+    "material": "塑料",
+    "model": "LolliPods Plus",
+    "accessories": [
+      "左右耳机",
+      "数据线"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "蓝色",
+      "半入耳"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 2004,
+    "post_type": "found",
+    "category": "无线耳机",
+    "title": "无线耳机（门卫代收）",
+    "description": "蓝色漫步者LolliPods Plus无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是塑料，方形充电盒，盒角有磕碰，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": "漫步者",
+    "location": "西山校区工程训练中心二楼车间",
+    "event_time": "2026-10-07T17:51:00",
+    "public_features": [
+      "方形充电盒",
+      "盒角有磕碰"
+    ],
+    "hidden_features": [
+      "盒底刻有一位舍友的手机号尾号",
+      "蓝牙名称 EDIFIER-LP-0527"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "漫步者",
+      "model": "LolliPods Plus",
+      "color": "蓝色",
+      "material": "塑料",
+      "visible_features": [
+        "方形充电盒",
+        "盒角有磕碰"
+      ],
+      "accessories": [
+        "左右耳机",
+        "数据线"
+      ],
+      "keywords": [
+        "无线耳机",
+        "蓝色",
+        "漫步者",
+        "塑料",
+        "蓝牙耳机",
+        "半入耳"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/found-2004-v3.jpg",
+    "material": "塑料",
+    "model": "LolliPods Plus",
+    "accessories": [
+      "左右耳机",
+      "数据线"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "蓝色",
+      "半入耳"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 1005,
+    "post_type": "lost",
+    "category": "无线耳机",
+    "title": "无线耳机（同学代管）",
+    "description": "黑色小米Redmi Buds 4无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是硅胶，圆柱形充电盒，包装贴纸残留，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "小米",
+    "location": "西山校区三号宿舍楼二楼门口",
+    "event_time": "2026-10-10T08:08:00",
+    "public_features": [
+      "圆柱形充电盒",
+      "包装贴纸残留"
+    ],
+    "hidden_features": [
+      "充电盒内壁有茶色污渍",
+      "蓝牙名称 RedmiBuds4-3390"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "小米",
+      "model": "Redmi Buds 4",
+      "color": "黑色",
+      "material": "硅胶",
+      "visible_features": [
+        "圆柱形充电盒",
+        "包装贴纸残留"
+      ],
+      "accessories": [
+        "左右耳机"
+      ],
+      "keywords": [
+        "无线耳机",
+        "黑色",
+        "小米",
+        "硅胶",
+        "蓝牙耳机",
+        "入门"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/lost-1005-v4.jpg",
+    "material": "硅胶",
+    "model": "Redmi Buds 4",
+    "accessories": [
+      "左右耳机"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "黑色",
+      "入门"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 2005,
+    "post_type": "found",
+    "category": "无线耳机",
+    "title": "无线耳机（同学交到值班室）",
+    "description": "黑色小米Redmi Buds 4无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是硅胶，圆柱形充电盒，包装贴纸残留，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "小米",
+    "location": "西山校区第一食堂二楼就餐区",
+    "event_time": "2026-10-10T08:08:00",
+    "public_features": [
+      "圆柱形充电盒",
+      "包装贴纸残留"
+    ],
+    "hidden_features": [
+      "充电盒内壁有茶色污渍",
+      "蓝牙名称 RedmiBuds4-3390"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "小米",
+      "model": "Redmi Buds 4",
+      "color": "黑色",
+      "material": "硅胶",
+      "visible_features": [
+        "圆柱形充电盒",
+        "包装贴纸残留"
+      ],
+      "accessories": [
+        "左右耳机"
+      ],
+      "keywords": [
+        "无线耳机",
+        "黑色",
+        "小米",
+        "硅胶",
+        "蓝牙耳机",
+        "入门"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/found-2005-v4.jpg",
+    "material": "硅胶",
+    "model": "Redmi Buds 4",
+    "accessories": [
+      "左右耳机"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "黑色",
+      "入门"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 1006,
+    "post_type": "lost",
+    "category": "无线耳机",
+    "title": "无线耳机（用了两年）",
+    "description": "黑色AppleAirPods Pro 2无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是塑料，椭圆形充电盒，盒体右侧有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "Apple",
+    "location": "西山校区西区图书室一楼阅览室",
+    "event_time": "2026-10-13T11:25:00",
+    "public_features": [
+      "椭圆形充电盒",
+      "盒体右侧有划痕"
+    ],
+    "hidden_features": [
+      "盒盖内侧有一道3厘米划痕",
+      "蓝牙名称 YiQi-AirPods"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "Apple",
+      "model": "AirPods Pro 2",
+      "color": "黑色",
+      "material": "塑料",
+      "visible_features": [
+        "椭圆形充电盒",
+        "盒体右侧有划痕"
+      ],
+      "accessories": [
+        "左右耳机",
+        "充电盒"
+      ],
+      "keywords": [
+        "无线耳机",
+        "黑色",
+        "Apple",
+        "塑料",
+        "蓝牙耳机",
+        "无线"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/lost-1006-v0.jpg",
+    "material": "塑料",
+    "model": "AirPods Pro 2",
+    "accessories": [
+      "左右耳机",
+      "充电盒"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "黑色",
+      "无线"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 2006,
+    "post_type": "found",
+    "category": "无线耳机",
+    "title": "无线耳机（保洁阿姨捡到）",
+    "description": "黑色AppleAirPods Pro 2无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是塑料，椭圆形充电盒，盒体右侧有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "Apple",
+    "location": "西山校区三号宿舍楼一楼门口",
+    "event_time": "2026-10-13T11:25:00",
+    "public_features": [
+      "椭圆形充电盒",
+      "盒体右侧有划痕"
+    ],
+    "hidden_features": [
+      "盒盖内侧有一道3厘米划痕",
+      "蓝牙名称 YiQi-AirPods"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "Apple",
+      "model": "AirPods Pro 2",
+      "color": "黑色",
+      "material": "塑料",
+      "visible_features": [
+        "椭圆形充电盒",
+        "盒体右侧有划痕"
+      ],
+      "accessories": [
+        "左右耳机",
+        "充电盒"
+      ],
+      "keywords": [
+        "无线耳机",
+        "黑色",
+        "Apple",
+        "塑料",
+        "蓝牙耳机",
+        "无线"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/found-2006-v0.jpg",
+    "material": "塑料",
+    "model": "AirPods Pro 2",
+    "accessories": [
+      "左右耳机",
+      "充电盒"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "黑色",
+      "无线"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 1007,
+    "post_type": "lost",
+    "category": "无线耳机",
+    "title": "无线耳机（较新）",
+    "description": "白色华为FreeBuds 5i无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是塑料，鹅卵石形充电盒，左耳柄有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": "华为",
+    "location": "东湖校区一号宿舍楼一楼门口",
+    "event_time": "2026-10-16T14:42:00",
+    "public_features": [
+      "鹅卵石形充电盒",
+      "左耳柄有磨损"
+    ],
+    "hidden_features": [
+      "左耳塞网罩有一处凹陷",
+      "蓝牙名称 HUAWEI-FreeBuds-5i-8821"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "华为",
+      "model": "FreeBuds 5i",
+      "color": "白色",
+      "material": "塑料",
+      "visible_features": [
+        "鹅卵石形充电盒",
+        "左耳柄有磨损"
+      ],
+      "accessories": [
+        "左右耳机",
+        "充电盒"
+      ],
+      "keywords": [
+        "无线耳机",
+        "白色",
+        "华为",
+        "塑料",
+        "蓝牙耳机",
+        "降噪"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/lost-1007-v1.jpg",
+    "material": "塑料",
+    "model": "FreeBuds 5i",
+    "accessories": [
+      "左右耳机",
+      "充电盒"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "白色",
+      "降噪"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 2007,
+    "post_type": "found",
+    "category": "无线耳机",
+    "title": "无线耳机（讲台抽屉内）",
+    "description": "白色华为FreeBuds 5i无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是塑料，鹅卵石形充电盒，左耳柄有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": "华为",
+    "location": "东湖校区第三食堂二楼就餐区",
+    "event_time": "2026-10-16T14:42:00",
+    "public_features": [
+      "鹅卵石形充电盒",
+      "左耳柄有磨损"
+    ],
+    "hidden_features": [
+      "左耳塞网罩有一处凹陷",
+      "蓝牙名称 HUAWEI-FreeBuds-5i-8821"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "华为",
+      "model": "FreeBuds 5i",
+      "color": "白色",
+      "material": "塑料",
+      "visible_features": [
+        "鹅卵石形充电盒",
+        "左耳柄有磨损"
+      ],
+      "accessories": [
+        "左右耳机",
+        "充电盒"
+      ],
+      "keywords": [
+        "无线耳机",
+        "白色",
+        "华为",
+        "塑料",
+        "蓝牙耳机",
+        "降噪"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/found-2007-v1.jpg",
+    "material": "塑料",
+    "model": "FreeBuds 5i",
+    "accessories": [
+      "左右耳机",
+      "充电盒"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "白色",
+      "降噪"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 1008,
+    "post_type": "lost",
+    "category": "无线耳机",
+    "title": "无线耳机（常用）",
+    "description": "银色索尼WH-1000XM4无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是金属，头戴式，耳罩有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "银色",
+    "brand": "索尼",
+    "location": "西山校区西区图书室二楼阅览室",
+    "event_time": "2026-10-19T17:59:00",
+    "public_features": [
+      "头戴式",
+      "耳罩有磨损"
+    ],
+    "hidden_features": [
+      "头梁内侧贴有一张褪色贴纸",
+      "蓝牙名称 WH-1000XM4-SZ"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "索尼",
+      "model": "WH-1000XM4",
+      "color": "银色",
+      "material": "金属",
+      "visible_features": [
+        "头戴式",
+        "耳罩有磨损"
+      ],
+      "accessories": [
+        "耳机线",
+        "收纳袋"
+      ],
+      "keywords": [
+        "无线耳机",
+        "银色",
+        "索尼",
+        "金属",
+        "头戴耳机",
+        "降噪"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/lost-1008-v2.jpg",
+    "material": "金属",
+    "model": "WH-1000XM4",
+    "accessories": [
+      "耳机线",
+      "收纳袋"
+    ],
+    "keywords": [
+      "头戴耳机",
+      "银色",
+      "降噪"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 2008,
+    "post_type": "found",
+    "category": "无线耳机",
+    "title": "无线耳机（座位下捡到）",
+    "description": "银色索尼WH-1000XM4无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是金属，头戴式，耳罩有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "银色",
+    "brand": "索尼",
+    "location": "东湖校区图书馆四楼阅览室",
+    "event_time": "2026-10-19T17:59:00",
+    "public_features": [
+      "头戴式",
+      "耳罩有磨损"
+    ],
+    "hidden_features": [
+      "头梁内侧贴有一张褪色贴纸",
+      "蓝牙名称 WH-1000XM4-SZ"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "索尼",
+      "model": "WH-1000XM4",
+      "color": "银色",
+      "material": "金属",
+      "visible_features": [
+        "头戴式",
+        "耳罩有磨损"
+      ],
+      "accessories": [
+        "耳机线",
+        "收纳袋"
+      ],
+      "keywords": [
+        "无线耳机",
+        "银色",
+        "索尼",
+        "金属",
+        "头戴耳机",
+        "降噪"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/found-2008-v2.jpg",
+    "material": "金属",
+    "model": "WH-1000XM4",
+    "accessories": [
+      "耳机线",
+      "收纳袋"
+    ],
+    "keywords": [
+      "头戴耳机",
+      "银色",
+      "降噪"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 1009,
+    "post_type": "lost",
+    "category": "无线耳机",
+    "title": "无线耳机（贴了贴纸）",
+    "description": "蓝色漫步者LolliPods Plus无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是塑料，方形充电盒，盒角有磕碰，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": "漫步者",
+    "location": "东湖校区第三食堂门口",
+    "event_time": "2026-10-22T08:16:00",
+    "public_features": [
+      "方形充电盒",
+      "盒角有磕碰"
+    ],
+    "hidden_features": [
+      "盒底刻有一位舍友的手机号尾号",
+      "蓝牙名称 EDIFIER-LP-0527"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "漫步者",
+      "model": "LolliPods Plus",
+      "color": "蓝色",
+      "material": "塑料",
+      "visible_features": [
+        "方形充电盒",
+        "盒角有磕碰"
+      ],
+      "accessories": [
+        "左右耳机",
+        "数据线"
+      ],
+      "keywords": [
+        "无线耳机",
+        "蓝色",
+        "漫步者",
+        "塑料",
+        "蓝牙耳机",
+        "半入耳"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/lost-1009-v3.jpg",
+    "material": "塑料",
+    "model": "LolliPods Plus",
+    "accessories": [
+      "左右耳机",
+      "数据线"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "蓝色",
+      "半入耳"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 2009,
+    "post_type": "found",
+    "category": "无线耳机",
+    "title": "无线耳机（已登记）",
+    "description": "蓝色漫步者LolliPods Plus无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是塑料，方形充电盒，盒角有磕碰，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": "漫步者",
+    "location": "东湖校区第一教学楼门口",
+    "event_time": "2026-10-22T08:16:00",
+    "public_features": [
+      "方形充电盒",
+      "盒角有磕碰"
+    ],
+    "hidden_features": [
+      "盒底刻有一位舍友的手机号尾号",
+      "蓝牙名称 EDIFIER-LP-0527"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "漫步者",
+      "model": "LolliPods Plus",
+      "color": "蓝色",
+      "material": "塑料",
+      "visible_features": [
+        "方形充电盒",
+        "盒角有磕碰"
+      ],
+      "accessories": [
+        "左右耳机",
+        "数据线"
+      ],
+      "keywords": [
+        "无线耳机",
+        "蓝色",
+        "漫步者",
+        "塑料",
+        "蓝牙耳机",
+        "半入耳"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/found-2009-v3.jpg",
+    "material": "塑料",
+    "model": "LolliPods Plus",
+    "accessories": [
+      "左右耳机",
+      "数据线"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "蓝色",
+      "半入耳"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 1010,
+    "post_type": "lost",
+    "category": "无线耳机",
+    "title": "无线耳机（有磕碰）",
+    "description": "黑色小米Redmi Buds 4无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是硅胶，圆柱形充电盒，包装贴纸残留，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "小米",
+    "location": "东湖校区大学生活动中心一楼服务台",
+    "event_time": "2026-10-25T11:33:00",
+    "public_features": [
+      "圆柱形充电盒",
+      "包装贴纸残留"
+    ],
+    "hidden_features": [
+      "充电盒内壁有茶色污渍",
+      "蓝牙名称 RedmiBuds4-3390"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "小米",
+      "model": "Redmi Buds 4",
+      "color": "黑色",
+      "material": "硅胶",
+      "visible_features": [
+        "圆柱形充电盒",
+        "包装贴纸残留"
+      ],
+      "accessories": [
+        "左右耳机"
+      ],
+      "keywords": [
+        "无线耳机",
+        "黑色",
+        "小米",
+        "硅胶",
+        "蓝牙耳机",
+        "入门"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/lost-1010-v4.jpg",
+    "material": "硅胶",
+    "model": "Redmi Buds 4",
+    "accessories": [
+      "左右耳机"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "黑色",
+      "入门"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 2010,
+    "post_type": "found",
+    "category": "无线耳机",
+    "title": "无线耳机（无人认领）",
+    "description": "黑色小米Redmi Buds 4无线耳机，无线蓝牙耳机，带充电盒，可以正常连接手机使用，材质看起来是硅胶，圆柱形充电盒，包装贴纸残留，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "小米",
+    "location": "东湖校区图书馆一楼门口",
+    "event_time": "2026-10-25T11:33:00",
+    "public_features": [
+      "圆柱形充电盒",
+      "包装贴纸残留"
+    ],
+    "hidden_features": [
+      "充电盒内壁有茶色污渍",
+      "蓝牙名称 RedmiBuds4-3390"
+    ],
+    "ai_attributes": {
+      "category": "无线耳机",
+      "brand": "小米",
+      "model": "Redmi Buds 4",
+      "color": "黑色",
+      "material": "硅胶",
+      "visible_features": [
+        "圆柱形充电盒",
+        "包装贴纸残留"
+      ],
+      "accessories": [
+        "左右耳机"
+      ],
+      "keywords": [
+        "无线耳机",
+        "黑色",
+        "小米",
+        "硅胶",
+        "蓝牙耳机",
+        "入门"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/earbuds/found-2010-v4.jpg",
+    "material": "硅胶",
+    "model": "Redmi Buds 4",
+    "accessories": [
+      "左右耳机"
+    ],
+    "keywords": [
+      "蓝牙耳机",
+      "黑色",
+      "入门"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 1011,
+    "post_type": "lost",
+    "category": "水杯",
+    "title": "水杯",
+    "description": "白色膳魔师JNL-402水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是不锈钢，杯身有贴纸，杯盖有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": "膳魔师",
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-05T14:50:00",
+    "public_features": [
+      "杯身有贴纸",
+      "杯盖有划痕"
+    ],
+    "hidden_features": [
+      "杯底刻有「TY」两个字母",
+      "杯盖内侧有一圈茶渍"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "膳魔师",
+      "model": "JNL-402",
+      "color": "白色",
+      "material": "不锈钢",
+      "visible_features": [
+        "杯身有贴纸",
+        "杯盖有划痕"
+      ],
+      "accessories": [
+        "杯盖",
+        "吸管"
+      ],
+      "keywords": [
+        "水杯",
+        "白色",
+        "膳魔师",
+        "不锈钢",
+        "保温杯",
+        "便携"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/lost-1011-v0.jpg",
+    "material": "不锈钢",
+    "model": "JNL-402",
+    "accessories": [
+      "杯盖",
+      "吸管"
+    ],
+    "keywords": [
+      "保温杯",
+      "白色",
+      "便携"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 2011,
+    "post_type": "found",
+    "category": "水杯",
+    "title": "水杯",
+    "description": "白色膳魔师JNL-402水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是不锈钢，杯身有贴纸，杯盖有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": "膳魔师",
+    "location": "东湖校区大学生活动中心二楼报告厅",
+    "event_time": "2026-10-05T14:50:00",
+    "public_features": [
+      "杯身有贴纸",
+      "杯盖有划痕"
+    ],
+    "hidden_features": [
+      "杯底刻有「TY」两个字母",
+      "杯盖内侧有一圈茶渍"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "膳魔师",
+      "model": "JNL-402",
+      "color": "白色",
+      "material": "不锈钢",
+      "visible_features": [
+        "杯身有贴纸",
+        "杯盖有划痕"
+      ],
+      "accessories": [
+        "杯盖",
+        "吸管"
+      ],
+      "keywords": [
+        "水杯",
+        "白色",
+        "膳魔师",
+        "不锈钢",
+        "保温杯",
+        "便携"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/found-2011-v0.jpg",
+    "material": "不锈钢",
+    "model": "JNL-402",
+    "accessories": [
+      "杯盖",
+      "吸管"
+    ],
+    "keywords": [
+      "保温杯",
+      "白色",
+      "便携"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 1012,
+    "post_type": "lost",
+    "category": "水杯",
+    "title": "水杯（二代）",
+    "description": "蓝色乐扣乐扣ABF-680水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是塑料，带吸管，杯身有卡通图案，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": "乐扣乐扣",
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-08T17:07:00",
+    "public_features": [
+      "带吸管",
+      "杯身有卡通图案"
+    ],
+    "hidden_features": [
+      "吸管底部有一个小缺口",
+      "杯身贴纸背面写了宿舍号"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "乐扣乐扣",
+      "model": "ABF-680",
+      "color": "蓝色",
+      "material": "塑料",
+      "visible_features": [
+        "带吸管",
+        "杯身有卡通图案"
+      ],
+      "accessories": [
+        "杯盖",
+        "吸管"
+      ],
+      "keywords": [
+        "水杯",
+        "蓝色",
+        "乐扣乐扣",
+        "塑料",
+        "吸管杯"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/lost-1012-v1.jpg",
+    "material": "塑料",
+    "model": "ABF-680",
+    "accessories": [
+      "杯盖",
+      "吸管"
+    ],
+    "keywords": [
+      "水杯",
+      "蓝色",
+      "吸管杯"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 2012,
+    "post_type": "found",
+    "category": "水杯",
+    "title": "水杯（在自习区捡到）",
+    "description": "蓝色乐扣乐扣ABF-680水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是塑料，带吸管，杯身有卡通图案，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": "乐扣乐扣",
+    "location": "西山校区工程训练中心二楼车间",
+    "event_time": "2026-10-08T17:07:00",
+    "public_features": [
+      "带吸管",
+      "杯身有卡通图案"
+    ],
+    "hidden_features": [
+      "吸管底部有一个小缺口",
+      "杯身贴纸背面写了宿舍号"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "乐扣乐扣",
+      "model": "ABF-680",
+      "color": "蓝色",
+      "material": "塑料",
+      "visible_features": [
+        "带吸管",
+        "杯身有卡通图案"
+      ],
+      "accessories": [
+        "杯盖",
+        "吸管"
+      ],
+      "keywords": [
+        "水杯",
+        "蓝色",
+        "乐扣乐扣",
+        "塑料",
+        "吸管杯"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/found-2012-v1.jpg",
+    "material": "塑料",
+    "model": "ABF-680",
+    "accessories": [
+      "杯盖",
+      "吸管"
+    ],
+    "keywords": [
+      "水杯",
+      "蓝色",
+      "吸管杯"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 1013,
+    "post_type": "lost",
+    "category": "水杯",
+    "title": "水杯（旧款）",
+    "description": "绿色富光FG-1200水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是玻璃，透明玻璃杯，杯口有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": "富光",
+    "location": "西山校区三号宿舍楼二楼门口",
+    "event_time": "2026-10-11T08:24:00",
+    "public_features": [
+      "透明玻璃杯",
+      "杯口有磨损"
+    ],
+    "hidden_features": [
+      "杯壁内侧有一道细裂纹",
+      "杯垫上写了姓名缩写"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "富光",
+      "model": "FG-1200",
+      "color": "绿色",
+      "material": "玻璃",
+      "visible_features": [
+        "透明玻璃杯",
+        "杯口有磨损"
+      ],
+      "accessories": [
+        "杯盖"
+      ],
+      "keywords": [
+        "水杯",
+        "绿色",
+        "富光",
+        "玻璃",
+        "玻璃杯",
+        "办公"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/lost-1013-v2.jpg",
+    "material": "玻璃",
+    "model": "FG-1200",
+    "accessories": [
+      "杯盖"
+    ],
+    "keywords": [
+      "玻璃杯",
+      "绿色",
+      "办公"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 2013,
+    "post_type": "found",
+    "category": "水杯",
+    "title": "水杯（放在服务台）",
+    "description": "绿色富光FG-1200水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是玻璃，透明玻璃杯，杯口有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": "富光",
+    "location": "西山校区第一食堂二楼就餐区",
+    "event_time": "2026-10-11T08:24:00",
+    "public_features": [
+      "透明玻璃杯",
+      "杯口有磨损"
+    ],
+    "hidden_features": [
+      "杯壁内侧有一道细裂纹",
+      "杯垫上写了姓名缩写"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "富光",
+      "model": "FG-1200",
+      "color": "绿色",
+      "material": "玻璃",
+      "visible_features": [
+        "透明玻璃杯",
+        "杯口有磨损"
+      ],
+      "accessories": [
+        "杯盖"
+      ],
+      "keywords": [
+        "水杯",
+        "绿色",
+        "富光",
+        "玻璃",
+        "玻璃杯",
+        "办公"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/found-2013-v2.jpg",
+    "material": "玻璃",
+    "model": "FG-1200",
+    "accessories": [
+      "杯盖"
+    ],
+    "keywords": [
+      "玻璃杯",
+      "绿色",
+      "办公"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 1014,
+    "post_type": "lost",
+    "category": "水杯",
+    "title": "水杯（备用）",
+    "description": "黑色象印SM-SA48水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是不锈钢，咖啡色杯身贴纸，杯底有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "象印",
+    "location": "西山校区西区图书室一楼阅览室",
+    "event_time": "2026-10-14T11:41:00",
+    "public_features": [
+      "咖啡色杯身贴纸",
+      "杯底有划痕"
+    ],
+    "hidden_features": [
+      "杯底标签写着房间号 512",
+      "杯盖内圈有一道浅划痕"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "象印",
+      "model": "SM-SA48",
+      "color": "黑色",
+      "material": "不锈钢",
+      "visible_features": [
+        "咖啡色杯身贴纸",
+        "杯底有划痕"
+      ],
+      "accessories": [
+        "杯盖"
+      ],
+      "keywords": [
+        "水杯",
+        "黑色",
+        "象印",
+        "不锈钢",
+        "保温杯",
+        "咖啡"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/lost-1014-v3.jpg",
+    "material": "不锈钢",
+    "model": "SM-SA48",
+    "accessories": [
+      "杯盖"
+    ],
+    "keywords": [
+      "保温杯",
+      "黑色",
+      "咖啡"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 2014,
+    "post_type": "found",
+    "category": "水杯",
+    "title": "水杯（门卫代收）",
+    "description": "黑色象印SM-SA48水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是不锈钢，咖啡色杯身贴纸，杯底有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "象印",
+    "location": "西山校区三号宿舍楼一楼门口",
+    "event_time": "2026-10-14T11:41:00",
+    "public_features": [
+      "咖啡色杯身贴纸",
+      "杯底有划痕"
+    ],
+    "hidden_features": [
+      "杯底标签写着房间号 512",
+      "杯盖内圈有一道浅划痕"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "象印",
+      "model": "SM-SA48",
+      "color": "黑色",
+      "material": "不锈钢",
+      "visible_features": [
+        "咖啡色杯身贴纸",
+        "杯底有划痕"
+      ],
+      "accessories": [
+        "杯盖"
+      ],
+      "keywords": [
+        "水杯",
+        "黑色",
+        "象印",
+        "不锈钢",
+        "保温杯",
+        "咖啡"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/found-2014-v3.jpg",
+    "material": "不锈钢",
+    "model": "SM-SA48",
+    "accessories": [
+      "杯盖"
+    ],
+    "keywords": [
+      "保温杯",
+      "黑色",
+      "咖啡"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 1015,
+    "post_type": "lost",
+    "category": "水杯",
+    "title": "水杯（同学代管）",
+    "description": "粉色网易严选YH-MUG-01水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是陶瓷，马克杯，手柄有缺口，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "粉色",
+    "brand": "网易严选",
+    "location": "东湖校区一号宿舍楼一楼门口",
+    "event_time": "2026-10-17T14:58:00",
+    "public_features": [
+      "马克杯",
+      "手柄有缺口"
+    ],
+    "hidden_features": [
+      "杯底有手写「2023 秋」字样",
+      "杯口内侧有一处小崩瓷"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "网易严选",
+      "model": "YH-MUG-01",
+      "color": "粉色",
+      "material": "陶瓷",
+      "visible_features": [
+        "马克杯",
+        "手柄有缺口"
+      ],
+      "accessories": [
+        "杯盖",
+        "小勺"
+      ],
+      "keywords": [
+        "水杯",
+        "粉色",
+        "网易严选",
+        "陶瓷",
+        "马克杯"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/lost-1015-v4.jpg",
+    "material": "陶瓷",
+    "model": "YH-MUG-01",
+    "accessories": [
+      "杯盖",
+      "小勺"
+    ],
+    "keywords": [
+      "马克杯",
+      "粉色",
+      "陶瓷"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 2015,
+    "post_type": "found",
+    "category": "水杯",
+    "title": "水杯（同学交到值班室）",
+    "description": "粉色网易严选YH-MUG-01水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是陶瓷，马克杯，手柄有缺口，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "粉色",
+    "brand": "网易严选",
+    "location": "东湖校区第三食堂二楼就餐区",
+    "event_time": "2026-10-17T14:58:00",
+    "public_features": [
+      "马克杯",
+      "手柄有缺口"
+    ],
+    "hidden_features": [
+      "杯底有手写「2023 秋」字样",
+      "杯口内侧有一处小崩瓷"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "网易严选",
+      "model": "YH-MUG-01",
+      "color": "粉色",
+      "material": "陶瓷",
+      "visible_features": [
+        "马克杯",
+        "手柄有缺口"
+      ],
+      "accessories": [
+        "杯盖",
+        "小勺"
+      ],
+      "keywords": [
+        "水杯",
+        "粉色",
+        "网易严选",
+        "陶瓷",
+        "马克杯"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/found-2015-v4.jpg",
+    "material": "陶瓷",
+    "model": "YH-MUG-01",
+    "accessories": [
+      "杯盖",
+      "小勺"
+    ],
+    "keywords": [
+      "马克杯",
+      "粉色",
+      "陶瓷"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 1016,
+    "post_type": "lost",
+    "category": "水杯",
+    "title": "水杯（用了两年）",
+    "description": "白色膳魔师JNL-402水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是不锈钢，杯身有贴纸，杯盖有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": "膳魔师",
+    "location": "西山校区西区图书室二楼阅览室",
+    "event_time": "2026-10-20T17:15:00",
+    "public_features": [
+      "杯身有贴纸",
+      "杯盖有划痕"
+    ],
+    "hidden_features": [
+      "杯底刻有「TY」两个字母",
+      "杯盖内侧有一圈茶渍"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "膳魔师",
+      "model": "JNL-402",
+      "color": "白色",
+      "material": "不锈钢",
+      "visible_features": [
+        "杯身有贴纸",
+        "杯盖有划痕"
+      ],
+      "accessories": [
+        "杯盖",
+        "吸管"
+      ],
+      "keywords": [
+        "水杯",
+        "白色",
+        "膳魔师",
+        "不锈钢",
+        "保温杯",
+        "便携"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/lost-1016-v0.jpg",
+    "material": "不锈钢",
+    "model": "JNL-402",
+    "accessories": [
+      "杯盖",
+      "吸管"
+    ],
+    "keywords": [
+      "保温杯",
+      "白色",
+      "便携"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 2016,
+    "post_type": "found",
+    "category": "水杯",
+    "title": "水杯（保洁阿姨捡到）",
+    "description": "白色膳魔师JNL-402水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是不锈钢，杯身有贴纸，杯盖有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": "膳魔师",
+    "location": "东湖校区图书馆四楼阅览室",
+    "event_time": "2026-10-20T17:15:00",
+    "public_features": [
+      "杯身有贴纸",
+      "杯盖有划痕"
+    ],
+    "hidden_features": [
+      "杯底刻有「TY」两个字母",
+      "杯盖内侧有一圈茶渍"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "膳魔师",
+      "model": "JNL-402",
+      "color": "白色",
+      "material": "不锈钢",
+      "visible_features": [
+        "杯身有贴纸",
+        "杯盖有划痕"
+      ],
+      "accessories": [
+        "杯盖",
+        "吸管"
+      ],
+      "keywords": [
+        "水杯",
+        "白色",
+        "膳魔师",
+        "不锈钢",
+        "保温杯",
+        "便携"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/found-2016-v0.jpg",
+    "material": "不锈钢",
+    "model": "JNL-402",
+    "accessories": [
+      "杯盖",
+      "吸管"
+    ],
+    "keywords": [
+      "保温杯",
+      "白色",
+      "便携"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 1017,
+    "post_type": "lost",
+    "category": "水杯",
+    "title": "水杯（较新）",
+    "description": "蓝色乐扣乐扣ABF-680水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是塑料，带吸管，杯身有卡通图案，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": "乐扣乐扣",
+    "location": "东湖校区第三食堂门口",
+    "event_time": "2026-10-23T08:32:00",
+    "public_features": [
+      "带吸管",
+      "杯身有卡通图案"
+    ],
+    "hidden_features": [
+      "吸管底部有一个小缺口",
+      "杯身贴纸背面写了宿舍号"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "乐扣乐扣",
+      "model": "ABF-680",
+      "color": "蓝色",
+      "material": "塑料",
+      "visible_features": [
+        "带吸管",
+        "杯身有卡通图案"
+      ],
+      "accessories": [
+        "杯盖",
+        "吸管"
+      ],
+      "keywords": [
+        "水杯",
+        "蓝色",
+        "乐扣乐扣",
+        "塑料",
+        "吸管杯"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/lost-1017-v1.jpg",
+    "material": "塑料",
+    "model": "ABF-680",
+    "accessories": [
+      "杯盖",
+      "吸管"
+    ],
+    "keywords": [
+      "水杯",
+      "蓝色",
+      "吸管杯"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 2017,
+    "post_type": "found",
+    "category": "水杯",
+    "title": "水杯（讲台抽屉内）",
+    "description": "蓝色乐扣乐扣ABF-680水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是塑料，带吸管，杯身有卡通图案，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": "乐扣乐扣",
+    "location": "东湖校区第一教学楼门口",
+    "event_time": "2026-10-23T08:32:00",
+    "public_features": [
+      "带吸管",
+      "杯身有卡通图案"
+    ],
+    "hidden_features": [
+      "吸管底部有一个小缺口",
+      "杯身贴纸背面写了宿舍号"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "乐扣乐扣",
+      "model": "ABF-680",
+      "color": "蓝色",
+      "material": "塑料",
+      "visible_features": [
+        "带吸管",
+        "杯身有卡通图案"
+      ],
+      "accessories": [
+        "杯盖",
+        "吸管"
+      ],
+      "keywords": [
+        "水杯",
+        "蓝色",
+        "乐扣乐扣",
+        "塑料",
+        "吸管杯"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/found-2017-v1.jpg",
+    "material": "塑料",
+    "model": "ABF-680",
+    "accessories": [
+      "杯盖",
+      "吸管"
+    ],
+    "keywords": [
+      "水杯",
+      "蓝色",
+      "吸管杯"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 1018,
+    "post_type": "lost",
+    "category": "水杯",
+    "title": "水杯（常用）",
+    "description": "绿色富光FG-1200水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是玻璃，透明玻璃杯，杯口有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": "富光",
+    "location": "东湖校区大学生活动中心一楼服务台",
+    "event_time": "2026-09-28T11:49:00",
+    "public_features": [
+      "透明玻璃杯",
+      "杯口有磨损"
+    ],
+    "hidden_features": [
+      "杯壁内侧有一道细裂纹",
+      "杯垫上写了姓名缩写"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "富光",
+      "model": "FG-1200",
+      "color": "绿色",
+      "material": "玻璃",
+      "visible_features": [
+        "透明玻璃杯",
+        "杯口有磨损"
+      ],
+      "accessories": [
+        "杯盖"
+      ],
+      "keywords": [
+        "水杯",
+        "绿色",
+        "富光",
+        "玻璃",
+        "玻璃杯",
+        "办公"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/lost-1018-v2.jpg",
+    "material": "玻璃",
+    "model": "FG-1200",
+    "accessories": [
+      "杯盖"
+    ],
+    "keywords": [
+      "玻璃杯",
+      "绿色",
+      "办公"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 2018,
+    "post_type": "found",
+    "category": "水杯",
+    "title": "水杯（座位下捡到）",
+    "description": "绿色富光FG-1200水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是玻璃，透明玻璃杯，杯口有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": "富光",
+    "location": "东湖校区图书馆一楼门口",
+    "event_time": "2026-09-28T11:49:00",
+    "public_features": [
+      "透明玻璃杯",
+      "杯口有磨损"
+    ],
+    "hidden_features": [
+      "杯壁内侧有一道细裂纹",
+      "杯垫上写了姓名缩写"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "富光",
+      "model": "FG-1200",
+      "color": "绿色",
+      "material": "玻璃",
+      "visible_features": [
+        "透明玻璃杯",
+        "杯口有磨损"
+      ],
+      "accessories": [
+        "杯盖"
+      ],
+      "keywords": [
+        "水杯",
+        "绿色",
+        "富光",
+        "玻璃",
+        "玻璃杯",
+        "办公"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/found-2018-v2.jpg",
+    "material": "玻璃",
+    "model": "FG-1200",
+    "accessories": [
+      "杯盖"
+    ],
+    "keywords": [
+      "玻璃杯",
+      "绿色",
+      "办公"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 1019,
+    "post_type": "lost",
+    "category": "水杯",
+    "title": "水杯（贴了贴纸）",
+    "description": "黑色象印SM-SA48水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是不锈钢，咖啡色杯身贴纸，杯底有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "象印",
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-01T14:06:00",
+    "public_features": [
+      "咖啡色杯身贴纸",
+      "杯底有划痕"
+    ],
+    "hidden_features": [
+      "杯底标签写着房间号 512",
+      "杯盖内圈有一道浅划痕"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "象印",
+      "model": "SM-SA48",
+      "color": "黑色",
+      "material": "不锈钢",
+      "visible_features": [
+        "咖啡色杯身贴纸",
+        "杯底有划痕"
+      ],
+      "accessories": [
+        "杯盖"
+      ],
+      "keywords": [
+        "水杯",
+        "黑色",
+        "象印",
+        "不锈钢",
+        "保温杯",
+        "咖啡"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/lost-1019-v3.jpg",
+    "material": "不锈钢",
+    "model": "SM-SA48",
+    "accessories": [
+      "杯盖"
+    ],
+    "keywords": [
+      "保温杯",
+      "黑色",
+      "咖啡"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 2019,
+    "post_type": "found",
+    "category": "水杯",
+    "title": "水杯（已登记）",
+    "description": "黑色象印SM-SA48水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是不锈钢，咖啡色杯身贴纸，杯底有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "象印",
+    "location": "东湖校区大学生活动中心二楼报告厅",
+    "event_time": "2026-10-01T14:06:00",
+    "public_features": [
+      "咖啡色杯身贴纸",
+      "杯底有划痕"
+    ],
+    "hidden_features": [
+      "杯底标签写着房间号 512",
+      "杯盖内圈有一道浅划痕"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "象印",
+      "model": "SM-SA48",
+      "color": "黑色",
+      "material": "不锈钢",
+      "visible_features": [
+        "咖啡色杯身贴纸",
+        "杯底有划痕"
+      ],
+      "accessories": [
+        "杯盖"
+      ],
+      "keywords": [
+        "水杯",
+        "黑色",
+        "象印",
+        "不锈钢",
+        "保温杯",
+        "咖啡"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/found-2019-v3.jpg",
+    "material": "不锈钢",
+    "model": "SM-SA48",
+    "accessories": [
+      "杯盖"
+    ],
+    "keywords": [
+      "保温杯",
+      "黑色",
+      "咖啡"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 1020,
+    "post_type": "lost",
+    "category": "水杯",
+    "title": "水杯（有磕碰）",
+    "description": "粉色网易严选YH-MUG-01水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是陶瓷，马克杯，手柄有缺口，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "粉色",
+    "brand": "网易严选",
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-04T17:23:00",
+    "public_features": [
+      "马克杯",
+      "手柄有缺口"
+    ],
+    "hidden_features": [
+      "杯底有手写「2023 秋」字样",
+      "杯口内侧有一处小崩瓷"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "网易严选",
+      "model": "YH-MUG-01",
+      "color": "粉色",
+      "material": "陶瓷",
+      "visible_features": [
+        "马克杯",
+        "手柄有缺口"
+      ],
+      "accessories": [
+        "杯盖",
+        "小勺"
+      ],
+      "keywords": [
+        "水杯",
+        "粉色",
+        "网易严选",
+        "陶瓷",
+        "马克杯"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/lost-1020-v4.jpg",
+    "material": "陶瓷",
+    "model": "YH-MUG-01",
+    "accessories": [
+      "杯盖",
+      "小勺"
+    ],
+    "keywords": [
+      "马克杯",
+      "粉色",
+      "陶瓷"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 2020,
+    "post_type": "found",
+    "category": "水杯",
+    "title": "水杯（无人认领）",
+    "description": "粉色网易严选YH-MUG-01水杯，日常饮水用的杯子，容量约 400 毫升，可以正常装水，材质看起来是陶瓷，马克杯，手柄有缺口，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "粉色",
+    "brand": "网易严选",
+    "location": "西山校区工程训练中心二楼车间",
+    "event_time": "2026-10-04T17:23:00",
+    "public_features": [
+      "马克杯",
+      "手柄有缺口"
+    ],
+    "hidden_features": [
+      "杯底有手写「2023 秋」字样",
+      "杯口内侧有一处小崩瓷"
+    ],
+    "ai_attributes": {
+      "category": "水杯",
+      "brand": "网易严选",
+      "model": "YH-MUG-01",
+      "color": "粉色",
+      "material": "陶瓷",
+      "visible_features": [
+        "马克杯",
+        "手柄有缺口"
+      ],
+      "accessories": [
+        "杯盖",
+        "小勺"
+      ],
+      "keywords": [
+        "水杯",
+        "粉色",
+        "网易严选",
+        "陶瓷",
+        "马克杯"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/bottle/found-2020-v4.jpg",
+    "material": "陶瓷",
+    "model": "YH-MUG-01",
+    "accessories": [
+      "杯盖",
+      "小勺"
+    ],
+    "keywords": [
+      "马克杯",
+      "粉色",
+      "陶瓷"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 1021,
+    "post_type": "lost",
+    "category": "书籍",
+    "title": "书籍",
+    "description": "绿色书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，书脊有标签，封面有折痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": null,
+    "location": "西山校区三号宿舍楼二楼门口",
+    "event_time": "2026-10-12T08:40:00",
+    "public_features": [
+      "书脊有标签",
+      "封面有折痕"
+    ],
+    "hidden_features": [
+      "第 42 页夹有一张公交卡大小的书签",
+      "扉页写着「李某某 2023」"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": null,
+      "model": null,
+      "color": "绿色",
+      "material": "纸",
+      "visible_features": [
+        "书脊有标签",
+        "封面有折痕"
+      ],
+      "accessories": [
+        "笔记本"
+      ],
+      "keywords": [
+        "书籍",
+        "绿色",
+        "纸",
+        "教材",
+        "高等数学"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/lost-1021-v0.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔记本"
+    ],
+    "keywords": [
+      "教材",
+      "高等数学",
+      "绿色"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 2021,
+    "post_type": "found",
+    "category": "书籍",
+    "title": "书籍",
+    "description": "绿色书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，书脊有标签，封面有折痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": null,
+    "location": "西山校区第一食堂二楼就餐区",
+    "event_time": "2026-10-12T08:40:00",
+    "public_features": [
+      "书脊有标签",
+      "封面有折痕"
+    ],
+    "hidden_features": [
+      "第 42 页夹有一张公交卡大小的书签",
+      "扉页写着「李某某 2023」"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": null,
+      "model": null,
+      "color": "绿色",
+      "material": "纸",
+      "visible_features": [
+        "书脊有标签",
+        "封面有折痕"
+      ],
+      "accessories": [
+        "笔记本"
+      ],
+      "keywords": [
+        "书籍",
+        "绿色",
+        "纸",
+        "教材",
+        "高等数学"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/found-2021-v0.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔记本"
+    ],
+    "keywords": [
+      "教材",
+      "高等数学",
+      "绿色"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 1022,
+    "post_type": "lost",
+    "category": "书籍",
+    "title": "书籍（二代）",
+    "description": "蓝色书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，书角磨损，封面有胶带，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": null,
+    "location": "西山校区西区图书室一楼阅览室",
+    "event_time": "2026-10-15T11:57:00",
+    "public_features": [
+      "书角磨损",
+      "封面有胶带"
+    ],
+    "hidden_features": [
+      "书脊内侧写有学号后四位 0421",
+      "第 87 页有荧光笔标记"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": null,
+      "model": null,
+      "color": "蓝色",
+      "material": "纸",
+      "visible_features": [
+        "书角磨损",
+        "封面有胶带"
+      ],
+      "accessories": [
+        "笔记本",
+        "笔"
+      ],
+      "keywords": [
+        "书籍",
+        "蓝色",
+        "纸",
+        "教材",
+        "线性代数"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/lost-1022-v1.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔记本",
+      "笔"
+    ],
+    "keywords": [
+      "教材",
+      "线性代数",
+      "蓝色"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 2022,
+    "post_type": "found",
+    "category": "书籍",
+    "title": "书籍（在自习区捡到）",
+    "description": "蓝色书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，书角磨损，封面有胶带，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": null,
+    "location": "西山校区三号宿舍楼一楼门口",
+    "event_time": "2026-10-15T11:57:00",
+    "public_features": [
+      "书角磨损",
+      "封面有胶带"
+    ],
+    "hidden_features": [
+      "书脊内侧写有学号后四位 0421",
+      "第 87 页有荧光笔标记"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": null,
+      "model": null,
+      "color": "蓝色",
+      "material": "纸",
+      "visible_features": [
+        "书角磨损",
+        "封面有胶带"
+      ],
+      "accessories": [
+        "笔记本",
+        "笔"
+      ],
+      "keywords": [
+        "书籍",
+        "蓝色",
+        "纸",
+        "教材",
+        "线性代数"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/found-2022-v1.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔记本",
+      "笔"
+    ],
+    "keywords": [
+      "教材",
+      "线性代数",
+      "蓝色"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 1023,
+    "post_type": "lost",
+    "category": "书籍",
+    "title": "书籍（旧款）",
+    "description": "白色得力书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，白色封面，贴有姓名贴，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": "得力",
+    "location": "东湖校区一号宿舍楼一楼门口",
+    "event_time": "2026-10-18T14:14:00",
+    "public_features": [
+      "白色封面",
+      "贴有姓名贴"
+    ],
+    "hidden_features": [
+      "最后一页写有两行公式草稿",
+      "扉页盖有社团印章"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": "得力",
+      "model": null,
+      "color": "白色",
+      "material": "纸",
+      "visible_features": [
+        "白色封面",
+        "贴有姓名贴"
+      ],
+      "accessories": [
+        "笔"
+      ],
+      "keywords": [
+        "书籍",
+        "白色",
+        "得力",
+        "纸",
+        "笔记本",
+        "硬抄"
+      ],
+      "uncertainties": [
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/lost-1023-v2.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔"
+    ],
+    "keywords": [
+      "笔记本",
+      "白色",
+      "硬抄"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 2023,
+    "post_type": "found",
+    "category": "书籍",
+    "title": "书籍（放在服务台）",
+    "description": "白色得力书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，白色封面，贴有姓名贴，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": "得力",
+    "location": "东湖校区第三食堂二楼就餐区",
+    "event_time": "2026-10-18T14:14:00",
+    "public_features": [
+      "白色封面",
+      "贴有姓名贴"
+    ],
+    "hidden_features": [
+      "最后一页写有两行公式草稿",
+      "扉页盖有社团印章"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": "得力",
+      "model": null,
+      "color": "白色",
+      "material": "纸",
+      "visible_features": [
+        "白色封面",
+        "贴有姓名贴"
+      ],
+      "accessories": [
+        "笔"
+      ],
+      "keywords": [
+        "书籍",
+        "白色",
+        "得力",
+        "纸",
+        "笔记本",
+        "硬抄"
+      ],
+      "uncertainties": [
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/found-2023-v2.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔"
+    ],
+    "keywords": [
+      "笔记本",
+      "白色",
+      "硬抄"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 1024,
+    "post_type": "lost",
+    "category": "书籍",
+    "title": "书籍（备用）",
+    "description": "红色书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，红色封面，书脚有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "红色",
+    "brand": null,
+    "location": "西山校区西区图书室二楼阅览室",
+    "event_time": "2026-10-21T17:31:00",
+    "public_features": [
+      "红色封面",
+      "书脚有磨损"
+    ],
+    "hidden_features": [
+      "书内夹有一张课程表",
+      "第 15 页边角有咖啡渍"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": null,
+      "model": null,
+      "color": "红色",
+      "material": "纸",
+      "visible_features": [
+        "红色封面",
+        "书脚有磨损"
+      ],
+      "accessories": [
+        "笔记本"
+      ],
+      "keywords": [
+        "书籍",
+        "红色",
+        "纸",
+        "教材",
+        "大学物理"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/lost-1024-v3.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔记本"
+    ],
+    "keywords": [
+      "教材",
+      "大学物理",
+      "红色"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 2024,
+    "post_type": "found",
+    "category": "书籍",
+    "title": "书籍（门卫代收）",
+    "description": "红色书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，红色封面，书脚有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "红色",
+    "brand": null,
+    "location": "东湖校区图书馆四楼阅览室",
+    "event_time": "2026-10-21T17:31:00",
+    "public_features": [
+      "红色封面",
+      "书脚有磨损"
+    ],
+    "hidden_features": [
+      "书内夹有一张课程表",
+      "第 15 页边角有咖啡渍"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": null,
+      "model": null,
+      "color": "红色",
+      "material": "纸",
+      "visible_features": [
+        "红色封面",
+        "书脚有磨损"
+      ],
+      "accessories": [
+        "笔记本"
+      ],
+      "keywords": [
+        "书籍",
+        "红色",
+        "纸",
+        "教材",
+        "大学物理"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/found-2024-v3.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔记本"
+    ],
+    "keywords": [
+      "教材",
+      "大学物理",
+      "红色"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 1025,
+    "post_type": "lost",
+    "category": "书籍",
+    "title": "书籍（同学代管）",
+    "description": "棕色无印良品书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是皮革，皮面笔记本，绑带有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "棕色",
+    "brand": "无印良品",
+    "location": "东湖校区第三食堂门口",
+    "event_time": "2026-10-24T08:48:00",
+    "public_features": [
+      "皮面笔记本",
+      "绑带有磨损"
+    ],
+    "hidden_features": [
+      "扉页写有一句英文短句",
+      "内页夹着一张电影票根"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": "无印良品",
+      "model": null,
+      "color": "棕色",
+      "material": "皮革",
+      "visible_features": [
+        "皮面笔记本",
+        "绑带有磨损"
+      ],
+      "accessories": [
+        "笔",
+        "卡套"
+      ],
+      "keywords": [
+        "书籍",
+        "棕色",
+        "无印良品",
+        "皮革",
+        "笔记本",
+        "皮面"
+      ],
+      "uncertainties": [
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/lost-1025-v4.jpg",
+    "material": "皮革",
+    "model": null,
+    "accessories": [
+      "笔",
+      "卡套"
+    ],
+    "keywords": [
+      "笔记本",
+      "棕色",
+      "皮面"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 2025,
+    "post_type": "found",
+    "category": "书籍",
+    "title": "书籍（同学交到值班室）",
+    "description": "棕色无印良品书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是皮革，皮面笔记本，绑带有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "棕色",
+    "brand": "无印良品",
+    "location": "东湖校区第一教学楼门口",
+    "event_time": "2026-10-24T08:48:00",
+    "public_features": [
+      "皮面笔记本",
+      "绑带有磨损"
+    ],
+    "hidden_features": [
+      "扉页写有一句英文短句",
+      "内页夹着一张电影票根"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": "无印良品",
+      "model": null,
+      "color": "棕色",
+      "material": "皮革",
+      "visible_features": [
+        "皮面笔记本",
+        "绑带有磨损"
+      ],
+      "accessories": [
+        "笔",
+        "卡套"
+      ],
+      "keywords": [
+        "书籍",
+        "棕色",
+        "无印良品",
+        "皮革",
+        "笔记本",
+        "皮面"
+      ],
+      "uncertainties": [
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/found-2025-v4.jpg",
+    "material": "皮革",
+    "model": null,
+    "accessories": [
+      "笔",
+      "卡套"
+    ],
+    "keywords": [
+      "笔记本",
+      "棕色",
+      "皮面"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 1026,
+    "post_type": "lost",
+    "category": "书籍",
+    "title": "书籍（用了两年）",
+    "description": "绿色书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，书脊有标签，封面有折痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": null,
+    "location": "东湖校区大学生活动中心一楼服务台",
+    "event_time": "2026-09-29T11:05:00",
+    "public_features": [
+      "书脊有标签",
+      "封面有折痕"
+    ],
+    "hidden_features": [
+      "第 42 页夹有一张公交卡大小的书签",
+      "扉页写着「李某某 2023」"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": null,
+      "model": null,
+      "color": "绿色",
+      "material": "纸",
+      "visible_features": [
+        "书脊有标签",
+        "封面有折痕"
+      ],
+      "accessories": [
+        "笔记本"
+      ],
+      "keywords": [
+        "书籍",
+        "绿色",
+        "纸",
+        "教材",
+        "高等数学"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/lost-1026-v0.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔记本"
+    ],
+    "keywords": [
+      "教材",
+      "高等数学",
+      "绿色"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 2026,
+    "post_type": "found",
+    "category": "书籍",
+    "title": "书籍（保洁阿姨捡到）",
+    "description": "绿色书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，书脊有标签，封面有折痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": null,
+    "location": "东湖校区图书馆一楼门口",
+    "event_time": "2026-09-29T11:05:00",
+    "public_features": [
+      "书脊有标签",
+      "封面有折痕"
+    ],
+    "hidden_features": [
+      "第 42 页夹有一张公交卡大小的书签",
+      "扉页写着「李某某 2023」"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": null,
+      "model": null,
+      "color": "绿色",
+      "material": "纸",
+      "visible_features": [
+        "书脊有标签",
+        "封面有折痕"
+      ],
+      "accessories": [
+        "笔记本"
+      ],
+      "keywords": [
+        "书籍",
+        "绿色",
+        "纸",
+        "教材",
+        "高等数学"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/found-2026-v0.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔记本"
+    ],
+    "keywords": [
+      "教材",
+      "高等数学",
+      "绿色"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 1027,
+    "post_type": "lost",
+    "category": "书籍",
+    "title": "书籍（较新）",
+    "description": "蓝色书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，书角磨损，封面有胶带，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": null,
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-02T14:22:00",
+    "public_features": [
+      "书角磨损",
+      "封面有胶带"
+    ],
+    "hidden_features": [
+      "书脊内侧写有学号后四位 0421",
+      "第 87 页有荧光笔标记"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": null,
+      "model": null,
+      "color": "蓝色",
+      "material": "纸",
+      "visible_features": [
+        "书角磨损",
+        "封面有胶带"
+      ],
+      "accessories": [
+        "笔记本",
+        "笔"
+      ],
+      "keywords": [
+        "书籍",
+        "蓝色",
+        "纸",
+        "教材",
+        "线性代数"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/lost-1027-v1.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔记本",
+      "笔"
+    ],
+    "keywords": [
+      "教材",
+      "线性代数",
+      "蓝色"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 2027,
+    "post_type": "found",
+    "category": "书籍",
+    "title": "书籍（讲台抽屉内）",
+    "description": "蓝色书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，书角磨损，封面有胶带，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": null,
+    "location": "东湖校区大学生活动中心二楼报告厅",
+    "event_time": "2026-10-02T14:22:00",
+    "public_features": [
+      "书角磨损",
+      "封面有胶带"
+    ],
+    "hidden_features": [
+      "书脊内侧写有学号后四位 0421",
+      "第 87 页有荧光笔标记"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": null,
+      "model": null,
+      "color": "蓝色",
+      "material": "纸",
+      "visible_features": [
+        "书角磨损",
+        "封面有胶带"
+      ],
+      "accessories": [
+        "笔记本",
+        "笔"
+      ],
+      "keywords": [
+        "书籍",
+        "蓝色",
+        "纸",
+        "教材",
+        "线性代数"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/found-2027-v1.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔记本",
+      "笔"
+    ],
+    "keywords": [
+      "教材",
+      "线性代数",
+      "蓝色"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 1028,
+    "post_type": "lost",
+    "category": "书籍",
+    "title": "书籍（常用）",
+    "description": "白色得力书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，白色封面，贴有姓名贴，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": "得力",
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-05T17:39:00",
+    "public_features": [
+      "白色封面",
+      "贴有姓名贴"
+    ],
+    "hidden_features": [
+      "最后一页写有两行公式草稿",
+      "扉页盖有社团印章"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": "得力",
+      "model": null,
+      "color": "白色",
+      "material": "纸",
+      "visible_features": [
+        "白色封面",
+        "贴有姓名贴"
+      ],
+      "accessories": [
+        "笔"
+      ],
+      "keywords": [
+        "书籍",
+        "白色",
+        "得力",
+        "纸",
+        "笔记本",
+        "硬抄"
+      ],
+      "uncertainties": [
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/lost-1028-v2.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔"
+    ],
+    "keywords": [
+      "笔记本",
+      "白色",
+      "硬抄"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 2028,
+    "post_type": "found",
+    "category": "书籍",
+    "title": "书籍（座位下捡到）",
+    "description": "白色得力书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，白色封面，贴有姓名贴，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": "得力",
+    "location": "西山校区工程训练中心二楼车间",
+    "event_time": "2026-10-05T17:39:00",
+    "public_features": [
+      "白色封面",
+      "贴有姓名贴"
+    ],
+    "hidden_features": [
+      "最后一页写有两行公式草稿",
+      "扉页盖有社团印章"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": "得力",
+      "model": null,
+      "color": "白色",
+      "material": "纸",
+      "visible_features": [
+        "白色封面",
+        "贴有姓名贴"
+      ],
+      "accessories": [
+        "笔"
+      ],
+      "keywords": [
+        "书籍",
+        "白色",
+        "得力",
+        "纸",
+        "笔记本",
+        "硬抄"
+      ],
+      "uncertainties": [
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/found-2028-v2.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔"
+    ],
+    "keywords": [
+      "笔记本",
+      "白色",
+      "硬抄"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 1029,
+    "post_type": "lost",
+    "category": "书籍",
+    "title": "书籍（贴了贴纸）",
+    "description": "红色书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，红色封面，书脚有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "红色",
+    "brand": null,
+    "location": "西山校区三号宿舍楼二楼门口",
+    "event_time": "2026-10-08T08:56:00",
+    "public_features": [
+      "红色封面",
+      "书脚有磨损"
+    ],
+    "hidden_features": [
+      "书内夹有一张课程表",
+      "第 15 页边角有咖啡渍"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": null,
+      "model": null,
+      "color": "红色",
+      "material": "纸",
+      "visible_features": [
+        "红色封面",
+        "书脚有磨损"
+      ],
+      "accessories": [
+        "笔记本"
+      ],
+      "keywords": [
+        "书籍",
+        "红色",
+        "纸",
+        "教材",
+        "大学物理"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/lost-1029-v3.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔记本"
+    ],
+    "keywords": [
+      "教材",
+      "大学物理",
+      "红色"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 2029,
+    "post_type": "found",
+    "category": "书籍",
+    "title": "书籍（已登记）",
+    "description": "红色书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是纸，红色封面，书脚有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "红色",
+    "brand": null,
+    "location": "西山校区第一食堂二楼就餐区",
+    "event_time": "2026-10-08T08:56:00",
+    "public_features": [
+      "红色封面",
+      "书脚有磨损"
+    ],
+    "hidden_features": [
+      "书内夹有一张课程表",
+      "第 15 页边角有咖啡渍"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": null,
+      "model": null,
+      "color": "红色",
+      "material": "纸",
+      "visible_features": [
+        "红色封面",
+        "书脚有磨损"
+      ],
+      "accessories": [
+        "笔记本"
+      ],
+      "keywords": [
+        "书籍",
+        "红色",
+        "纸",
+        "教材",
+        "大学物理"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/found-2029-v3.jpg",
+    "material": "纸",
+    "model": null,
+    "accessories": [
+      "笔记本"
+    ],
+    "keywords": [
+      "教材",
+      "大学物理",
+      "红色"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 1030,
+    "post_type": "lost",
+    "category": "书籍",
+    "title": "书籍（有磕碰）",
+    "description": "棕色无印良品书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是皮革，皮面笔记本，绑带有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "棕色",
+    "brand": "无印良品",
+    "location": "西山校区西区图书室一楼阅览室",
+    "event_time": "2026-10-11T11:13:00",
+    "public_features": [
+      "皮面笔记本",
+      "绑带有磨损"
+    ],
+    "hidden_features": [
+      "扉页写有一句英文短句",
+      "内页夹着一张电影票根"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": "无印良品",
+      "model": null,
+      "color": "棕色",
+      "material": "皮革",
+      "visible_features": [
+        "皮面笔记本",
+        "绑带有磨损"
+      ],
+      "accessories": [
+        "笔",
+        "卡套"
+      ],
+      "keywords": [
+        "书籍",
+        "棕色",
+        "无印良品",
+        "皮革",
+        "笔记本",
+        "皮面"
+      ],
+      "uncertainties": [
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/lost-1030-v4.jpg",
+    "material": "皮革",
+    "model": null,
+    "accessories": [
+      "笔",
+      "卡套"
+    ],
+    "keywords": [
+      "笔记本",
+      "棕色",
+      "皮面"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 2030,
+    "post_type": "found",
+    "category": "书籍",
+    "title": "书籍（无人认领）",
+    "description": "棕色无印良品书籍，本学期在用的教材或笔记本，书页完整、有课堂笔记痕迹，材质看起来是皮革，皮面笔记本，绑带有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "棕色",
+    "brand": "无印良品",
+    "location": "西山校区三号宿舍楼一楼门口",
+    "event_time": "2026-10-11T11:13:00",
+    "public_features": [
+      "皮面笔记本",
+      "绑带有磨损"
+    ],
+    "hidden_features": [
+      "扉页写有一句英文短句",
+      "内页夹着一张电影票根"
+    ],
+    "ai_attributes": {
+      "category": "书籍",
+      "brand": "无印良品",
+      "model": null,
+      "color": "棕色",
+      "material": "皮革",
+      "visible_features": [
+        "皮面笔记本",
+        "绑带有磨损"
+      ],
+      "accessories": [
+        "笔",
+        "卡套"
+      ],
+      "keywords": [
+        "书籍",
+        "棕色",
+        "无印良品",
+        "皮革",
+        "笔记本",
+        "皮面"
+      ],
+      "uncertainties": [
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/book/found-2030-v4.jpg",
+    "material": "皮革",
+    "model": null,
+    "accessories": [
+      "笔",
+      "卡套"
+    ],
+    "keywords": [
+      "笔记本",
+      "棕色",
+      "皮面"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 1031,
+    "post_type": "lost",
+    "category": "校园卡",
+    "title": "校园卡",
+    "description": "蓝色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，卡面有透明卡套，卡套有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": null,
+    "location": "东湖校区一号宿舍楼一楼门口",
+    "event_time": "2026-10-19T14:30:00",
+    "public_features": [
+      "卡面有透明卡套",
+      "卡套有划痕"
+    ],
+    "hidden_features": [
+      "学号 2023XXXXXX，姓名 张某某",
+      "卡套背面贴有一张校徽贴纸"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "蓝色",
+      "material": "塑料",
+      "visible_features": [
+        "卡面有透明卡套",
+        "卡套有划痕"
+      ],
+      "accessories": [
+        "卡套",
+        "挂绳"
+      ],
+      "keywords": [
+        "校园卡",
+        "蓝色",
+        "塑料",
+        "卡套"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/lost-1031-v0.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套",
+      "挂绳"
+    ],
+    "keywords": [
+      "校园卡",
+      "蓝色",
+      "卡套"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 2031,
+    "post_type": "found",
+    "category": "校园卡",
+    "title": "校园卡",
+    "description": "蓝色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，卡面有透明卡套，卡套有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": null,
+    "location": "东湖校区第三食堂二楼就餐区",
+    "event_time": "2026-10-19T14:30:00",
+    "public_features": [
+      "卡面有透明卡套",
+      "卡套有划痕"
+    ],
+    "hidden_features": [
+      "学号 2023XXXXXX，姓名 张某某",
+      "卡套背面贴有一张校徽贴纸"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "蓝色",
+      "material": "塑料",
+      "visible_features": [
+        "卡面有透明卡套",
+        "卡套有划痕"
+      ],
+      "accessories": [
+        "卡套",
+        "挂绳"
+      ],
+      "keywords": [
+        "校园卡",
+        "蓝色",
+        "塑料",
+        "卡套"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/found-2031-v0.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套",
+      "挂绳"
+    ],
+    "keywords": [
+      "校园卡",
+      "蓝色",
+      "卡套"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 1032,
+    "post_type": "lost",
+    "category": "校园卡",
+    "title": "校园卡（二代）",
+    "description": "白色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，卡面有姓名贴，边缘有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": null,
+    "location": "西山校区西区图书室二楼阅览室",
+    "event_time": "2026-10-22T17:47:00",
+    "public_features": [
+      "卡面有姓名贴",
+      "边缘有磨损"
+    ],
+    "hidden_features": [
+      "学号 2022XXXXXX，姓名 王某某",
+      "卡片背面写有宿舍楼号"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "白色",
+      "material": "塑料",
+      "visible_features": [
+        "卡面有姓名贴",
+        "边缘有磨损"
+      ],
+      "accessories": [
+        "卡套"
+      ],
+      "keywords": [
+        "校园卡",
+        "白色",
+        "塑料",
+        "一卡通"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/lost-1032-v1.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套"
+    ],
+    "keywords": [
+      "校园卡",
+      "白色",
+      "一卡通"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 2032,
+    "post_type": "found",
+    "category": "校园卡",
+    "title": "校园卡（在自习区捡到）",
+    "description": "白色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，卡面有姓名贴，边缘有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": null,
+    "location": "东湖校区图书馆四楼阅览室",
+    "event_time": "2026-10-22T17:47:00",
+    "public_features": [
+      "卡面有姓名贴",
+      "边缘有磨损"
+    ],
+    "hidden_features": [
+      "学号 2022XXXXXX，姓名 王某某",
+      "卡片背面写有宿舍楼号"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "白色",
+      "material": "塑料",
+      "visible_features": [
+        "卡面有姓名贴",
+        "边缘有磨损"
+      ],
+      "accessories": [
+        "卡套"
+      ],
+      "keywords": [
+        "校园卡",
+        "白色",
+        "塑料",
+        "一卡通"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/found-2032-v1.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套"
+    ],
+    "keywords": [
+      "校园卡",
+      "白色",
+      "一卡通"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 1033,
+    "post_type": "lost",
+    "category": "校园卡",
+    "title": "校园卡（旧款）",
+    "description": "绿色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，卡面卡通贴纸，卡角有折痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": null,
+    "location": "东湖校区第三食堂门口",
+    "event_time": "2026-10-25T08:04:00",
+    "public_features": [
+      "卡面卡通贴纸",
+      "卡角有折痕"
+    ],
+    "hidden_features": [
+      "学号 2024XXXXXX，姓名 陈某某",
+      "卡套内夹有一张便利店小票"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "绿色",
+      "material": "塑料",
+      "visible_features": [
+        "卡面卡通贴纸",
+        "卡角有折痕"
+      ],
+      "accessories": [
+        "卡套",
+        "挂绳"
+      ],
+      "keywords": [
+        "校园卡",
+        "绿色",
+        "塑料",
+        "贴纸"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/lost-1033-v2.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套",
+      "挂绳"
+    ],
+    "keywords": [
+      "校园卡",
+      "绿色",
+      "贴纸"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 2033,
+    "post_type": "found",
+    "category": "校园卡",
+    "title": "校园卡（放在服务台）",
+    "description": "绿色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，卡面卡通贴纸，卡角有折痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": null,
+    "location": "东湖校区第一教学楼门口",
+    "event_time": "2026-10-25T08:04:00",
+    "public_features": [
+      "卡面卡通贴纸",
+      "卡角有折痕"
+    ],
+    "hidden_features": [
+      "学号 2024XXXXXX，姓名 陈某某",
+      "卡套内夹有一张便利店小票"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "绿色",
+      "material": "塑料",
+      "visible_features": [
+        "卡面卡通贴纸",
+        "卡角有折痕"
+      ],
+      "accessories": [
+        "卡套",
+        "挂绳"
+      ],
+      "keywords": [
+        "校园卡",
+        "绿色",
+        "塑料",
+        "贴纸"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/found-2033-v2.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套",
+      "挂绳"
+    ],
+    "keywords": [
+      "校园卡",
+      "绿色",
+      "贴纸"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 1034,
+    "post_type": "lost",
+    "category": "校园卡",
+    "title": "校园卡（备用）",
+    "description": "红色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，红色卡套，卡面有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "红色",
+    "brand": null,
+    "location": "东湖校区大学生活动中心一楼服务台",
+    "event_time": "2026-09-30T11:21:00",
+    "public_features": [
+      "红色卡套",
+      "卡面有划痕"
+    ],
+    "hidden_features": [
+      "学号 2021XXXXXX，姓名 刘某某",
+      "卡套内侧写了手机号后四位"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "红色",
+      "material": "塑料",
+      "visible_features": [
+        "红色卡套",
+        "卡面有划痕"
+      ],
+      "accessories": [
+        "卡套"
+      ],
+      "keywords": [
+        "校园卡",
+        "红色",
+        "塑料",
+        "证件"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/lost-1034-v3.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套"
+    ],
+    "keywords": [
+      "校园卡",
+      "红色",
+      "证件"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 2034,
+    "post_type": "found",
+    "category": "校园卡",
+    "title": "校园卡（门卫代收）",
+    "description": "红色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，红色卡套，卡面有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "红色",
+    "brand": null,
+    "location": "东湖校区图书馆一楼门口",
+    "event_time": "2026-09-30T11:21:00",
+    "public_features": [
+      "红色卡套",
+      "卡面有划痕"
+    ],
+    "hidden_features": [
+      "学号 2021XXXXXX，姓名 刘某某",
+      "卡套内侧写了手机号后四位"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "红色",
+      "material": "塑料",
+      "visible_features": [
+        "红色卡套",
+        "卡面有划痕"
+      ],
+      "accessories": [
+        "卡套"
+      ],
+      "keywords": [
+        "校园卡",
+        "红色",
+        "塑料",
+        "证件"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/found-2034-v3.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套"
+    ],
+    "keywords": [
+      "校园卡",
+      "红色",
+      "证件"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 1035,
+    "post_type": "lost",
+    "category": "校园卡",
+    "title": "校园卡（同学代管）",
+    "description": "黄色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，黄色卡套，贴有卡通表情贴纸，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黄色",
+    "brand": null,
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-03T14:38:00",
+    "public_features": [
+      "黄色卡套",
+      "贴有卡通表情贴纸"
+    ],
+    "hidden_features": [
+      "学号 2023XXXXXX，姓名 赵某某",
+      "卡套背面印有社团标识"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "黄色",
+      "material": "塑料",
+      "visible_features": [
+        "黄色卡套",
+        "贴有卡通表情贴纸"
+      ],
+      "accessories": [
+        "卡套",
+        "挂绳"
+      ],
+      "keywords": [
+        "校园卡",
+        "黄色",
+        "塑料",
+        "社团"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/lost-1035-v4.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套",
+      "挂绳"
+    ],
+    "keywords": [
+      "校园卡",
+      "黄色",
+      "社团"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 2035,
+    "post_type": "found",
+    "category": "校园卡",
+    "title": "校园卡（同学交到值班室）",
+    "description": "黄色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，黄色卡套，贴有卡通表情贴纸，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黄色",
+    "brand": null,
+    "location": "东湖校区大学生活动中心二楼报告厅",
+    "event_time": "2026-10-03T14:38:00",
+    "public_features": [
+      "黄色卡套",
+      "贴有卡通表情贴纸"
+    ],
+    "hidden_features": [
+      "学号 2023XXXXXX，姓名 赵某某",
+      "卡套背面印有社团标识"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "黄色",
+      "material": "塑料",
+      "visible_features": [
+        "黄色卡套",
+        "贴有卡通表情贴纸"
+      ],
+      "accessories": [
+        "卡套",
+        "挂绳"
+      ],
+      "keywords": [
+        "校园卡",
+        "黄色",
+        "塑料",
+        "社团"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/found-2035-v4.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套",
+      "挂绳"
+    ],
+    "keywords": [
+      "校园卡",
+      "黄色",
+      "社团"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 1036,
+    "post_type": "lost",
+    "category": "校园卡",
+    "title": "校园卡（用了两年）",
+    "description": "蓝色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，卡面有透明卡套，卡套有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": null,
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-06T17:55:00",
+    "public_features": [
+      "卡面有透明卡套",
+      "卡套有划痕"
+    ],
+    "hidden_features": [
+      "学号 2023XXXXXX，姓名 张某某",
+      "卡套背面贴有一张校徽贴纸"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "蓝色",
+      "material": "塑料",
+      "visible_features": [
+        "卡面有透明卡套",
+        "卡套有划痕"
+      ],
+      "accessories": [
+        "卡套",
+        "挂绳"
+      ],
+      "keywords": [
+        "校园卡",
+        "蓝色",
+        "塑料",
+        "卡套"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/lost-1036-v0.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套",
+      "挂绳"
+    ],
+    "keywords": [
+      "校园卡",
+      "蓝色",
+      "卡套"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 2036,
+    "post_type": "found",
+    "category": "校园卡",
+    "title": "校园卡（保洁阿姨捡到）",
+    "description": "蓝色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，卡面有透明卡套，卡套有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": null,
+    "location": "西山校区工程训练中心二楼车间",
+    "event_time": "2026-10-06T17:55:00",
+    "public_features": [
+      "卡面有透明卡套",
+      "卡套有划痕"
+    ],
+    "hidden_features": [
+      "学号 2023XXXXXX，姓名 张某某",
+      "卡套背面贴有一张校徽贴纸"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "蓝色",
+      "material": "塑料",
+      "visible_features": [
+        "卡面有透明卡套",
+        "卡套有划痕"
+      ],
+      "accessories": [
+        "卡套",
+        "挂绳"
+      ],
+      "keywords": [
+        "校园卡",
+        "蓝色",
+        "塑料",
+        "卡套"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/found-2036-v0.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套",
+      "挂绳"
+    ],
+    "keywords": [
+      "校园卡",
+      "蓝色",
+      "卡套"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 1037,
+    "post_type": "lost",
+    "category": "校园卡",
+    "title": "校园卡（较新）",
+    "description": "白色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，卡面有姓名贴，边缘有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": null,
+    "location": "西山校区三号宿舍楼二楼门口",
+    "event_time": "2026-10-09T08:12:00",
+    "public_features": [
+      "卡面有姓名贴",
+      "边缘有磨损"
+    ],
+    "hidden_features": [
+      "学号 2022XXXXXX，姓名 王某某",
+      "卡片背面写有宿舍楼号"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "白色",
+      "material": "塑料",
+      "visible_features": [
+        "卡面有姓名贴",
+        "边缘有磨损"
+      ],
+      "accessories": [
+        "卡套"
+      ],
+      "keywords": [
+        "校园卡",
+        "白色",
+        "塑料",
+        "一卡通"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/lost-1037-v1.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套"
+    ],
+    "keywords": [
+      "校园卡",
+      "白色",
+      "一卡通"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 2037,
+    "post_type": "found",
+    "category": "校园卡",
+    "title": "校园卡（讲台抽屉内）",
+    "description": "白色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，卡面有姓名贴，边缘有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "白色",
+    "brand": null,
+    "location": "西山校区第一食堂二楼就餐区",
+    "event_time": "2026-10-09T08:12:00",
+    "public_features": [
+      "卡面有姓名贴",
+      "边缘有磨损"
+    ],
+    "hidden_features": [
+      "学号 2022XXXXXX，姓名 王某某",
+      "卡片背面写有宿舍楼号"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "白色",
+      "material": "塑料",
+      "visible_features": [
+        "卡面有姓名贴",
+        "边缘有磨损"
+      ],
+      "accessories": [
+        "卡套"
+      ],
+      "keywords": [
+        "校园卡",
+        "白色",
+        "塑料",
+        "一卡通"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/found-2037-v1.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套"
+    ],
+    "keywords": [
+      "校园卡",
+      "白色",
+      "一卡通"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 1038,
+    "post_type": "lost",
+    "category": "校园卡",
+    "title": "校园卡（常用）",
+    "description": "绿色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，卡面卡通贴纸，卡角有折痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": null,
+    "location": "西山校区西区图书室一楼阅览室",
+    "event_time": "2026-10-12T11:29:00",
+    "public_features": [
+      "卡面卡通贴纸",
+      "卡角有折痕"
+    ],
+    "hidden_features": [
+      "学号 2024XXXXXX，姓名 陈某某",
+      "卡套内夹有一张便利店小票"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "绿色",
+      "material": "塑料",
+      "visible_features": [
+        "卡面卡通贴纸",
+        "卡角有折痕"
+      ],
+      "accessories": [
+        "卡套",
+        "挂绳"
+      ],
+      "keywords": [
+        "校园卡",
+        "绿色",
+        "塑料",
+        "贴纸"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/lost-1038-v2.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套",
+      "挂绳"
+    ],
+    "keywords": [
+      "校园卡",
+      "绿色",
+      "贴纸"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 2038,
+    "post_type": "found",
+    "category": "校园卡",
+    "title": "校园卡（座位下捡到）",
+    "description": "绿色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，卡面卡通贴纸，卡角有折痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": null,
+    "location": "西山校区三号宿舍楼一楼门口",
+    "event_time": "2026-10-12T11:29:00",
+    "public_features": [
+      "卡面卡通贴纸",
+      "卡角有折痕"
+    ],
+    "hidden_features": [
+      "学号 2024XXXXXX，姓名 陈某某",
+      "卡套内夹有一张便利店小票"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "绿色",
+      "material": "塑料",
+      "visible_features": [
+        "卡面卡通贴纸",
+        "卡角有折痕"
+      ],
+      "accessories": [
+        "卡套",
+        "挂绳"
+      ],
+      "keywords": [
+        "校园卡",
+        "绿色",
+        "塑料",
+        "贴纸"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/found-2038-v2.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套",
+      "挂绳"
+    ],
+    "keywords": [
+      "校园卡",
+      "绿色",
+      "贴纸"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 1039,
+    "post_type": "lost",
+    "category": "校园卡",
+    "title": "校园卡（贴了贴纸）",
+    "description": "红色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，红色卡套，卡面有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "红色",
+    "brand": null,
+    "location": "东湖校区一号宿舍楼一楼门口",
+    "event_time": "2026-10-15T14:46:00",
+    "public_features": [
+      "红色卡套",
+      "卡面有划痕"
+    ],
+    "hidden_features": [
+      "学号 2021XXXXXX，姓名 刘某某",
+      "卡套内侧写了手机号后四位"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "红色",
+      "material": "塑料",
+      "visible_features": [
+        "红色卡套",
+        "卡面有划痕"
+      ],
+      "accessories": [
+        "卡套"
+      ],
+      "keywords": [
+        "校园卡",
+        "红色",
+        "塑料",
+        "证件"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/lost-1039-v3.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套"
+    ],
+    "keywords": [
+      "校园卡",
+      "红色",
+      "证件"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 2039,
+    "post_type": "found",
+    "category": "校园卡",
+    "title": "校园卡（已登记）",
+    "description": "红色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，红色卡套，卡面有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "红色",
+    "brand": null,
+    "location": "东湖校区第三食堂二楼就餐区",
+    "event_time": "2026-10-15T14:46:00",
+    "public_features": [
+      "红色卡套",
+      "卡面有划痕"
+    ],
+    "hidden_features": [
+      "学号 2021XXXXXX，姓名 刘某某",
+      "卡套内侧写了手机号后四位"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "红色",
+      "material": "塑料",
+      "visible_features": [
+        "红色卡套",
+        "卡面有划痕"
+      ],
+      "accessories": [
+        "卡套"
+      ],
+      "keywords": [
+        "校园卡",
+        "红色",
+        "塑料",
+        "证件"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/found-2039-v3.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套"
+    ],
+    "keywords": [
+      "校园卡",
+      "红色",
+      "证件"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 1040,
+    "post_type": "lost",
+    "category": "校园卡",
+    "title": "校园卡（有磕碰）",
+    "description": "黄色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，黄色卡套，贴有卡通表情贴纸，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黄色",
+    "brand": null,
+    "location": "西山校区西区图书室二楼阅览室",
+    "event_time": "2026-10-18T17:03:00",
+    "public_features": [
+      "黄色卡套",
+      "贴有卡通表情贴纸"
+    ],
+    "hidden_features": [
+      "学号 2023XXXXXX，姓名 赵某某",
+      "卡套背面印有社团标识"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "黄色",
+      "material": "塑料",
+      "visible_features": [
+        "黄色卡套",
+        "贴有卡通表情贴纸"
+      ],
+      "accessories": [
+        "卡套",
+        "挂绳"
+      ],
+      "keywords": [
+        "校园卡",
+        "黄色",
+        "塑料",
+        "社团"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/lost-1040-v4.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套",
+      "挂绳"
+    ],
+    "keywords": [
+      "校园卡",
+      "黄色",
+      "社团"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 2040,
+    "post_type": "found",
+    "category": "校园卡",
+    "title": "校园卡（无人认领）",
+    "description": "黄色校园卡，校园一卡通，可刷卡进出宿舍与食堂，卡面有照片，材质看起来是塑料，黄色卡套，贴有卡通表情贴纸，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黄色",
+    "brand": null,
+    "location": "东湖校区图书馆四楼阅览室",
+    "event_time": "2026-10-18T17:03:00",
+    "public_features": [
+      "黄色卡套",
+      "贴有卡通表情贴纸"
+    ],
+    "hidden_features": [
+      "学号 2023XXXXXX，姓名 赵某某",
+      "卡套背面印有社团标识"
+    ],
+    "ai_attributes": {
+      "category": "校园卡",
+      "brand": null,
+      "model": null,
+      "color": "黄色",
+      "material": "塑料",
+      "visible_features": [
+        "黄色卡套",
+        "贴有卡通表情贴纸"
+      ],
+      "accessories": [
+        "卡套",
+        "挂绳"
+      ],
+      "keywords": [
+        "校园卡",
+        "黄色",
+        "塑料",
+        "社团"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/campus-card/found-2040-v4.jpg",
+    "material": "塑料",
+    "model": null,
+    "accessories": [
+      "卡套",
+      "挂绳"
+    ],
+    "keywords": [
+      "校园卡",
+      "黄色",
+      "社团"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 1041,
+    "post_type": "lost",
+    "category": "雨伞",
+    "title": "雨伞",
+    "description": "黑色天堂伞3311E雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，折叠伞，伞面有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "天堂伞",
+    "location": "东湖校区第三食堂门口",
+    "event_time": "2026-09-28T08:20:00",
+    "public_features": [
+      "折叠伞",
+      "伞面有磨损"
+    ],
+    "hidden_features": [
+      "伞骨第三节有一处弯折",
+      "伞柄内侧刻有「L.Y.」缩写"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": "天堂伞",
+      "model": "3311E",
+      "color": "黑色",
+      "material": "尼龙",
+      "visible_features": [
+        "折叠伞",
+        "伞面有磨损"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "黑色",
+        "天堂伞",
+        "尼龙",
+        "折叠伞"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/lost-1041-v0.jpg",
+    "material": "尼龙",
+    "model": "3311E",
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "折叠伞",
+      "黑色",
+      "雨伞"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 2041,
+    "post_type": "found",
+    "category": "雨伞",
+    "title": "雨伞",
+    "description": "黑色天堂伞3311E雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，折叠伞，伞面有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "天堂伞",
+    "location": "东湖校区第一教学楼门口",
+    "event_time": "2026-09-28T08:20:00",
+    "public_features": [
+      "折叠伞",
+      "伞面有磨损"
+    ],
+    "hidden_features": [
+      "伞骨第三节有一处弯折",
+      "伞柄内侧刻有「L.Y.」缩写"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": "天堂伞",
+      "model": "3311E",
+      "color": "黑色",
+      "material": "尼龙",
+      "visible_features": [
+        "折叠伞",
+        "伞面有磨损"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "黑色",
+        "天堂伞",
+        "尼龙",
+        "折叠伞"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/found-2041-v0.jpg",
+    "material": "尼龙",
+    "model": "3311E",
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "折叠伞",
+      "黑色",
+      "雨伞"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 1042,
+    "post_type": "lost",
+    "category": "雨伞",
+    "title": "雨伞（二代）",
+    "description": "蓝色天堂伞336T雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，长柄伞，伞面有褪色，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": "天堂伞",
+    "location": "东湖校区大学生活动中心一楼服务台",
+    "event_time": "2026-10-01T11:37:00",
+    "public_features": [
+      "长柄伞",
+      "伞面有褪色"
+    ],
+    "hidden_features": [
+      "伞柄缠绕了一圈蓝色胶带",
+      "伞面内侧写有姓名"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": "天堂伞",
+      "model": "336T",
+      "color": "蓝色",
+      "material": "尼龙",
+      "visible_features": [
+        "长柄伞",
+        "伞面有褪色"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "蓝色",
+        "天堂伞",
+        "尼龙",
+        "长柄伞"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/lost-1042-v1.jpg",
+    "material": "尼龙",
+    "model": "336T",
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "长柄伞",
+      "蓝色",
+      "雨伞"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 2042,
+    "post_type": "found",
+    "category": "雨伞",
+    "title": "雨伞（在自习区捡到）",
+    "description": "蓝色天堂伞336T雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，长柄伞，伞面有褪色，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": "天堂伞",
+    "location": "东湖校区图书馆一楼门口",
+    "event_time": "2026-10-01T11:37:00",
+    "public_features": [
+      "长柄伞",
+      "伞面有褪色"
+    ],
+    "hidden_features": [
+      "伞柄缠绕了一圈蓝色胶带",
+      "伞面内侧写有姓名"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": "天堂伞",
+      "model": "336T",
+      "color": "蓝色",
+      "material": "尼龙",
+      "visible_features": [
+        "长柄伞",
+        "伞面有褪色"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "蓝色",
+        "天堂伞",
+        "尼龙",
+        "长柄伞"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/found-2042-v1.jpg",
+    "material": "尼龙",
+    "model": "336T",
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "长柄伞",
+      "蓝色",
+      "雨伞"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 1043,
+    "post_type": "lost",
+    "category": "雨伞",
+    "title": "雨伞（旧款）",
+    "description": "粉色雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，折叠伞，伞套有污渍，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "粉色",
+    "brand": null,
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-04T14:54:00",
+    "public_features": [
+      "折叠伞",
+      "伞套有污渍"
+    ],
+    "hidden_features": [
+      "伞面内侧贴有一个小猫贴纸",
+      "伞骨末端缺一个塑料帽"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": null,
+      "model": null,
+      "color": "粉色",
+      "material": "尼龙",
+      "visible_features": [
+        "折叠伞",
+        "伞套有污渍"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "粉色",
+        "尼龙",
+        "折叠伞",
+        "轻便"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/lost-1043-v2.jpg",
+    "material": "尼龙",
+    "model": null,
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "折叠伞",
+      "粉色",
+      "轻便"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 2043,
+    "post_type": "found",
+    "category": "雨伞",
+    "title": "雨伞（放在服务台）",
+    "description": "粉色雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，折叠伞，伞套有污渍，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "粉色",
+    "brand": null,
+    "location": "东湖校区大学生活动中心二楼报告厅",
+    "event_time": "2026-10-04T14:54:00",
+    "public_features": [
+      "折叠伞",
+      "伞套有污渍"
+    ],
+    "hidden_features": [
+      "伞面内侧贴有一个小猫贴纸",
+      "伞骨末端缺一个塑料帽"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": null,
+      "model": null,
+      "color": "粉色",
+      "material": "尼龙",
+      "visible_features": [
+        "折叠伞",
+        "伞套有污渍"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "粉色",
+        "尼龙",
+        "折叠伞",
+        "轻便"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/found-2043-v2.jpg",
+    "material": "尼龙",
+    "model": null,
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "折叠伞",
+      "粉色",
+      "轻便"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 1044,
+    "post_type": "lost",
+    "category": "雨伞",
+    "title": "雨伞（备用）",
+    "description": "灰色迪卡侬QUECHUA-100雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，自动伞，伞柄有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "灰色",
+    "brand": "迪卡侬",
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-07T17:11:00",
+    "public_features": [
+      "自动伞",
+      "伞柄有划痕"
+    ],
+    "hidden_features": [
+      "伞柄底部贴有条形码残胶",
+      "伞面有一处缝补痕迹"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": "迪卡侬",
+      "model": "QUECHUA-100",
+      "color": "灰色",
+      "material": "尼龙",
+      "visible_features": [
+        "自动伞",
+        "伞柄有划痕"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "灰色",
+        "迪卡侬",
+        "尼龙",
+        "自动伞",
+        "户外"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/lost-1044-v3.jpg",
+    "material": "尼龙",
+    "model": "QUECHUA-100",
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "自动伞",
+      "灰色",
+      "户外"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 2044,
+    "post_type": "found",
+    "category": "雨伞",
+    "title": "雨伞（门卫代收）",
+    "description": "灰色迪卡侬QUECHUA-100雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，自动伞，伞柄有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "灰色",
+    "brand": "迪卡侬",
+    "location": "西山校区工程训练中心二楼车间",
+    "event_time": "2026-10-07T17:11:00",
+    "public_features": [
+      "自动伞",
+      "伞柄有划痕"
+    ],
+    "hidden_features": [
+      "伞柄底部贴有条形码残胶",
+      "伞面有一处缝补痕迹"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": "迪卡侬",
+      "model": "QUECHUA-100",
+      "color": "灰色",
+      "material": "尼龙",
+      "visible_features": [
+        "自动伞",
+        "伞柄有划痕"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "灰色",
+        "迪卡侬",
+        "尼龙",
+        "自动伞",
+        "户外"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/found-2044-v3.jpg",
+    "material": "尼龙",
+    "model": "QUECHUA-100",
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "自动伞",
+      "灰色",
+      "户外"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 1045,
+    "post_type": "lost",
+    "category": "雨伞",
+    "title": "雨伞（同学代管）",
+    "description": "紫色雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，折叠伞，伞带松脱，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "紫色",
+    "brand": null,
+    "location": "西山校区三号宿舍楼二楼门口",
+    "event_time": "2026-10-10T08:28:00",
+    "public_features": [
+      "折叠伞",
+      "伞带松脱"
+    ],
+    "hidden_features": [
+      "伞面内侧写有「2023 校运会」",
+      "伞柄挂着一个木质挂件"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": null,
+      "model": null,
+      "color": "紫色",
+      "material": "尼龙",
+      "visible_features": [
+        "折叠伞",
+        "伞带松脱"
+      ],
+      "accessories": [
+        "伞套",
+        "挂件"
+      ],
+      "keywords": [
+        "雨伞",
+        "紫色",
+        "尼龙",
+        "折叠伞",
+        "挂件"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/lost-1045-v4.jpg",
+    "material": "尼龙",
+    "model": null,
+    "accessories": [
+      "伞套",
+      "挂件"
+    ],
+    "keywords": [
+      "折叠伞",
+      "紫色",
+      "挂件"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 2045,
+    "post_type": "found",
+    "category": "雨伞",
+    "title": "雨伞（同学交到值班室）",
+    "description": "紫色雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，折叠伞，伞带松脱，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "紫色",
+    "brand": null,
+    "location": "西山校区第一食堂二楼就餐区",
+    "event_time": "2026-10-10T08:28:00",
+    "public_features": [
+      "折叠伞",
+      "伞带松脱"
+    ],
+    "hidden_features": [
+      "伞面内侧写有「2023 校运会」",
+      "伞柄挂着一个木质挂件"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": null,
+      "model": null,
+      "color": "紫色",
+      "material": "尼龙",
+      "visible_features": [
+        "折叠伞",
+        "伞带松脱"
+      ],
+      "accessories": [
+        "伞套",
+        "挂件"
+      ],
+      "keywords": [
+        "雨伞",
+        "紫色",
+        "尼龙",
+        "折叠伞",
+        "挂件"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/found-2045-v4.jpg",
+    "material": "尼龙",
+    "model": null,
+    "accessories": [
+      "伞套",
+      "挂件"
+    ],
+    "keywords": [
+      "折叠伞",
+      "紫色",
+      "挂件"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 1046,
+    "post_type": "lost",
+    "category": "雨伞",
+    "title": "雨伞（用了两年）",
+    "description": "黑色天堂伞3311E雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，折叠伞，伞面有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "天堂伞",
+    "location": "西山校区西区图书室一楼阅览室",
+    "event_time": "2026-10-13T11:45:00",
+    "public_features": [
+      "折叠伞",
+      "伞面有磨损"
+    ],
+    "hidden_features": [
+      "伞骨第三节有一处弯折",
+      "伞柄内侧刻有「L.Y.」缩写"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": "天堂伞",
+      "model": "3311E",
+      "color": "黑色",
+      "material": "尼龙",
+      "visible_features": [
+        "折叠伞",
+        "伞面有磨损"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "黑色",
+        "天堂伞",
+        "尼龙",
+        "折叠伞"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/lost-1046-v0.jpg",
+    "material": "尼龙",
+    "model": "3311E",
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "折叠伞",
+      "黑色",
+      "雨伞"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 2046,
+    "post_type": "found",
+    "category": "雨伞",
+    "title": "雨伞（保洁阿姨捡到）",
+    "description": "黑色天堂伞3311E雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，折叠伞，伞面有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "天堂伞",
+    "location": "西山校区三号宿舍楼一楼门口",
+    "event_time": "2026-10-13T11:45:00",
+    "public_features": [
+      "折叠伞",
+      "伞面有磨损"
+    ],
+    "hidden_features": [
+      "伞骨第三节有一处弯折",
+      "伞柄内侧刻有「L.Y.」缩写"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": "天堂伞",
+      "model": "3311E",
+      "color": "黑色",
+      "material": "尼龙",
+      "visible_features": [
+        "折叠伞",
+        "伞面有磨损"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "黑色",
+        "天堂伞",
+        "尼龙",
+        "折叠伞"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/found-2046-v0.jpg",
+    "material": "尼龙",
+    "model": "3311E",
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "折叠伞",
+      "黑色",
+      "雨伞"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 1047,
+    "post_type": "lost",
+    "category": "雨伞",
+    "title": "雨伞（较新）",
+    "description": "蓝色天堂伞336T雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，长柄伞，伞面有褪色，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": "天堂伞",
+    "location": "东湖校区一号宿舍楼一楼门口",
+    "event_time": "2026-10-16T14:02:00",
+    "public_features": [
+      "长柄伞",
+      "伞面有褪色"
+    ],
+    "hidden_features": [
+      "伞柄缠绕了一圈蓝色胶带",
+      "伞面内侧写有姓名"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": "天堂伞",
+      "model": "336T",
+      "color": "蓝色",
+      "material": "尼龙",
+      "visible_features": [
+        "长柄伞",
+        "伞面有褪色"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "蓝色",
+        "天堂伞",
+        "尼龙",
+        "长柄伞"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/lost-1047-v1.jpg",
+    "material": "尼龙",
+    "model": "336T",
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "长柄伞",
+      "蓝色",
+      "雨伞"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 2047,
+    "post_type": "found",
+    "category": "雨伞",
+    "title": "雨伞（讲台抽屉内）",
+    "description": "蓝色天堂伞336T雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，长柄伞，伞面有褪色，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": "天堂伞",
+    "location": "东湖校区第三食堂二楼就餐区",
+    "event_time": "2026-10-16T14:02:00",
+    "public_features": [
+      "长柄伞",
+      "伞面有褪色"
+    ],
+    "hidden_features": [
+      "伞柄缠绕了一圈蓝色胶带",
+      "伞面内侧写有姓名"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": "天堂伞",
+      "model": "336T",
+      "color": "蓝色",
+      "material": "尼龙",
+      "visible_features": [
+        "长柄伞",
+        "伞面有褪色"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "蓝色",
+        "天堂伞",
+        "尼龙",
+        "长柄伞"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/found-2047-v1.jpg",
+    "material": "尼龙",
+    "model": "336T",
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "长柄伞",
+      "蓝色",
+      "雨伞"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 1048,
+    "post_type": "lost",
+    "category": "雨伞",
+    "title": "雨伞（常用）",
+    "description": "粉色雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，折叠伞，伞套有污渍，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "粉色",
+    "brand": null,
+    "location": "西山校区西区图书室二楼阅览室",
+    "event_time": "2026-10-19T17:19:00",
+    "public_features": [
+      "折叠伞",
+      "伞套有污渍"
+    ],
+    "hidden_features": [
+      "伞面内侧贴有一个小猫贴纸",
+      "伞骨末端缺一个塑料帽"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": null,
+      "model": null,
+      "color": "粉色",
+      "material": "尼龙",
+      "visible_features": [
+        "折叠伞",
+        "伞套有污渍"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "粉色",
+        "尼龙",
+        "折叠伞",
+        "轻便"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/lost-1048-v2.jpg",
+    "material": "尼龙",
+    "model": null,
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "折叠伞",
+      "粉色",
+      "轻便"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 2048,
+    "post_type": "found",
+    "category": "雨伞",
+    "title": "雨伞（座位下捡到）",
+    "description": "粉色雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，折叠伞，伞套有污渍，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "粉色",
+    "brand": null,
+    "location": "东湖校区图书馆四楼阅览室",
+    "event_time": "2026-10-19T17:19:00",
+    "public_features": [
+      "折叠伞",
+      "伞套有污渍"
+    ],
+    "hidden_features": [
+      "伞面内侧贴有一个小猫贴纸",
+      "伞骨末端缺一个塑料帽"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": null,
+      "model": null,
+      "color": "粉色",
+      "material": "尼龙",
+      "visible_features": [
+        "折叠伞",
+        "伞套有污渍"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "粉色",
+        "尼龙",
+        "折叠伞",
+        "轻便"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/found-2048-v2.jpg",
+    "material": "尼龙",
+    "model": null,
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "折叠伞",
+      "粉色",
+      "轻便"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 1049,
+    "post_type": "lost",
+    "category": "雨伞",
+    "title": "雨伞（贴了贴纸）",
+    "description": "灰色迪卡侬QUECHUA-100雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，自动伞，伞柄有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "灰色",
+    "brand": "迪卡侬",
+    "location": "东湖校区第三食堂门口",
+    "event_time": "2026-10-22T08:36:00",
+    "public_features": [
+      "自动伞",
+      "伞柄有划痕"
+    ],
+    "hidden_features": [
+      "伞柄底部贴有条形码残胶",
+      "伞面有一处缝补痕迹"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": "迪卡侬",
+      "model": "QUECHUA-100",
+      "color": "灰色",
+      "material": "尼龙",
+      "visible_features": [
+        "自动伞",
+        "伞柄有划痕"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "灰色",
+        "迪卡侬",
+        "尼龙",
+        "自动伞",
+        "户外"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/lost-1049-v3.jpg",
+    "material": "尼龙",
+    "model": "QUECHUA-100",
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "自动伞",
+      "灰色",
+      "户外"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 2049,
+    "post_type": "found",
+    "category": "雨伞",
+    "title": "雨伞（已登记）",
+    "description": "灰色迪卡侬QUECHUA-100雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，自动伞，伞柄有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "灰色",
+    "brand": "迪卡侬",
+    "location": "东湖校区第一教学楼门口",
+    "event_time": "2026-10-22T08:36:00",
+    "public_features": [
+      "自动伞",
+      "伞柄有划痕"
+    ],
+    "hidden_features": [
+      "伞柄底部贴有条形码残胶",
+      "伞面有一处缝补痕迹"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": "迪卡侬",
+      "model": "QUECHUA-100",
+      "color": "灰色",
+      "material": "尼龙",
+      "visible_features": [
+        "自动伞",
+        "伞柄有划痕"
+      ],
+      "accessories": [
+        "伞套"
+      ],
+      "keywords": [
+        "雨伞",
+        "灰色",
+        "迪卡侬",
+        "尼龙",
+        "自动伞",
+        "户外"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/found-2049-v3.jpg",
+    "material": "尼龙",
+    "model": "QUECHUA-100",
+    "accessories": [
+      "伞套"
+    ],
+    "keywords": [
+      "自动伞",
+      "灰色",
+      "户外"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 1050,
+    "post_type": "lost",
+    "category": "雨伞",
+    "title": "雨伞（有磕碰）",
+    "description": "紫色雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，折叠伞，伞带松脱，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "紫色",
+    "brand": null,
+    "location": "东湖校区大学生活动中心一楼服务台",
+    "event_time": "2026-10-25T11:53:00",
+    "public_features": [
+      "折叠伞",
+      "伞带松脱"
+    ],
+    "hidden_features": [
+      "伞面内侧写有「2023 校运会」",
+      "伞柄挂着一个木质挂件"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": null,
+      "model": null,
+      "color": "紫色",
+      "material": "尼龙",
+      "visible_features": [
+        "折叠伞",
+        "伞带松脱"
+      ],
+      "accessories": [
+        "伞套",
+        "挂件"
+      ],
+      "keywords": [
+        "雨伞",
+        "紫色",
+        "尼龙",
+        "折叠伞",
+        "挂件"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/lost-1050-v4.jpg",
+    "material": "尼龙",
+    "model": null,
+    "accessories": [
+      "伞套",
+      "挂件"
+    ],
+    "keywords": [
+      "折叠伞",
+      "紫色",
+      "挂件"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 2050,
+    "post_type": "found",
+    "category": "雨伞",
+    "title": "雨伞（无人认领）",
+    "description": "紫色雨伞，日常通勤用的雨伞，伞面遮雨正常，伞骨完好，材质看起来是尼龙，折叠伞，伞带松脱，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "紫色",
+    "brand": null,
+    "location": "东湖校区图书馆一楼门口",
+    "event_time": "2026-10-25T11:53:00",
+    "public_features": [
+      "折叠伞",
+      "伞带松脱"
+    ],
+    "hidden_features": [
+      "伞面内侧写有「2023 校运会」",
+      "伞柄挂着一个木质挂件"
+    ],
+    "ai_attributes": {
+      "category": "雨伞",
+      "brand": null,
+      "model": null,
+      "color": "紫色",
+      "material": "尼龙",
+      "visible_features": [
+        "折叠伞",
+        "伞带松脱"
+      ],
+      "accessories": [
+        "伞套",
+        "挂件"
+      ],
+      "keywords": [
+        "雨伞",
+        "紫色",
+        "尼龙",
+        "折叠伞",
+        "挂件"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/umbrella/found-2050-v4.jpg",
+    "material": "尼龙",
+    "model": null,
+    "accessories": [
+      "伞套",
+      "挂件"
+    ],
+    "keywords": [
+      "折叠伞",
+      "紫色",
+      "挂件"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 1051,
+    "post_type": "lost",
+    "category": "背包",
+    "title": "背包",
+    "description": "黑色迪卡侬NH500背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是帆布，双肩包，肩带处有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "迪卡侬",
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-05T14:10:00",
+    "public_features": [
+      "双肩包",
+      "肩带处有磨损"
+    ],
+    "hidden_features": [
+      "主袋内衬有一道蓝色墨水渍",
+      "肩带内侧写有姓名缩写"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": "迪卡侬",
+      "model": "NH500",
+      "color": "黑色",
+      "material": "帆布",
+      "visible_features": [
+        "双肩包",
+        "肩带处有磨损"
+      ],
+      "accessories": [
+        "行李牌"
+      ],
+      "keywords": [
+        "背包",
+        "黑色",
+        "迪卡侬",
+        "帆布",
+        "双肩包",
+        "电脑包"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/lost-1051-v0.jpg",
+    "material": "帆布",
+    "model": "NH500",
+    "accessories": [
+      "行李牌"
+    ],
+    "keywords": [
+      "双肩包",
+      "黑色",
+      "电脑包"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 2051,
+    "post_type": "found",
+    "category": "背包",
+    "title": "背包",
+    "description": "黑色迪卡侬NH500背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是帆布，双肩包，肩带处有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "迪卡侬",
+    "location": "东湖校区大学生活动中心二楼报告厅",
+    "event_time": "2026-10-05T14:10:00",
+    "public_features": [
+      "双肩包",
+      "肩带处有磨损"
+    ],
+    "hidden_features": [
+      "主袋内衬有一道蓝色墨水渍",
+      "肩带内侧写有姓名缩写"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": "迪卡侬",
+      "model": "NH500",
+      "color": "黑色",
+      "material": "帆布",
+      "visible_features": [
+        "双肩包",
+        "肩带处有磨损"
+      ],
+      "accessories": [
+        "行李牌"
+      ],
+      "keywords": [
+        "背包",
+        "黑色",
+        "迪卡侬",
+        "帆布",
+        "双肩包",
+        "电脑包"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/found-2051-v0.jpg",
+    "material": "帆布",
+    "model": "NH500",
+    "accessories": [
+      "行李牌"
+    ],
+    "keywords": [
+      "双肩包",
+      "黑色",
+      "电脑包"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 1052,
+    "post_type": "lost",
+    "category": "背包",
+    "title": "背包（二代）",
+    "description": "灰色小米Mi Casual背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是尼龙，双肩包，拉链头有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "灰色",
+    "brand": "小米",
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-08T17:27:00",
+    "public_features": [
+      "双肩包",
+      "拉链头有划痕"
+    ],
+    "hidden_features": [
+      "侧袋里有一张旧电影票根",
+      "拉链头上系着一根红绳"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": "小米",
+      "model": "Mi Casual",
+      "color": "灰色",
+      "material": "尼龙",
+      "visible_features": [
+        "双肩包",
+        "拉链头有划痕"
+      ],
+      "accessories": [
+        "行李牌",
+        "钥匙"
+      ],
+      "keywords": [
+        "背包",
+        "灰色",
+        "小米",
+        "尼龙",
+        "双肩包",
+        "通勤"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/lost-1052-v1.jpg",
+    "material": "尼龙",
+    "model": "Mi Casual",
+    "accessories": [
+      "行李牌",
+      "钥匙"
+    ],
+    "keywords": [
+      "双肩包",
+      "灰色",
+      "通勤"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 2052,
+    "post_type": "found",
+    "category": "背包",
+    "title": "背包（在自习区捡到）",
+    "description": "灰色小米Mi Casual背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是尼龙，双肩包，拉链头有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "灰色",
+    "brand": "小米",
+    "location": "西山校区工程训练中心二楼车间",
+    "event_time": "2026-10-08T17:27:00",
+    "public_features": [
+      "双肩包",
+      "拉链头有划痕"
+    ],
+    "hidden_features": [
+      "侧袋里有一张旧电影票根",
+      "拉链头上系着一根红绳"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": "小米",
+      "model": "Mi Casual",
+      "color": "灰色",
+      "material": "尼龙",
+      "visible_features": [
+        "双肩包",
+        "拉链头有划痕"
+      ],
+      "accessories": [
+        "行李牌",
+        "钥匙"
+      ],
+      "keywords": [
+        "背包",
+        "灰色",
+        "小米",
+        "尼龙",
+        "双肩包",
+        "通勤"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/found-2052-v1.jpg",
+    "material": "尼龙",
+    "model": "Mi Casual",
+    "accessories": [
+      "行李牌",
+      "钥匙"
+    ],
+    "keywords": [
+      "双肩包",
+      "灰色",
+      "通勤"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 1053,
+    "post_type": "lost",
+    "category": "背包",
+    "title": "背包（旧款）",
+    "description": "蓝色背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是帆布，双肩包，正面有卡通贴布，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": null,
+    "location": "西山校区三号宿舍楼二楼门口",
+    "event_time": "2026-10-11T08:44:00",
+    "public_features": [
+      "双肩包",
+      "正面有卡通贴布"
+    ],
+    "hidden_features": [
+      "内袋缝有一块姓名布标",
+      "背板夹层有一张校园地图"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": null,
+      "model": null,
+      "color": "蓝色",
+      "material": "帆布",
+      "visible_features": [
+        "双肩包",
+        "正面有卡通贴布"
+      ],
+      "accessories": [
+        "挂绳"
+      ],
+      "keywords": [
+        "背包",
+        "蓝色",
+        "帆布",
+        "双肩包",
+        "贴布"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/lost-1053-v2.jpg",
+    "material": "帆布",
+    "model": null,
+    "accessories": [
+      "挂绳"
+    ],
+    "keywords": [
+      "双肩包",
+      "蓝色",
+      "贴布"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 2053,
+    "post_type": "found",
+    "category": "背包",
+    "title": "背包（放在服务台）",
+    "description": "蓝色背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是帆布，双肩包，正面有卡通贴布，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": null,
+    "location": "西山校区第一食堂二楼就餐区",
+    "event_time": "2026-10-11T08:44:00",
+    "public_features": [
+      "双肩包",
+      "正面有卡通贴布"
+    ],
+    "hidden_features": [
+      "内袋缝有一块姓名布标",
+      "背板夹层有一张校园地图"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": null,
+      "model": null,
+      "color": "蓝色",
+      "material": "帆布",
+      "visible_features": [
+        "双肩包",
+        "正面有卡通贴布"
+      ],
+      "accessories": [
+        "挂绳"
+      ],
+      "keywords": [
+        "背包",
+        "蓝色",
+        "帆布",
+        "双肩包",
+        "贴布"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/found-2053-v2.jpg",
+    "material": "帆布",
+    "model": null,
+    "accessories": [
+      "挂绳"
+    ],
+    "keywords": [
+      "双肩包",
+      "蓝色",
+      "贴布"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 1054,
+    "post_type": "lost",
+    "category": "背包",
+    "title": "背包（备用）",
+    "description": "棕色无印良品MJ-BAG-02背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是皮革，皮质背包，扣带有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "棕色",
+    "brand": "无印良品",
+    "location": "西山校区西区图书室一楼阅览室",
+    "event_time": "2026-10-14T11:01:00",
+    "public_features": [
+      "皮质背包",
+      "扣带有磨损"
+    ],
+    "hidden_features": [
+      "内衬写有「2019.09」字样",
+      "侧袋有一个皮质小挂件"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": "无印良品",
+      "model": "MJ-BAG-02",
+      "color": "棕色",
+      "material": "皮革",
+      "visible_features": [
+        "皮质背包",
+        "扣带有磨损"
+      ],
+      "accessories": [
+        "行李牌"
+      ],
+      "keywords": [
+        "背包",
+        "棕色",
+        "无印良品",
+        "皮革",
+        "皮面"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/lost-1054-v3.jpg",
+    "material": "皮革",
+    "model": "MJ-BAG-02",
+    "accessories": [
+      "行李牌"
+    ],
+    "keywords": [
+      "背包",
+      "棕色",
+      "皮面"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 2054,
+    "post_type": "found",
+    "category": "背包",
+    "title": "背包（门卫代收）",
+    "description": "棕色无印良品MJ-BAG-02背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是皮革，皮质背包，扣带有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "棕色",
+    "brand": "无印良品",
+    "location": "西山校区三号宿舍楼一楼门口",
+    "event_time": "2026-10-14T11:01:00",
+    "public_features": [
+      "皮质背包",
+      "扣带有磨损"
+    ],
+    "hidden_features": [
+      "内衬写有「2019.09」字样",
+      "侧袋有一个皮质小挂件"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": "无印良品",
+      "model": "MJ-BAG-02",
+      "color": "棕色",
+      "material": "皮革",
+      "visible_features": [
+        "皮质背包",
+        "扣带有磨损"
+      ],
+      "accessories": [
+        "行李牌"
+      ],
+      "keywords": [
+        "背包",
+        "棕色",
+        "无印良品",
+        "皮革",
+        "皮面"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/found-2054-v3.jpg",
+    "material": "皮革",
+    "model": "MJ-BAG-02",
+    "accessories": [
+      "行李牌"
+    ],
+    "keywords": [
+      "背包",
+      "棕色",
+      "皮面"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 1055,
+    "post_type": "lost",
+    "category": "背包",
+    "title": "背包（同学代管）",
+    "description": "绿色背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是尼龙，登山包，腰带有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": null,
+    "location": "东湖校区一号宿舍楼一楼门口",
+    "event_time": "2026-10-17T14:18:00",
+    "public_features": [
+      "登山包",
+      "腰带有磨损"
+    ],
+    "hidden_features": [
+      "腰包内有一枚校徽徽章",
+      "顶包拉链上挂着一个登山扣"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": null,
+      "model": null,
+      "color": "绿色",
+      "material": "尼龙",
+      "visible_features": [
+        "登山包",
+        "腰带有磨损"
+      ],
+      "accessories": [
+        "挂绳",
+        "钥匙"
+      ],
+      "keywords": [
+        "背包",
+        "绿色",
+        "尼龙",
+        "登山包",
+        "户外"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/lost-1055-v4.jpg",
+    "material": "尼龙",
+    "model": null,
+    "accessories": [
+      "挂绳",
+      "钥匙"
+    ],
+    "keywords": [
+      "登山包",
+      "绿色",
+      "户外"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 2055,
+    "post_type": "found",
+    "category": "背包",
+    "title": "背包（同学交到值班室）",
+    "description": "绿色背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是尼龙，登山包，腰带有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": null,
+    "location": "东湖校区第三食堂二楼就餐区",
+    "event_time": "2026-10-17T14:18:00",
+    "public_features": [
+      "登山包",
+      "腰带有磨损"
+    ],
+    "hidden_features": [
+      "腰包内有一枚校徽徽章",
+      "顶包拉链上挂着一个登山扣"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": null,
+      "model": null,
+      "color": "绿色",
+      "material": "尼龙",
+      "visible_features": [
+        "登山包",
+        "腰带有磨损"
+      ],
+      "accessories": [
+        "挂绳",
+        "钥匙"
+      ],
+      "keywords": [
+        "背包",
+        "绿色",
+        "尼龙",
+        "登山包",
+        "户外"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/found-2055-v4.jpg",
+    "material": "尼龙",
+    "model": null,
+    "accessories": [
+      "挂绳",
+      "钥匙"
+    ],
+    "keywords": [
+      "登山包",
+      "绿色",
+      "户外"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 1056,
+    "post_type": "lost",
+    "category": "背包",
+    "title": "背包（用了两年）",
+    "description": "黑色迪卡侬NH500背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是帆布，双肩包，肩带处有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "迪卡侬",
+    "location": "西山校区西区图书室二楼阅览室",
+    "event_time": "2026-10-20T17:35:00",
+    "public_features": [
+      "双肩包",
+      "肩带处有磨损"
+    ],
+    "hidden_features": [
+      "主袋内衬有一道蓝色墨水渍",
+      "肩带内侧写有姓名缩写"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": "迪卡侬",
+      "model": "NH500",
+      "color": "黑色",
+      "material": "帆布",
+      "visible_features": [
+        "双肩包",
+        "肩带处有磨损"
+      ],
+      "accessories": [
+        "行李牌"
+      ],
+      "keywords": [
+        "背包",
+        "黑色",
+        "迪卡侬",
+        "帆布",
+        "双肩包",
+        "电脑包"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/lost-1056-v0.jpg",
+    "material": "帆布",
+    "model": "NH500",
+    "accessories": [
+      "行李牌"
+    ],
+    "keywords": [
+      "双肩包",
+      "黑色",
+      "电脑包"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 2056,
+    "post_type": "found",
+    "category": "背包",
+    "title": "背包（保洁阿姨捡到）",
+    "description": "黑色迪卡侬NH500背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是帆布，双肩包，肩带处有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "黑色",
+    "brand": "迪卡侬",
+    "location": "东湖校区图书馆四楼阅览室",
+    "event_time": "2026-10-20T17:35:00",
+    "public_features": [
+      "双肩包",
+      "肩带处有磨损"
+    ],
+    "hidden_features": [
+      "主袋内衬有一道蓝色墨水渍",
+      "肩带内侧写有姓名缩写"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": "迪卡侬",
+      "model": "NH500",
+      "color": "黑色",
+      "material": "帆布",
+      "visible_features": [
+        "双肩包",
+        "肩带处有磨损"
+      ],
+      "accessories": [
+        "行李牌"
+      ],
+      "keywords": [
+        "背包",
+        "黑色",
+        "迪卡侬",
+        "帆布",
+        "双肩包",
+        "电脑包"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/found-2056-v0.jpg",
+    "material": "帆布",
+    "model": "NH500",
+    "accessories": [
+      "行李牌"
+    ],
+    "keywords": [
+      "双肩包",
+      "黑色",
+      "电脑包"
+    ],
+    "synthetic": true,
+    "variant_index": 0
+  },
+  {
+    "id": 1057,
+    "post_type": "lost",
+    "category": "背包",
+    "title": "背包（较新）",
+    "description": "灰色小米Mi Casual背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是尼龙，双肩包，拉链头有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "灰色",
+    "brand": "小米",
+    "location": "东湖校区第三食堂门口",
+    "event_time": "2026-10-23T08:52:00",
+    "public_features": [
+      "双肩包",
+      "拉链头有划痕"
+    ],
+    "hidden_features": [
+      "侧袋里有一张旧电影票根",
+      "拉链头上系着一根红绳"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": "小米",
+      "model": "Mi Casual",
+      "color": "灰色",
+      "material": "尼龙",
+      "visible_features": [
+        "双肩包",
+        "拉链头有划痕"
+      ],
+      "accessories": [
+        "行李牌",
+        "钥匙"
+      ],
+      "keywords": [
+        "背包",
+        "灰色",
+        "小米",
+        "尼龙",
+        "双肩包",
+        "通勤"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/lost-1057-v1.jpg",
+    "material": "尼龙",
+    "model": "Mi Casual",
+    "accessories": [
+      "行李牌",
+      "钥匙"
+    ],
+    "keywords": [
+      "双肩包",
+      "灰色",
+      "通勤"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 2057,
+    "post_type": "found",
+    "category": "背包",
+    "title": "背包（讲台抽屉内）",
+    "description": "灰色小米Mi Casual背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是尼龙，双肩包，拉链头有划痕，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "灰色",
+    "brand": "小米",
+    "location": "东湖校区第一教学楼门口",
+    "event_time": "2026-10-23T08:52:00",
+    "public_features": [
+      "双肩包",
+      "拉链头有划痕"
+    ],
+    "hidden_features": [
+      "侧袋里有一张旧电影票根",
+      "拉链头上系着一根红绳"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": "小米",
+      "model": "Mi Casual",
+      "color": "灰色",
+      "material": "尼龙",
+      "visible_features": [
+        "双肩包",
+        "拉链头有划痕"
+      ],
+      "accessories": [
+        "行李牌",
+        "钥匙"
+      ],
+      "keywords": [
+        "背包",
+        "灰色",
+        "小米",
+        "尼龙",
+        "双肩包",
+        "通勤"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/found-2057-v1.jpg",
+    "material": "尼龙",
+    "model": "Mi Casual",
+    "accessories": [
+      "行李牌",
+      "钥匙"
+    ],
+    "keywords": [
+      "双肩包",
+      "灰色",
+      "通勤"
+    ],
+    "synthetic": true,
+    "variant_index": 1
+  },
+  {
+    "id": 1058,
+    "post_type": "lost",
+    "category": "背包",
+    "title": "背包（常用）",
+    "description": "蓝色背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是帆布，双肩包，正面有卡通贴布，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": null,
+    "location": "东湖校区大学生活动中心一楼服务台",
+    "event_time": "2026-09-28T11:09:00",
+    "public_features": [
+      "双肩包",
+      "正面有卡通贴布"
+    ],
+    "hidden_features": [
+      "内袋缝有一块姓名布标",
+      "背板夹层有一张校园地图"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": null,
+      "model": null,
+      "color": "蓝色",
+      "material": "帆布",
+      "visible_features": [
+        "双肩包",
+        "正面有卡通贴布"
+      ],
+      "accessories": [
+        "挂绳"
+      ],
+      "keywords": [
+        "背包",
+        "蓝色",
+        "帆布",
+        "双肩包",
+        "贴布"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/lost-1058-v2.jpg",
+    "material": "帆布",
+    "model": null,
+    "accessories": [
+      "挂绳"
+    ],
+    "keywords": [
+      "双肩包",
+      "蓝色",
+      "贴布"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 2058,
+    "post_type": "found",
+    "category": "背包",
+    "title": "背包（座位下捡到）",
+    "description": "蓝色背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是帆布，双肩包，正面有卡通贴布，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "蓝色",
+    "brand": null,
+    "location": "东湖校区图书馆一楼门口",
+    "event_time": "2026-09-28T11:09:00",
+    "public_features": [
+      "双肩包",
+      "正面有卡通贴布"
+    ],
+    "hidden_features": [
+      "内袋缝有一块姓名布标",
+      "背板夹层有一张校园地图"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": null,
+      "model": null,
+      "color": "蓝色",
+      "material": "帆布",
+      "visible_features": [
+        "双肩包",
+        "正面有卡通贴布"
+      ],
+      "accessories": [
+        "挂绳"
+      ],
+      "keywords": [
+        "背包",
+        "蓝色",
+        "帆布",
+        "双肩包",
+        "贴布"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/found-2058-v2.jpg",
+    "material": "帆布",
+    "model": null,
+    "accessories": [
+      "挂绳"
+    ],
+    "keywords": [
+      "双肩包",
+      "蓝色",
+      "贴布"
+    ],
+    "synthetic": true,
+    "variant_index": 2
+  },
+  {
+    "id": 1059,
+    "post_type": "lost",
+    "category": "背包",
+    "title": "背包（贴了贴纸）",
+    "description": "棕色无印良品MJ-BAG-02背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是皮革，皮质背包，扣带有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "棕色",
+    "brand": "无印良品",
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-01T14:26:00",
+    "public_features": [
+      "皮质背包",
+      "扣带有磨损"
+    ],
+    "hidden_features": [
+      "内衬写有「2019.09」字样",
+      "侧袋有一个皮质小挂件"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": "无印良品",
+      "model": "MJ-BAG-02",
+      "color": "棕色",
+      "material": "皮革",
+      "visible_features": [
+        "皮质背包",
+        "扣带有磨损"
+      ],
+      "accessories": [
+        "行李牌"
+      ],
+      "keywords": [
+        "背包",
+        "棕色",
+        "无印良品",
+        "皮革",
+        "皮面"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/lost-1059-v3.jpg",
+    "material": "皮革",
+    "model": "MJ-BAG-02",
+    "accessories": [
+      "行李牌"
+    ],
+    "keywords": [
+      "背包",
+      "棕色",
+      "皮面"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 2059,
+    "post_type": "found",
+    "category": "背包",
+    "title": "背包（已登记）",
+    "description": "棕色无印良品MJ-BAG-02背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是皮革，皮质背包，扣带有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "棕色",
+    "brand": "无印良品",
+    "location": "东湖校区大学生活动中心二楼报告厅",
+    "event_time": "2026-10-01T14:26:00",
+    "public_features": [
+      "皮质背包",
+      "扣带有磨损"
+    ],
+    "hidden_features": [
+      "内衬写有「2019.09」字样",
+      "侧袋有一个皮质小挂件"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": "无印良品",
+      "model": "MJ-BAG-02",
+      "color": "棕色",
+      "material": "皮革",
+      "visible_features": [
+        "皮质背包",
+        "扣带有磨损"
+      ],
+      "accessories": [
+        "行李牌"
+      ],
+      "keywords": [
+        "背包",
+        "棕色",
+        "无印良品",
+        "皮革",
+        "皮面"
+      ],
+      "uncertainties": [],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/found-2059-v3.jpg",
+    "material": "皮革",
+    "model": "MJ-BAG-02",
+    "accessories": [
+      "行李牌"
+    ],
+    "keywords": [
+      "背包",
+      "棕色",
+      "皮面"
+    ],
+    "synthetic": true,
+    "variant_index": 3
+  },
+  {
+    "id": 1060,
+    "post_type": "lost",
+    "category": "背包",
+    "title": "背包（有磕碰）",
+    "description": "绿色背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是尼龙，登山包，腰带有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": null,
+    "location": "东湖校区体育馆一楼球馆",
+    "event_time": "2026-10-04T17:43:00",
+    "public_features": [
+      "登山包",
+      "腰带有磨损"
+    ],
+    "hidden_features": [
+      "腰包内有一枚校徽徽章",
+      "顶包拉链上挂着一个登山扣"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": null,
+      "model": null,
+      "color": "绿色",
+      "material": "尼龙",
+      "visible_features": [
+        "登山包",
+        "腰带有磨损"
+      ],
+      "accessories": [
+        "挂绳",
+        "钥匙"
+      ],
+      "keywords": [
+        "背包",
+        "绿色",
+        "尼龙",
+        "登山包",
+        "户外"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/lost-1060-v4.jpg",
+    "material": "尼龙",
+    "model": null,
+    "accessories": [
+      "挂绳",
+      "钥匙"
+    ],
+    "keywords": [
+      "登山包",
+      "绿色",
+      "户外"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  },
+  {
+    "id": 2060,
+    "post_type": "found",
+    "category": "背包",
+    "title": "背包（无人认领）",
+    "description": "绿色背包，上学通勤用的双肩背包，主袋可放 14 寸笔记本，材质看起来是尼龙，登山包，腰带有磨损，如见到请通过平台联系，可提供更多细节用于核对。",
+    "color": "绿色",
+    "brand": null,
+    "location": "西山校区工程训练中心二楼车间",
+    "event_time": "2026-10-04T17:43:00",
+    "public_features": [
+      "登山包",
+      "腰带有磨损"
+    ],
+    "hidden_features": [
+      "腰包内有一枚校徽徽章",
+      "顶包拉链上挂着一个登山扣"
+    ],
+    "ai_attributes": {
+      "category": "背包",
+      "brand": null,
+      "model": null,
+      "color": "绿色",
+      "material": "尼龙",
+      "visible_features": [
+        "登山包",
+        "腰带有磨损"
+      ],
+      "accessories": [
+        "挂绳",
+        "钥匙"
+      ],
+      "keywords": [
+        "背包",
+        "绿色",
+        "尼龙",
+        "登山包",
+        "户外"
+      ],
+      "uncertainties": [
+        "品牌标识不清晰",
+        "未识别到明确型号"
+      ],
+      "source": "rule-based-extractor(baseline-1.0)",
+      "note": "演示数据中的 ai_attributes 与规则抽取器的输出形态一致，便于离线比对。"
+    },
+    "image_url": "https://cdn.example-campus.invalid/demo/backpack/found-2060-v4.jpg",
+    "material": "尼龙",
+    "model": null,
+    "accessories": [
+      "挂绳",
+      "钥匙"
+    ],
+    "keywords": [
+      "登山包",
+      "绿色",
+      "户外"
+    ],
+    "synthetic": true,
+    "variant_index": 4
+  }
+]

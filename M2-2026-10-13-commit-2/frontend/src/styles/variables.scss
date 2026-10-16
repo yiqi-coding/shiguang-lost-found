@@ -1,0 +1,169 @@
+// 设计变量唯一来源：SCSS 变量（编译期）→ CSS 自定义属性（运行期）。
+// 组件内统一使用 var(--sg-*)，因此 SFC 不需要重复 @use 本文件；
+// 本文件在 src/main.ts 中引入一次（位于 element-plus 样式之后，可覆盖其主题变量）。
+@use 'sass:color';
+
+// ---------- 品牌与语义色 ----------
+$sg-primary: #2f6fed;
+$sg-primary-light: #e8f0fe;
+$sg-success: #2ba471;
+$sg-warning: #e37318;
+$sg-danger: #d54941;
+$sg-info: #8a9099;
+
+// ---------- 中性色 ----------
+$sg-text: #1f2329;
+$sg-text-secondary: #646a73;
+$sg-text-placeholder: #a6abb2;
+$sg-border: #e5e6eb;
+$sg-border-light: #f0f1f3;
+$sg-bg: #f5f7fa;
+$sg-surface: #ffffff;
+
+// ---------- 尺寸与形状 ----------
+$sg-radius-sm: 6px;
+$sg-radius: 10px;
+$sg-radius-lg: 16px;
+$sg-gap-xs: 8px;
+$sg-gap-sm: 12px;
+$sg-gap: 16px;
+$sg-gap-lg: 24px;
+$sg-header-height: 60px;
+$sg-container: 1200px;
+
+:root {
+  --sg-primary: #{$sg-primary};
+  --sg-primary-light: #{$sg-primary-light};
+  --sg-success: #{$sg-success};
+  --sg-warning: #{$sg-warning};
+  --sg-danger: #{$sg-danger};
+  --sg-info: #{$sg-info};
+
+  --sg-text: #{$sg-text};
+  --sg-text-secondary: #{$sg-text-secondary};
+  --sg-text-placeholder: #{$sg-text-placeholder};
+  --sg-border: #{$sg-border};
+  --sg-border-light: #{$sg-border-light};
+  --sg-bg: #{$sg-bg};
+  --sg-surface: #{$sg-surface};
+
+  --sg-radius-sm: #{$sg-radius-sm};
+  --sg-radius: #{$sg-radius};
+  --sg-radius-lg: #{$sg-radius-lg};
+  --sg-gap-xs: #{$sg-gap-xs};
+  --sg-gap-sm: #{$sg-gap-sm};
+  --sg-gap: #{$sg-gap};
+  --sg-gap-lg: #{$sg-gap-lg};
+  --sg-header-height: #{$sg-header-height};
+  --sg-container: #{$sg-container};
+
+  --sg-shadow-sm: 0 1px 4px rgba(31, 35, 41, 0.06);
+  --sg-shadow: 0 4px 16px rgba(31, 35, 41, 0.08);
+
+  // 让 Element Plus 的主色与品牌色一致
+  --el-color-primary: #{$sg-primary};
+  --el-color-primary-light-3: #{color.adjust($sg-primary, $lightness: 12%)};
+  --el-color-primary-light-5: #{color.adjust($sg-primary, $lightness: 22%)};
+  --el-color-primary-light-7: #{color.adjust($sg-primary, $lightness: 32%)};
+  --el-color-primary-light-8: #{color.adjust($sg-primary, $lightness: 38%)};
+  --el-color-primary-light-9: #{$sg-primary-light};
+  --el-color-primary-dark-2: #{color.adjust($sg-primary, $lightness: -8%)};
+  --el-border-radius-base: #{$sg-radius-sm};
+  --el-text-color-primary: #{$sg-text};
+  --el-text-color-regular: #{$sg-text-secondary};
+  --el-border-color-lighter: #{$sg-border-light};
+}
+
+// ---------- 全局布局工具类 ----------
+// 页面最外层容器：统一最大宽度与移动端内边距
+.sg-page {
+  width: 100%;
+  max-width: var(--sg-container);
+  margin: 0 auto;
+  padding: var(--sg-gap-lg) var(--sg-gap);
+}
+
+// 页面标题区
+.sg-page__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--sg-gap-sm);
+  margin-bottom: var(--sg-gap);
+}
+
+.sg-page__title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.sg-page__subtitle {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: var(--sg-text-secondary);
+  line-height: 1.6;
+}
+
+// 通用卡片
+.sg-card {
+  background: var(--sg-surface);
+  border: 1px solid var(--sg-border-light);
+  border-radius: var(--sg-radius);
+  box-shadow: var(--sg-shadow-sm);
+  padding: var(--sg-gap);
+}
+
+.sg-card + .sg-card {
+  margin-top: var(--sg-gap);
+}
+
+// 段落小标题
+.sg-section-title {
+  margin: 0 0 var(--sg-gap-sm);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+// 次要说明文字
+.sg-muted {
+  color: var(--sg-text-secondary);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+// 响应式显隐：窄屏（<768px）用卡片替代表格，纯 CSS 切换，避免重复请求
+.sg-only-mobile {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  .sg-page {
+    padding: var(--sg-gap) var(--sg-gap-sm);
+  }
+
+  .sg-page__title {
+    font-size: 19px;
+  }
+
+  .sg-only-desktop {
+    display: none !important;
+  }
+
+  .sg-only-mobile {
+    display: block !important;
+  }
+
+  .el-dialog {
+    width: 92% !important;
+  }
+}
+
+// 长文本（描述、隐藏特征、验证作答）统一换行策略
+.sg-pre-wrap {
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.75;
+}

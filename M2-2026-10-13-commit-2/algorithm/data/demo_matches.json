@@ -1,0 +1,1454 @@
+[
+  {
+    "sample_id": "M001",
+    "label": "positive",
+    "lost_item_id": 1001,
+    "found_item_id": 2001,
+    "category": "无线耳机",
+    "expected_total_score_range": [
+      0.84,
+      1.0
+    ],
+    "time_diff_hours": 0.5,
+    "location_lost": "东湖校区第三食堂门口",
+    "location_found": "东湖校区第一教学楼门口",
+    "found_event_time": "2026-09-28T08:30:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 30 分钟。",
+    "reference_score": 0.9161,
+    "lost_event_time": "2026-09-28T08:00:00"
+  },
+  {
+    "sample_id": "M002",
+    "label": "positive",
+    "lost_item_id": 1003,
+    "found_item_id": 2003,
+    "category": "无线耳机",
+    "expected_total_score_range": [
+      0.83,
+      0.99
+    ],
+    "time_diff_hours": 1.0,
+    "location_lost": "东湖校区大学生活动中心一楼服务台",
+    "location_found": "东湖校区图书馆一楼门口",
+    "found_event_time": "2026-10-04T15:34:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 1 小时。",
+    "reference_score": 0.9079,
+    "lost_event_time": "2026-10-04T14:34:00"
+  },
+  {
+    "sample_id": "M003",
+    "label": "positive",
+    "lost_item_id": 1005,
+    "found_item_id": 2005,
+    "category": "无线耳机",
+    "expected_total_score_range": [
+      0.83,
+      0.99
+    ],
+    "time_diff_hours": 3.0,
+    "location_lost": "东湖校区体育馆一楼球馆",
+    "location_found": "东湖校区大学生活动中心二楼报告厅",
+    "found_event_time": "2026-10-10T11:08:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 3 小时。",
+    "reference_score": 0.9099,
+    "lost_event_time": "2026-10-10T08:08:00"
+  },
+  {
+    "sample_id": "M004",
+    "label": "positive",
+    "lost_item_id": 1007,
+    "found_item_id": 2007,
+    "category": "无线耳机",
+    "expected_total_score_range": [
+      0.77,
+      0.93
+    ],
+    "time_diff_hours": 24.0,
+    "location_lost": "西山校区第一食堂一楼门口",
+    "location_found": "西山校区工程训练中心门口",
+    "found_event_time": "2026-10-17T14:42:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 24 小时。",
+    "reference_score": 0.8537,
+    "lost_event_time": "2026-10-16T14:42:00"
+  },
+  {
+    "sample_id": "M005",
+    "label": "hard_negative",
+    "lost_item_id": 1001,
+    "found_item_id": 2004,
+    "category": "无线耳机",
+    "expected_total_score_range": [
+      0.71,
+      0.83
+    ],
+    "time_diff_hours": 0.5,
+    "location_lost": "东湖校区第三食堂门口",
+    "location_found": "东湖校区第一教学楼门口",
+    "found_event_time": "2026-09-28T08:30:00",
+    "conflict_fields": [
+      "brand",
+      "public_features",
+      "hidden_features"
+    ],
+    "notes": "同类别、同颜色，但品牌/型号与隐藏细节不同（外观相似的另一件物品）。",
+    "lost_view": {
+      "color": "黑色",
+      "brand": "Apple",
+      "model": "AirPods Pro 2",
+      "public_features": [
+        "椭圆形充电盒",
+        "盒体右侧有划痕"
+      ],
+      "hidden_features": [
+        "盒盖内侧有一道3厘米划痕",
+        "蓝牙名称 YiQi-AirPods"
+      ]
+    },
+    "found_view": {
+      "color": "黑色",
+      "brand": "漫步者",
+      "model": "LolliPods Plus",
+      "public_features": [
+        "方形充电盒",
+        "盒角有磕碰"
+      ],
+      "hidden_features": [
+        "盒底刻有一位舍友的手机号尾号",
+        "蓝牙名称 EDIFIER-LP-0527"
+      ]
+    },
+    "reference_score": 0.7671,
+    "lost_event_time": "2026-09-28T08:00:00"
+  },
+  {
+    "sample_id": "M006",
+    "label": "hard_negative",
+    "lost_item_id": 1002,
+    "found_item_id": 2005,
+    "category": "无线耳机",
+    "expected_total_score_range": [
+      0.7,
+      0.82
+    ],
+    "time_diff_hours": 1.0,
+    "location_lost": "东湖校区大学生活动中心一楼服务台",
+    "location_found": "东湖校区图书馆一楼门口",
+    "found_event_time": "2026-10-01T12:17:00",
+    "conflict_fields": [
+      "brand",
+      "public_features",
+      "hidden_features"
+    ],
+    "notes": "同类别、同颜色，但品牌/型号与隐藏细节不同（外观相似的另一件物品）。",
+    "lost_view": {
+      "color": "白色",
+      "brand": "华为",
+      "model": "FreeBuds 5i",
+      "public_features": [
+        "鹅卵石形充电盒",
+        "左耳柄有磨损"
+      ],
+      "hidden_features": [
+        "左耳塞网罩有一处凹陷",
+        "蓝牙名称 HUAWEI-FreeBuds-5i-8821"
+      ]
+    },
+    "found_view": {
+      "color": "白色",
+      "brand": "小米",
+      "model": "Redmi Buds 4",
+      "public_features": [
+        "圆柱形充电盒",
+        "包装贴纸残留"
+      ],
+      "hidden_features": [
+        "充电盒内壁有茶色污渍",
+        "蓝牙名称 RedmiBuds4-3390"
+      ]
+    },
+    "reference_score": 0.7571,
+    "lost_event_time": "2026-10-01T11:17:00"
+  },
+  {
+    "sample_id": "M007",
+    "label": "negative",
+    "lost_item_id": 1010,
+    "found_item_id": 2012,
+    "category": "无线耳机",
+    "expected_total_score_range": [
+      0.2,
+      0.3
+    ],
+    "time_diff_hours": 30.0,
+    "location_lost": "东湖校区图书馆三楼阅览室",
+    "location_found": "西山校区实验楼三楼实验室",
+    "found_event_time": "2026-10-26T17:33:00",
+    "notes": "类别不同（无线耳机 vs 水杯），时间差约 30 小时，且不在同一校区。",
+    "reference_score": 0.2512,
+    "lost_event_time": "2026-10-25T11:33:00"
+  },
+  {
+    "sample_id": "M008",
+    "label": "negative",
+    "lost_item_id": 1009,
+    "found_item_id": 2021,
+    "category": "无线耳机",
+    "expected_total_score_range": [
+      0.23,
+      0.33
+    ],
+    "time_diff_hours": 72.0,
+    "location_lost": "东湖校区第三食堂门口",
+    "location_found": "西山校区第一食堂一楼门口",
+    "found_event_time": "2026-10-25T08:16:00",
+    "notes": "类别不同（无线耳机 vs 书籍），时间差约 3 天，且不在同一校区。",
+    "reference_score": 0.2838,
+    "lost_event_time": "2026-10-22T08:16:00"
+  },
+  {
+    "sample_id": "M009",
+    "label": "negative",
+    "lost_item_id": 1008,
+    "found_item_id": 2040,
+    "category": "无线耳机",
+    "expected_total_score_range": [
+      0.19,
+      0.29
+    ],
+    "time_diff_hours": 120.0,
+    "location_lost": "东湖校区大学生活动中心一楼服务台",
+    "location_found": "西山校区西区图书室一楼阅览室",
+    "found_event_time": "2026-10-24T17:59:00",
+    "notes": "类别不同（无线耳机 vs 校园卡），时间差约 5 天，且不在同一校区。",
+    "reference_score": 0.2442,
+    "lost_event_time": "2026-10-19T17:59:00"
+  },
+  {
+    "sample_id": "M010",
+    "label": "negative",
+    "lost_item_id": 1007,
+    "found_item_id": 2049,
+    "category": "无线耳机",
+    "expected_total_score_range": [
+      0.19,
+      0.29
+    ],
+    "time_diff_hours": 240.0,
+    "location_lost": "东湖校区体育馆一楼球馆",
+    "location_found": "西山校区工程训练中心二楼车间",
+    "found_event_time": "2026-10-26T14:42:00",
+    "notes": "类别不同（无线耳机 vs 雨伞），时间差约 10 天，且不在同一校区。",
+    "reference_score": 0.2394,
+    "lost_event_time": "2026-10-16T14:42:00"
+  },
+  {
+    "sample_id": "M011",
+    "label": "positive",
+    "lost_item_id": 1011,
+    "found_item_id": 2011,
+    "category": "水杯",
+    "expected_total_score_range": [
+      0.84,
+      1.0
+    ],
+    "time_diff_hours": 1.0,
+    "location_lost": "西山校区第一食堂一楼门口",
+    "location_found": "西山校区工程训练中心门口",
+    "found_event_time": "2026-10-05T15:50:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 1 小时。",
+    "reference_score": 0.9169,
+    "lost_event_time": "2026-10-05T14:50:00"
+  },
+  {
+    "sample_id": "M012",
+    "label": "positive",
+    "lost_item_id": 1013,
+    "found_item_id": 2013,
+    "category": "水杯",
+    "expected_total_score_range": [
+      0.83,
+      0.99
+    ],
+    "time_diff_hours": 3.0,
+    "location_lost": "西山校区三号宿舍楼二楼门口",
+    "location_found": "西山校区第一食堂二楼就餐区",
+    "found_event_time": "2026-10-11T11:24:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 3 小时。",
+    "reference_score": 0.913,
+    "lost_event_time": "2026-10-11T08:24:00"
+  },
+  {
+    "sample_id": "M013",
+    "label": "positive",
+    "lost_item_id": 1015,
+    "found_item_id": 2015,
+    "category": "水杯",
+    "expected_total_score_range": [
+      0.81,
+      0.97
+    ],
+    "time_diff_hours": 8.0,
+    "location_lost": "西山校区西区图书室一楼阅览室",
+    "location_found": "西山校区三号宿舍楼一楼门口",
+    "found_event_time": "2026-10-17T22:58:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 8 小时。",
+    "reference_score": 0.8908,
+    "lost_event_time": "2026-10-17T14:58:00"
+  },
+  {
+    "sample_id": "M014",
+    "label": "positive",
+    "lost_item_id": 1017,
+    "found_item_id": 2017,
+    "category": "水杯",
+    "expected_total_score_range": [
+      0.77,
+      0.93
+    ],
+    "time_diff_hours": 24.0,
+    "location_lost": "东湖校区一号宿舍楼一楼门口",
+    "location_found": "东湖校区第三食堂二楼就餐区",
+    "found_event_time": "2026-10-24T08:32:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 24 小时。",
+    "reference_score": 0.8535,
+    "lost_event_time": "2026-10-23T08:32:00"
+  },
+  {
+    "sample_id": "M015",
+    "label": "hard_negative",
+    "lost_item_id": 1011,
+    "found_item_id": 2014,
+    "category": "水杯",
+    "expected_total_score_range": [
+      0.73,
+      0.85
+    ],
+    "time_diff_hours": 1.0,
+    "location_lost": "东湖校区体育馆一楼球馆",
+    "location_found": "东湖校区大学生活动中心二楼报告厅",
+    "found_event_time": "2026-10-05T15:50:00",
+    "conflict_fields": [
+      "brand",
+      "public_features",
+      "hidden_features"
+    ],
+    "notes": "同类别、同颜色，但品牌/型号与隐藏细节不同（外观相似的另一件物品）。",
+    "lost_view": {
+      "color": "白色",
+      "brand": "膳魔师",
+      "model": "JNL-402",
+      "public_features": [
+        "杯身有贴纸",
+        "杯盖有划痕"
+      ],
+      "hidden_features": [
+        "杯底刻有「TY」两个字母",
+        "杯盖内侧有一圈茶渍"
+      ]
+    },
+    "found_view": {
+      "color": "白色",
+      "brand": "象印",
+      "model": "SM-SA48",
+      "public_features": [
+        "咖啡色杯身贴纸",
+        "杯底有划痕"
+      ],
+      "hidden_features": [
+        "杯底标签写着房间号 512",
+        "杯盖内圈有一道浅划痕"
+      ]
+    },
+    "reference_score": 0.7924,
+    "lost_event_time": "2026-10-05T14:50:00"
+  },
+  {
+    "sample_id": "M016",
+    "label": "hard_negative",
+    "lost_item_id": 1012,
+    "found_item_id": 2015,
+    "category": "水杯",
+    "expected_total_score_range": [
+      0.65,
+      0.77
+    ],
+    "time_diff_hours": 3.0,
+    "location_lost": "西山校区第一食堂一楼门口",
+    "location_found": "西山校区工程训练中心门口",
+    "found_event_time": "2026-10-08T20:07:00",
+    "conflict_fields": [
+      "brand",
+      "public_features",
+      "hidden_features"
+    ],
+    "notes": "同类别、同颜色，但品牌/型号与隐藏细节不同（外观相似的另一件物品）。",
+    "lost_view": {
+      "color": "蓝色",
+      "brand": "乐扣乐扣",
+      "model": "ABF-680",
+      "public_features": [
+        "带吸管",
+        "杯身有卡通图案"
+      ],
+      "hidden_features": [
+        "吸管底部有一个小缺口",
+        "杯身贴纸背面写了宿舍号"
+      ]
+    },
+    "found_view": {
+      "color": "蓝色",
+      "brand": "网易严选",
+      "model": "YH-MUG-01",
+      "public_features": [
+        "马克杯",
+        "手柄有缺口"
+      ],
+      "hidden_features": [
+        "杯底有手写「2023 秋」字样",
+        "杯口内侧有一处小崩瓷"
+      ]
+    },
+    "reference_score": 0.7056,
+    "lost_event_time": "2026-10-08T17:07:00"
+  },
+  {
+    "sample_id": "M017",
+    "label": "negative",
+    "lost_item_id": 1020,
+    "found_item_id": 2022,
+    "category": "水杯",
+    "expected_total_score_range": [
+      0.23,
+      0.33
+    ],
+    "time_diff_hours": 72.0,
+    "location_lost": "东湖校区第三食堂门口",
+    "location_found": "西山校区第一食堂一楼门口",
+    "found_event_time": "2026-10-07T17:23:00",
+    "notes": "类别不同（水杯 vs 书籍），时间差约 3 天，且不在同一校区。",
+    "reference_score": 0.2841,
+    "lost_event_time": "2026-10-04T17:23:00"
+  },
+  {
+    "sample_id": "M018",
+    "label": "negative",
+    "lost_item_id": 1019,
+    "found_item_id": 2031,
+    "category": "水杯",
+    "expected_total_score_range": [
+      0.24,
+      0.34
+    ],
+    "time_diff_hours": 120.0,
+    "location_lost": "东湖校区大学生活动中心一楼服务台",
+    "location_found": "西山校区西区图书室一楼阅览室",
+    "found_event_time": "2026-10-06T14:06:00",
+    "notes": "类别不同（水杯 vs 校园卡），时间差约 5 天，且不在同一校区。",
+    "reference_score": 0.2869,
+    "lost_event_time": "2026-10-01T14:06:00"
+  },
+  {
+    "sample_id": "M019",
+    "label": "negative",
+    "lost_item_id": 1018,
+    "found_item_id": 2050,
+    "category": "水杯",
+    "expected_total_score_range": [
+      0.18,
+      0.28
+    ],
+    "time_diff_hours": 240.0,
+    "location_lost": "东湖校区体育馆一楼球馆",
+    "location_found": "西山校区工程训练中心二楼车间",
+    "found_event_time": "2026-10-08T11:49:00",
+    "notes": "类别不同（水杯 vs 雨伞），时间差约 10 天，且不在同一校区。",
+    "reference_score": 0.2318,
+    "lost_event_time": "2026-09-28T11:49:00"
+  },
+  {
+    "sample_id": "M020",
+    "label": "negative",
+    "lost_item_id": 1017,
+    "found_item_id": 2059,
+    "category": "水杯",
+    "expected_total_score_range": [
+      0.22,
+      0.32
+    ],
+    "time_diff_hours": 30.0,
+    "location_lost": "西山校区三号宿舍楼二楼门口",
+    "location_found": "东湖校区一号宿舍楼一楼门口",
+    "found_event_time": "2026-10-24T14:32:00",
+    "notes": "类别不同（水杯 vs 背包），时间差约 30 小时，且不在同一校区。",
+    "reference_score": 0.2687,
+    "lost_event_time": "2026-10-23T08:32:00"
+  },
+  {
+    "sample_id": "M021",
+    "label": "positive",
+    "lost_item_id": 1021,
+    "found_item_id": 2021,
+    "category": "书籍",
+    "expected_total_score_range": [
+      0.81,
+      0.97
+    ],
+    "time_diff_hours": 3.0,
+    "location_lost": "东湖校区一号宿舍楼一楼门口",
+    "location_found": "东湖校区第三食堂二楼就餐区",
+    "found_event_time": "2026-10-12T11:40:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 3 小时。",
+    "reference_score": 0.8866,
+    "lost_event_time": "2026-10-12T08:40:00"
+  },
+  {
+    "sample_id": "M022",
+    "label": "positive",
+    "lost_item_id": 1023,
+    "found_item_id": 2023,
+    "category": "书籍",
+    "expected_total_score_range": [
+      0.8,
+      0.96
+    ],
+    "time_diff_hours": 8.0,
+    "location_lost": "东湖校区田径场入口",
+    "location_found": "东湖校区体育馆一楼门口",
+    "found_event_time": "2026-10-18T22:14:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 8 小时。",
+    "reference_score": 0.8829,
+    "lost_event_time": "2026-10-18T14:14:00"
+  },
+  {
+    "sample_id": "M023",
+    "label": "positive",
+    "lost_item_id": 1025,
+    "found_item_id": 2025,
+    "category": "书籍",
+    "expected_total_score_range": [
+      0.77,
+      0.93
+    ],
+    "time_diff_hours": 18.0,
+    "location_lost": "东湖校区第三食堂门口",
+    "location_found": "东湖校区第一教学楼门口",
+    "found_event_time": "2026-10-25T02:48:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 18 小时。",
+    "reference_score": 0.8477,
+    "lost_event_time": "2026-10-24T08:48:00"
+  },
+  {
+    "sample_id": "M024",
+    "label": "positive",
+    "lost_item_id": 1027,
+    "found_item_id": 2027,
+    "category": "书籍",
+    "expected_total_score_range": [
+      0.75,
+      0.91
+    ],
+    "time_diff_hours": 24.0,
+    "location_lost": "东湖校区大学生活动中心一楼服务台",
+    "location_found": "东湖校区图书馆一楼门口",
+    "found_event_time": "2026-10-03T14:22:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 24 小时。",
+    "reference_score": 0.8261,
+    "lost_event_time": "2026-10-02T14:22:00"
+  },
+  {
+    "sample_id": "M025",
+    "label": "hard_negative",
+    "lost_item_id": 1021,
+    "found_item_id": 2024,
+    "category": "书籍",
+    "expected_total_score_range": [
+      0.74,
+      0.86
+    ],
+    "time_diff_hours": 3.0,
+    "location_lost": "西山校区三号宿舍楼二楼门口",
+    "location_found": "西山校区第一食堂二楼就餐区",
+    "found_event_time": "2026-10-12T11:40:00",
+    "conflict_fields": [
+      "brand",
+      "public_features",
+      "hidden_features"
+    ],
+    "notes": "同类别、同颜色，但品牌/型号与隐藏细节不同（外观相似的另一件物品）。",
+    "lost_view": {
+      "color": "绿色",
+      "brand": null,
+      "model": null,
+      "public_features": [
+        "书脊有标签",
+        "封面有折痕"
+      ],
+      "hidden_features": [
+        "第 42 页夹有一张公交卡大小的书签",
+        "扉页写着「李某某 2023」"
+      ]
+    },
+    "found_view": {
+      "color": "绿色",
+      "brand": null,
+      "model": null,
+      "public_features": [
+        "红色封面",
+        "书脚有磨损"
+      ],
+      "hidden_features": [
+        "书内夹有一张课程表",
+        "第 15 页边角有咖啡渍"
+      ]
+    },
+    "reference_score": 0.7978,
+    "lost_event_time": "2026-10-12T08:40:00"
+  },
+  {
+    "sample_id": "M026",
+    "label": "hard_negative",
+    "lost_item_id": 1022,
+    "found_item_id": 2025,
+    "category": "书籍",
+    "expected_total_score_range": [
+      0.71,
+      0.83
+    ],
+    "time_diff_hours": 8.0,
+    "location_lost": "西山校区西区图书室一楼阅览室",
+    "location_found": "西山校区三号宿舍楼一楼门口",
+    "found_event_time": "2026-10-15T19:57:00",
+    "conflict_fields": [
+      "brand",
+      "public_features",
+      "hidden_features"
+    ],
+    "notes": "同类别、同颜色，但品牌/型号与隐藏细节不同（外观相似的另一件物品）。",
+    "lost_view": {
+      "color": "蓝色",
+      "brand": null,
+      "model": null,
+      "public_features": [
+        "书角磨损",
+        "封面有胶带"
+      ],
+      "hidden_features": [
+        "书脊内侧写有学号后四位 0421",
+        "第 87 页有荧光笔标记"
+      ]
+    },
+    "found_view": {
+      "color": "蓝色",
+      "brand": "无印良品",
+      "model": null,
+      "public_features": [
+        "皮面笔记本",
+        "绑带有磨损"
+      ],
+      "hidden_features": [
+        "扉页写有一句英文短句",
+        "内页夹着一张电影票根"
+      ]
+    },
+    "reference_score": 0.7679,
+    "lost_event_time": "2026-10-15T11:57:00"
+  },
+  {
+    "sample_id": "M027",
+    "label": "negative",
+    "lost_item_id": 1030,
+    "found_item_id": 2032,
+    "category": "书籍",
+    "expected_total_score_range": [
+      0.34,
+      0.44
+    ],
+    "time_diff_hours": 120.0,
+    "location_lost": "东湖校区大学生活动中心一楼服务台",
+    "location_found": "西山校区西区图书室一楼阅览室",
+    "found_event_time": "2026-10-16T11:13:00",
+    "notes": "类别不同（书籍 vs 校园卡），时间差约 5 天，且不在同一校区。",
+    "reference_score": 0.3857,
+    "lost_event_time": "2026-10-11T11:13:00"
+  },
+  {
+    "sample_id": "M028",
+    "label": "negative",
+    "lost_item_id": 1029,
+    "found_item_id": 2041,
+    "category": "书籍",
+    "expected_total_score_range": [
+      0.25,
+      0.35
+    ],
+    "time_diff_hours": 240.0,
+    "location_lost": "东湖校区体育馆一楼球馆",
+    "location_found": "西山校区工程训练中心二楼车间",
+    "found_event_time": "2026-10-18T08:56:00",
+    "notes": "类别不同（书籍 vs 雨伞），时间差约 10 天，且不在同一校区。",
+    "reference_score": 0.3004,
+    "lost_event_time": "2026-10-08T08:56:00"
+  },
+  {
+    "sample_id": "M029",
+    "label": "negative",
+    "lost_item_id": 1028,
+    "found_item_id": 2060,
+    "category": "书籍",
+    "expected_total_score_range": [
+      0.22,
+      0.32
+    ],
+    "time_diff_hours": 30.0,
+    "location_lost": "西山校区三号宿舍楼二楼门口",
+    "location_found": "东湖校区一号宿舍楼一楼门口",
+    "found_event_time": "2026-10-06T23:39:00",
+    "notes": "类别不同（书籍 vs 背包），时间差约 30 小时，且不在同一校区。",
+    "reference_score": 0.2707,
+    "lost_event_time": "2026-10-05T17:39:00"
+  },
+  {
+    "sample_id": "M030",
+    "label": "negative",
+    "lost_item_id": 1027,
+    "found_item_id": 2009,
+    "category": "书籍",
+    "expected_total_score_range": [
+      0.25,
+      0.35
+    ],
+    "time_diff_hours": 72.0,
+    "location_lost": "西山校区校医院一楼服务台",
+    "location_found": "东湖校区田径场入口",
+    "found_event_time": "2026-10-05T14:22:00",
+    "notes": "类别不同（书籍 vs 无线耳机），时间差约 3 天，且不在同一校区。",
+    "reference_score": 0.2976,
+    "lost_event_time": "2026-10-02T14:22:00"
+  },
+  {
+    "sample_id": "M031",
+    "label": "positive",
+    "lost_item_id": 1031,
+    "found_item_id": 2031,
+    "category": "校园卡",
+    "expected_total_score_range": [
+      0.79,
+      0.95
+    ],
+    "time_diff_hours": 8.0,
+    "location_lost": "东湖校区大学生活动中心一楼服务台",
+    "location_found": "东湖校区图书馆一楼门口",
+    "found_event_time": "2026-10-19T22:30:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 8 小时。",
+    "reference_score": 0.8735,
+    "lost_event_time": "2026-10-19T14:30:00"
+  },
+  {
+    "sample_id": "M032",
+    "label": "positive",
+    "lost_item_id": 1033,
+    "found_item_id": 2033,
+    "category": "校园卡",
+    "expected_total_score_range": [
+      0.74,
+      0.9
+    ],
+    "time_diff_hours": 18.0,
+    "location_lost": "东湖校区体育馆一楼球馆",
+    "location_found": "东湖校区大学生活动中心二楼报告厅",
+    "found_event_time": "2026-10-26T02:04:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 18 小时。",
+    "reference_score": 0.8238,
+    "lost_event_time": "2026-10-25T08:04:00"
+  },
+  {
+    "sample_id": "M033",
+    "label": "positive",
+    "lost_item_id": 1035,
+    "found_item_id": 2035,
+    "category": "校园卡",
+    "expected_total_score_range": [
+      0.75,
+      0.91
+    ],
+    "time_diff_hours": 24.0,
+    "location_lost": "西山校区第一食堂一楼门口",
+    "location_found": "西山校区工程训练中心门口",
+    "found_event_time": "2026-10-04T14:38:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 24 小时。",
+    "reference_score": 0.8311,
+    "lost_event_time": "2026-10-03T14:38:00"
+  },
+  {
+    "sample_id": "M034",
+    "label": "positive",
+    "lost_item_id": 1037,
+    "found_item_id": 2037,
+    "category": "校园卡",
+    "expected_total_score_range": [
+      0.75,
+      0.91
+    ],
+    "time_diff_hours": 24.0,
+    "location_lost": "西山校区三号宿舍楼二楼门口",
+    "location_found": "西山校区第一食堂二楼就餐区",
+    "found_event_time": "2026-10-10T08:12:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 24 小时。",
+    "reference_score": 0.8263,
+    "lost_event_time": "2026-10-09T08:12:00"
+  },
+  {
+    "sample_id": "M035",
+    "label": "hard_negative",
+    "lost_item_id": 1031,
+    "found_item_id": 2034,
+    "category": "校园卡",
+    "expected_total_score_range": [
+      0.71,
+      0.83
+    ],
+    "time_diff_hours": 8.0,
+    "location_lost": "东湖校区一号宿舍楼一楼门口",
+    "location_found": "东湖校区第三食堂二楼就餐区",
+    "found_event_time": "2026-10-19T22:30:00",
+    "conflict_fields": [
+      "brand",
+      "public_features",
+      "hidden_features"
+    ],
+    "notes": "同类别、同颜色，但品牌/型号与隐藏细节不同（外观相似的另一件物品）。",
+    "lost_view": {
+      "color": "蓝色",
+      "brand": null,
+      "model": null,
+      "public_features": [
+        "卡面有透明卡套",
+        "卡套有划痕"
+      ],
+      "hidden_features": [
+        "学号 2023XXXXXX，姓名 张某某",
+        "卡套背面贴有一张校徽贴纸"
+      ]
+    },
+    "found_view": {
+      "color": "蓝色",
+      "brand": null,
+      "model": null,
+      "public_features": [
+        "红色卡套",
+        "卡面有划痕"
+      ],
+      "hidden_features": [
+        "学号 2021XXXXXX，姓名 刘某某",
+        "卡套内侧写了手机号后四位"
+      ]
+    },
+    "reference_score": 0.7718,
+    "lost_event_time": "2026-10-19T14:30:00"
+  },
+  {
+    "sample_id": "M036",
+    "label": "hard_negative",
+    "lost_item_id": 1032,
+    "found_item_id": 2035,
+    "category": "校园卡",
+    "expected_total_score_range": [
+      0.72,
+      0.84
+    ],
+    "time_diff_hours": 0.5,
+    "location_lost": "东湖校区田径场入口",
+    "location_found": "东湖校区体育馆一楼门口",
+    "found_event_time": "2026-10-22T18:17:00",
+    "conflict_fields": [
+      "brand",
+      "public_features",
+      "hidden_features"
+    ],
+    "notes": "同类别、同颜色，但品牌/型号与隐藏细节不同（外观相似的另一件物品）。",
+    "lost_view": {
+      "color": "白色",
+      "brand": null,
+      "model": null,
+      "public_features": [
+        "卡面有姓名贴",
+        "边缘有磨损"
+      ],
+      "hidden_features": [
+        "学号 2022XXXXXX，姓名 王某某",
+        "卡片背面写有宿舍楼号"
+      ]
+    },
+    "found_view": {
+      "color": "白色",
+      "brand": null,
+      "model": null,
+      "public_features": [
+        "黄色卡套",
+        "贴有卡通表情贴纸"
+      ],
+      "hidden_features": [
+        "学号 2023XXXXXX，姓名 赵某某",
+        "卡套背面印有社团标识"
+      ]
+    },
+    "reference_score": 0.7804,
+    "lost_event_time": "2026-10-22T17:47:00"
+  },
+  {
+    "sample_id": "M037",
+    "label": "negative",
+    "lost_item_id": 1040,
+    "found_item_id": 2042,
+    "category": "校园卡",
+    "expected_total_score_range": [
+      0.23,
+      0.33
+    ],
+    "time_diff_hours": 240.0,
+    "location_lost": "东湖校区体育馆一楼球馆",
+    "location_found": "西山校区工程训练中心二楼车间",
+    "found_event_time": "2026-10-28T17:03:00",
+    "notes": "类别不同（校园卡 vs 雨伞），时间差约 10 天，且不在同一校区。",
+    "reference_score": 0.2752,
+    "lost_event_time": "2026-10-18T17:03:00"
+  },
+  {
+    "sample_id": "M038",
+    "label": "negative",
+    "lost_item_id": 1039,
+    "found_item_id": 2051,
+    "category": "校园卡",
+    "expected_total_score_range": [
+      0.22,
+      0.32
+    ],
+    "time_diff_hours": 30.0,
+    "location_lost": "西山校区三号宿舍楼二楼门口",
+    "location_found": "东湖校区一号宿舍楼一楼门口",
+    "found_event_time": "2026-10-16T20:46:00",
+    "notes": "类别不同（校园卡 vs 背包），时间差约 30 小时，且不在同一校区。",
+    "reference_score": 0.2723,
+    "lost_event_time": "2026-10-15T14:46:00"
+  },
+  {
+    "sample_id": "M039",
+    "label": "negative",
+    "lost_item_id": 1038,
+    "found_item_id": 2010,
+    "category": "校园卡",
+    "expected_total_score_range": [
+      0.25,
+      0.35
+    ],
+    "time_diff_hours": 72.0,
+    "location_lost": "西山校区校医院一楼服务台",
+    "location_found": "东湖校区田径场入口",
+    "found_event_time": "2026-10-15T11:29:00",
+    "notes": "类别不同（校园卡 vs 无线耳机），时间差约 3 天，且不在同一校区。",
+    "reference_score": 0.2957,
+    "lost_event_time": "2026-10-12T11:29:00"
+  },
+  {
+    "sample_id": "M040",
+    "label": "negative",
+    "lost_item_id": 1037,
+    "found_item_id": 2019,
+    "category": "校园卡",
+    "expected_total_score_range": [
+      0.21,
+      0.31
+    ],
+    "time_diff_hours": 120.0,
+    "location_lost": "东湖校区第一教学楼二楼教室",
+    "location_found": "西山校区实验楼五楼",
+    "found_event_time": "2026-10-14T08:12:00",
+    "notes": "类别不同（校园卡 vs 水杯），时间差约 5 天，且不在同一校区。",
+    "reference_score": 0.2636,
+    "lost_event_time": "2026-10-09T08:12:00"
+  },
+  {
+    "sample_id": "M041",
+    "label": "positive",
+    "lost_item_id": 1041,
+    "found_item_id": 2041,
+    "category": "雨伞",
+    "expected_total_score_range": [
+      0.78,
+      0.94
+    ],
+    "time_diff_hours": 18.0,
+    "location_lost": "西山校区三号宿舍楼二楼门口",
+    "location_found": "西山校区第一食堂二楼就餐区",
+    "found_event_time": "2026-09-29T02:20:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 18 小时。",
+    "reference_score": 0.8613,
+    "lost_event_time": "2026-09-28T08:20:00"
+  },
+  {
+    "sample_id": "M042",
+    "label": "positive",
+    "lost_item_id": 1043,
+    "found_item_id": 2043,
+    "category": "雨伞",
+    "expected_total_score_range": [
+      0.74,
+      0.9
+    ],
+    "time_diff_hours": 24.0,
+    "location_lost": "西山校区西区图书室一楼阅览室",
+    "location_found": "西山校区三号宿舍楼一楼门口",
+    "found_event_time": "2026-10-05T14:54:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 24 小时。",
+    "reference_score": 0.8247,
+    "lost_event_time": "2026-10-04T14:54:00"
+  },
+  {
+    "sample_id": "M043",
+    "label": "positive",
+    "lost_item_id": 1045,
+    "found_item_id": 2045,
+    "category": "雨伞",
+    "expected_total_score_range": [
+      0.81,
+      0.97
+    ],
+    "time_diff_hours": 0.5,
+    "location_lost": "东湖校区一号宿舍楼一楼门口",
+    "location_found": "东湖校区第三食堂二楼就餐区",
+    "found_event_time": "2026-10-10T08:58:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 30 分钟。",
+    "reference_score": 0.8918,
+    "lost_event_time": "2026-10-10T08:28:00"
+  },
+  {
+    "sample_id": "M044",
+    "label": "positive",
+    "lost_item_id": 1047,
+    "found_item_id": 2047,
+    "category": "雨伞",
+    "expected_total_score_range": [
+      0.78,
+      0.94
+    ],
+    "time_diff_hours": 24.0,
+    "location_lost": "东湖校区田径场入口",
+    "location_found": "东湖校区体育馆一楼门口",
+    "found_event_time": "2026-10-17T14:02:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 24 小时。",
+    "reference_score": 0.8575,
+    "lost_event_time": "2026-10-16T14:02:00"
+  },
+  {
+    "sample_id": "M045",
+    "label": "hard_negative",
+    "lost_item_id": 1041,
+    "found_item_id": 2044,
+    "category": "雨伞",
+    "expected_total_score_range": [
+      0.72,
+      0.84
+    ],
+    "time_diff_hours": 0.5,
+    "location_lost": "东湖校区第三食堂门口",
+    "location_found": "东湖校区第一教学楼门口",
+    "found_event_time": "2026-09-28T08:50:00",
+    "conflict_fields": [
+      "brand",
+      "public_features",
+      "hidden_features"
+    ],
+    "notes": "同类别、同颜色，但品牌/型号与隐藏细节不同（外观相似的另一件物品）。",
+    "lost_view": {
+      "color": "黑色",
+      "brand": "天堂伞",
+      "model": "3311E",
+      "public_features": [
+        "折叠伞",
+        "伞面有磨损"
+      ],
+      "hidden_features": [
+        "伞骨第三节有一处弯折",
+        "伞柄内侧刻有「L.Y.」缩写"
+      ]
+    },
+    "found_view": {
+      "color": "黑色",
+      "brand": "迪卡侬",
+      "model": "QUECHUA-100",
+      "public_features": [
+        "自动伞",
+        "伞柄有划痕"
+      ],
+      "hidden_features": [
+        "伞柄底部贴有条形码残胶",
+        "伞面有一处缝补痕迹"
+      ]
+    },
+    "reference_score": 0.7758,
+    "lost_event_time": "2026-09-28T08:20:00"
+  },
+  {
+    "sample_id": "M046",
+    "label": "hard_negative",
+    "lost_item_id": 1042,
+    "found_item_id": 2045,
+    "category": "雨伞",
+    "expected_total_score_range": [
+      0.73,
+      0.85
+    ],
+    "time_diff_hours": 1.0,
+    "location_lost": "东湖校区大学生活动中心一楼服务台",
+    "location_found": "东湖校区图书馆一楼门口",
+    "found_event_time": "2026-10-01T12:37:00",
+    "conflict_fields": [
+      "brand",
+      "public_features",
+      "hidden_features"
+    ],
+    "notes": "同类别、同颜色，但品牌/型号与隐藏细节不同（外观相似的另一件物品）。",
+    "lost_view": {
+      "color": "蓝色",
+      "brand": "天堂伞",
+      "model": "336T",
+      "public_features": [
+        "长柄伞",
+        "伞面有褪色"
+      ],
+      "hidden_features": [
+        "伞柄缠绕了一圈蓝色胶带",
+        "伞面内侧写有姓名"
+      ]
+    },
+    "found_view": {
+      "color": "蓝色",
+      "brand": null,
+      "model": null,
+      "public_features": [
+        "折叠伞",
+        "伞带松脱"
+      ],
+      "hidden_features": [
+        "伞面内侧写有「2023 校运会」",
+        "伞柄挂着一个木质挂件"
+      ]
+    },
+    "reference_score": 0.7903,
+    "lost_event_time": "2026-10-01T11:37:00"
+  },
+  {
+    "sample_id": "M047",
+    "label": "negative",
+    "lost_item_id": 1050,
+    "found_item_id": 2052,
+    "category": "雨伞",
+    "expected_total_score_range": [
+      0.34,
+      0.44
+    ],
+    "time_diff_hours": 30.0,
+    "location_lost": "西山校区三号宿舍楼二楼门口",
+    "location_found": "东湖校区一号宿舍楼一楼门口",
+    "found_event_time": "2026-10-26T17:53:00",
+    "notes": "类别不同（雨伞 vs 背包），时间差约 30 小时，且不在同一校区。",
+    "reference_score": 0.385,
+    "lost_event_time": "2026-10-25T11:53:00"
+  },
+  {
+    "sample_id": "M048",
+    "label": "negative",
+    "lost_item_id": 1049,
+    "found_item_id": 2001,
+    "category": "雨伞",
+    "expected_total_score_range": [
+      0.2,
+      0.3
+    ],
+    "time_diff_hours": 72.0,
+    "location_lost": "西山校区校医院一楼服务台",
+    "location_found": "东湖校区田径场入口",
+    "found_event_time": "2026-10-25T08:36:00",
+    "notes": "类别不同（雨伞 vs 无线耳机），时间差约 3 天，且不在同一校区。",
+    "reference_score": 0.2509,
+    "lost_event_time": "2026-10-22T08:36:00"
+  },
+  {
+    "sample_id": "M049",
+    "label": "negative",
+    "lost_item_id": 1048,
+    "found_item_id": 2020,
+    "category": "雨伞",
+    "expected_total_score_range": [
+      0.28,
+      0.38
+    ],
+    "time_diff_hours": 120.0,
+    "location_lost": "东湖校区第一教学楼二楼教室",
+    "location_found": "西山校区实验楼五楼",
+    "found_event_time": "2026-10-24T17:19:00",
+    "notes": "类别不同（雨伞 vs 水杯），时间差约 5 天，且不在同一校区。",
+    "reference_score": 0.328,
+    "lost_event_time": "2026-10-19T17:19:00"
+  },
+  {
+    "sample_id": "M050",
+    "label": "negative",
+    "lost_item_id": 1047,
+    "found_item_id": 2029,
+    "category": "雨伞",
+    "expected_total_score_range": [
+      0.2,
+      0.3
+    ],
+    "time_diff_hours": 240.0,
+    "location_lost": "西山校区西区图书室二楼阅览室",
+    "location_found": "东湖校区图书馆四楼阅览室",
+    "found_event_time": "2026-10-26T14:02:00",
+    "notes": "类别不同（雨伞 vs 书籍），时间差约 10 天，且不在同一校区。",
+    "reference_score": 0.2549,
+    "lost_event_time": "2026-10-16T14:02:00"
+  },
+  {
+    "sample_id": "M051",
+    "label": "positive",
+    "lost_item_id": 1051,
+    "found_item_id": 2051,
+    "category": "背包",
+    "expected_total_score_range": [
+      0.78,
+      0.94
+    ],
+    "time_diff_hours": 24.0,
+    "location_lost": "东湖校区田径场入口",
+    "location_found": "东湖校区体育馆一楼门口",
+    "found_event_time": "2026-10-06T14:10:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 24 小时。",
+    "reference_score": 0.8631,
+    "lost_event_time": "2026-10-05T14:10:00"
+  },
+  {
+    "sample_id": "M052",
+    "label": "positive",
+    "lost_item_id": 1053,
+    "found_item_id": 2053,
+    "category": "背包",
+    "expected_total_score_range": [
+      0.8,
+      0.96
+    ],
+    "time_diff_hours": 0.5,
+    "location_lost": "东湖校区第三食堂门口",
+    "location_found": "东湖校区第一教学楼门口",
+    "found_event_time": "2026-10-11T09:14:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 30 分钟。",
+    "reference_score": 0.8797,
+    "lost_event_time": "2026-10-11T08:44:00"
+  },
+  {
+    "sample_id": "M053",
+    "label": "positive",
+    "lost_item_id": 1055,
+    "found_item_id": 2055,
+    "category": "背包",
+    "expected_total_score_range": [
+      0.81,
+      0.97
+    ],
+    "time_diff_hours": 1.0,
+    "location_lost": "东湖校区大学生活动中心一楼服务台",
+    "location_found": "东湖校区图书馆一楼门口",
+    "found_event_time": "2026-10-17T15:18:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 1 小时。",
+    "reference_score": 0.8907,
+    "lost_event_time": "2026-10-17T14:18:00"
+  },
+  {
+    "sample_id": "M054",
+    "label": "positive",
+    "lost_item_id": 1057,
+    "found_item_id": 2057,
+    "category": "背包",
+    "expected_total_score_range": [
+      0.78,
+      0.94
+    ],
+    "time_diff_hours": 24.0,
+    "location_lost": "东湖校区体育馆一楼球馆",
+    "location_found": "东湖校区大学生活动中心二楼报告厅",
+    "found_event_time": "2026-10-24T08:52:00",
+    "notes": "同一件物品：类别、颜色、品牌、公开特征均一致，登记时间相差约 24 小时。",
+    "reference_score": 0.8623,
+    "lost_event_time": "2026-10-23T08:52:00"
+  },
+  {
+    "sample_id": "M055",
+    "label": "hard_negative",
+    "lost_item_id": 1051,
+    "found_item_id": 2054,
+    "category": "背包",
+    "expected_total_score_range": [
+      0.7,
+      0.82
+    ],
+    "time_diff_hours": 1.0,
+    "location_lost": "东湖校区体育馆一楼球馆",
+    "location_found": "东湖校区大学生活动中心二楼报告厅",
+    "found_event_time": "2026-10-05T15:10:00",
+    "conflict_fields": [
+      "brand",
+      "public_features",
+      "hidden_features"
+    ],
+    "notes": "同类别、同颜色，但品牌/型号与隐藏细节不同（外观相似的另一件物品）。",
+    "lost_view": {
+      "color": "黑色",
+      "brand": "迪卡侬",
+      "model": "NH500",
+      "public_features": [
+        "双肩包",
+        "肩带处有磨损"
+      ],
+      "hidden_features": [
+        "主袋内衬有一道蓝色墨水渍",
+        "肩带内侧写有姓名缩写"
+      ]
+    },
+    "found_view": {
+      "color": "黑色",
+      "brand": "无印良品",
+      "model": "MJ-BAG-02",
+      "public_features": [
+        "皮质背包",
+        "扣带有磨损"
+      ],
+      "hidden_features": [
+        "内衬写有「2019.09」字样",
+        "侧袋有一个皮质小挂件"
+      ]
+    },
+    "reference_score": 0.7623,
+    "lost_event_time": "2026-10-05T14:10:00"
+  },
+  {
+    "sample_id": "M056",
+    "label": "hard_negative",
+    "lost_item_id": 1052,
+    "found_item_id": 2055,
+    "category": "背包",
+    "expected_total_score_range": [
+      0.72,
+      0.84
+    ],
+    "time_diff_hours": 3.0,
+    "location_lost": "西山校区第一食堂一楼门口",
+    "location_found": "西山校区工程训练中心门口",
+    "found_event_time": "2026-10-08T20:27:00",
+    "conflict_fields": [
+      "brand",
+      "public_features",
+      "hidden_features"
+    ],
+    "notes": "同类别、同颜色，但品牌/型号与隐藏细节不同（外观相似的另一件物品）。",
+    "lost_view": {
+      "color": "灰色",
+      "brand": "小米",
+      "model": "Mi Casual",
+      "public_features": [
+        "双肩包",
+        "拉链头有划痕"
+      ],
+      "hidden_features": [
+        "侧袋里有一张旧电影票根",
+        "拉链头上系着一根红绳"
+      ]
+    },
+    "found_view": {
+      "color": "灰色",
+      "brand": null,
+      "model": null,
+      "public_features": [
+        "登山包",
+        "腰带有磨损"
+      ],
+      "hidden_features": [
+        "腰包内有一枚校徽徽章",
+        "顶包拉链上挂着一个登山扣"
+      ]
+    },
+    "reference_score": 0.7771,
+    "lost_event_time": "2026-10-08T17:27:00"
+  },
+  {
+    "sample_id": "M057",
+    "label": "negative",
+    "lost_item_id": 1060,
+    "found_item_id": 2002,
+    "category": "背包",
+    "expected_total_score_range": [
+      0.29,
+      0.39
+    ],
+    "time_diff_hours": 72.0,
+    "location_lost": "西山校区校医院一楼服务台",
+    "location_found": "东湖校区田径场入口",
+    "found_event_time": "2026-10-07T17:43:00",
+    "notes": "类别不同（背包 vs 无线耳机），时间差约 3 天，且不在同一校区。",
+    "reference_score": 0.3412,
+    "lost_event_time": "2026-10-04T17:43:00"
+  },
+  {
+    "sample_id": "M058",
+    "label": "negative",
+    "lost_item_id": 1059,
+    "found_item_id": 2011,
+    "category": "背包",
+    "expected_total_score_range": [
+      0.17,
+      0.27
+    ],
+    "time_diff_hours": 120.0,
+    "location_lost": "东湖校区第一教学楼二楼教室",
+    "location_found": "西山校区实验楼五楼",
+    "found_event_time": "2026-10-06T14:26:00",
+    "notes": "类别不同（背包 vs 水杯），时间差约 5 天，且不在同一校区。",
+    "reference_score": 0.2209,
+    "lost_event_time": "2026-10-01T14:26:00"
+  },
+  {
+    "sample_id": "M059",
+    "label": "negative",
+    "lost_item_id": 1058,
+    "found_item_id": 2030,
+    "category": "背包",
+    "expected_total_score_range": [
+      0.2,
+      0.3
+    ],
+    "time_diff_hours": 240.0,
+    "location_lost": "西山校区西区图书室二楼阅览室",
+    "location_found": "东湖校区图书馆四楼阅览室",
+    "found_event_time": "2026-10-08T11:09:00",
+    "notes": "类别不同（背包 vs 书籍），时间差约 10 天，且不在同一校区。",
+    "reference_score": 0.2492,
+    "lost_event_time": "2026-09-28T11:09:00"
+  },
+  {
+    "sample_id": "M060",
+    "label": "negative",
+    "lost_item_id": 1057,
+    "found_item_id": 2039,
+    "category": "背包",
+    "expected_total_score_range": [
+      0.28,
+      0.38
+    ],
+    "time_diff_hours": 30.0,
+    "location_lost": "东湖校区图书馆三楼阅览室",
+    "location_found": "西山校区实验楼三楼实验室",
+    "found_event_time": "2026-10-24T14:52:00",
+    "notes": "类别不同（背包 vs 校园卡），时间差约 30 小时，且不在同一校区。",
+    "reference_score": 0.33,
+    "lost_event_time": "2026-10-23T08:52:00"
+  }
+]

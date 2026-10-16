@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "model_version": "baseline-1.0",
+    "dataset_version": "demo-2026.09.30",
+    "executed_at": "2026-10-13T19:19:34+08:00",
+    "seed": 20260930,
+    "eval_split": "all",
+    "top_k": 5,
+    "weights": {
+      "category": 0.2,
+      "text": 0.25,
+      "image": 0.2,
+      "time": 0.15,
+      "location": 0.15,
+      "brand_model": 0.05
+    },
+    "threshold": "MATCH_MIN_DISPLAY_SCORE=0.35",
+    "split": {
+      "train": 72,
+      "val": 24,
+      "test": 24
+    }
+  },
+  "experiments": {
+    "A": {
+      "title": "仅类别/关键词",
+      "description": "只用类别维度，检验「类别过滤」本身的检索能力",
+      "dimensions": [
+        "category"
+      ],
+      "raw_weights": {
+        "category": 0.2
+      },
+      "normalized_weights": {
+        "category": 1.0
+      },
+      "weight_sum": 1.0,
+      "Recall@1": 0.25,
+      "Recall@5": 0.75,
+      "Precision@1": 0.25,
+      "MRR": 0.419048,
+      "区分准确率": 1.0,
+      "区分准确率_vs_hard_negative": 1.0,
+      "queries": 24,
+      "hit_count": 24,
+      "miss_count": 0,
+      "Recall@1_vs_A_abs": 0.0,
+      "Recall@1_vs_A_rel": 0.0,
+      "Recall@5_vs_A_abs": 0.0,
+      "Recall@5_vs_A_rel": 0.0,
+      "MRR_vs_A_abs": 0.0,
+      "MRR_vs_A_rel": 0.0
+    },
+    "B": {
+      "title": "类别 + 文本属性",
+      "description": "加入文本/公开属性比对，检验细节描述的贡献",
+      "dimensions": [
+        "category",
+        "text"
+      ],
+      "raw_weights": {
+        "category": 0.2,
+        "text": 0.25
+      },
+      "normalized_weights": {
+        "category": 0.44444444,
+        "text": 0.55555556
+      },
+      "weight_sum": 1.0,
+      "Recall@1": 0.75,
+      "Recall@5": 1.0,
+      "Precision@1": 0.75,
+      "MRR": 0.875,
+      "区分准确率": 1.0,
+      "区分准确率_vs_hard_negative": 1.0,
+      "queries": 24,
+      "hit_count": 24,
+      "miss_count": 0,
+      "Recall@1_vs_A_abs": 0.5,
+      "Recall@1_vs_A_rel": 2.0,
+      "Recall@5_vs_A_abs": 0.25,
+      "Recall@5_vs_A_rel": 0.333333,
+      "MRR_vs_A_abs": 0.455952,
+      "MRR_vs_A_rel": 1.088066
+    },
+    "C": {
+      "title": "类别 + 文本 + 时间地点",
+      "description": "在 B 的基础上加入时间与地点合理度",
+      "dimensions": [
+        "category",
+        "text",
+        "time",
+        "location"
+      ],
+      "raw_weights": {
+        "category": 0.2,
+        "text": 0.25,
+        "time": 0.15,
+        "location": 0.15
+      },
+      "normalized_weights": {
+        "category": 0.26666667,
+        "text": 0.33333333,
+        "time": 0.2,
+        "location": 0.2
+      },
+      "weight_sum": 1.0,
+      "Recall@1": 1.0,
+      "Recall@5": 1.0,
+      "Precision@1": 1.0,
+      "MRR": 1.0,
+      "区分准确率": 1.0,
+      "区分准确率_vs_hard_negative": 1.0,
+      "queries": 24,
+      "hit_count": 24,
+      "miss_count": 0,
+      "Recall@1_vs_A_abs": 0.75,
+      "Recall@1_vs_A_rel": 3.0,
+      "Recall@5_vs_A_abs": 0.25,
+      "Recall@5_vs_A_rel": 0.333333,
+      "MRR_vs_A_abs": 0.580952,
+      "MRR_vs_A_rel": 1.386361
+    },
+    "D": {
+      "title": "完整模型（图文 + 时间地点 + 类别 + 属性）",
+      "description": "契约冻结的六维权重，等价于 MatchEngine 的 total_score",
+      "dimensions": [
+        "category",
+        "text",
+        "image",
+        "time",
+        "location",
+        "brand_model"
+      ],
+      "raw_weights": {
+        "category": 0.2,
+        "text": 0.25,
+        "image": 0.2,
+        "time": 0.15,
+        "location": 0.15,
+        "brand_model": 0.05
+      },
+      "normalized_weights": {
+        "category": 0.2,
+        "text": 0.25,
+        "image": 0.2,
+        "time": 0.15,
+        "location": 0.15,
+        "brand_model": 0.05
+      },
+      "weight_sum": 1.0,
+      "Recall@1": 1.0,
+      "Recall@5": 1.0,
+      "Precision@1": 1.0,
+      "MRR": 1.0,
+      "区分准确率": 1.0,
+      "区分准确率_vs_hard_negative": 1.0,
+      "queries": 24,
+      "hit_count": 24,
+      "miss_count": 0,
+      "Recall@1_vs_A_abs": 0.75,
+      "Recall@1_vs_A_rel": 3.0,
+      "Recall@5_vs_A_abs": 0.25,
+      "Recall@5_vs_A_rel": 0.333333,
+      "MRR_vs_A_abs": 0.580952,
+      "MRR_vs_A_rel": 1.386361
+    }
+  },
+  "order": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "consistency": {
+    "D_recomputed_equals_engine_total": true,
+    "max_abs_delta": 0.0,
+    "tolerance": 1e-09,
+    "adjustments_note": "config/matching.yaml 的 adjustments 全为 0.0，因此完整模型总分严格等于六维加权和，D 组重算与 total_score 完全一致。"
+  },
+  "notes": [
+    "A/B/C/D 只使用维度子集，权重按剩余维度重新归一化，总分仍在 [0,1]。",
+    "消融分数由 engine.match_pair 的六维分重算得到，不修改 matcher 代码。",
+    "消融单调性不强制成立；脚本如实输出，不做任何权重调优掩盖。",
+    "四组共用同一次 match_pair 结果（六维分一次算完，四组各取子集重算），因此选定任一组都不会改变其余组的数值，跨组对比等价于同一次运行。",
+    "本文件不含任何隐藏特征内容与标准答案。"
+  ]
+}
