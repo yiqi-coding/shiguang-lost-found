@@ -1,0 +1,266 @@
+# =============================================================================
+# 拾光 · 校园地点层级表（虚构校园，无任何真实机构信息）
+# -----------------------------------------------------------------------------
+# 结构：campus → buildings → floors → spots
+#   - code            唯一编码，用于评分时比较层级
+#   - aliases         中文别名（解析函数按「最长别名优先」匹配）
+#   - adjacent_buildings  相邻建筑关系（互为相邻；解析时会自动补全对称关系）
+#   - adjacent_campuses   相邻校区（下同）
+# 地点解析：app/locations.py 只读本文件的 campus/building/floor/spot 词表，
+#          解析不出任何层级 → 视为 unknown（中性分），绝不抛异常。
+# 评分：output.tiers 只在这里定义，代码只做「tier → score」查表。
+# =============================================================================
+
+version: "1.0"
+campus_name: "拾光大学（虚构）"
+note: "全部校区、建筑、楼层、地点点均为演示用虚构信息，与任何真实校园无关。"
+
+# -----------------------------------------------------------------------------
+# 一、层级表
+# -----------------------------------------------------------------------------
+campuses:
+  - code: east
+    name: 东湖校区
+    aliases: [东湖, 东区, 东湖校区]
+    adjacent_campuses: [west]
+    buildings:
+      - code: library
+        name: 图书馆
+        aliases: [图书馆, 老图书馆, 图书馆主楼]
+        adjacent_buildings: [teaching_a, student_center]
+        floors:
+          - {code: "1", name: 一楼, aliases: [一楼, 一层, 1楼, 1层, F1]}
+          - {code: "2", name: 二楼, aliases: [二楼, 二层, 2楼, 2层, F2]}
+          - {code: "3", name: 三楼, aliases: [三楼, 三层, 3楼, 3层, F3]}
+          - {code: "4", name: 四楼, aliases: [四楼, 四层, 4楼, 4层, F4]}
+        spots:
+          - {code: reading_room, name: 阅览室, aliases: [阅览室, 自习区, 自习室, 阅读区]}
+          - {code: service_desk, name: 服务台, aliases: [服务台, 前台, 借还处, 咨询台]}
+          - {code: entrance, name: 门口, aliases: [门口, 大门, 出入口, 正门]}
+          - {code: elevator, name: 电梯口, aliases: [电梯口, 电梯, 楼梯口, 楼梯间]}
+      - code: teaching_a
+        name: 第一教学楼
+        aliases: [第一教学楼, 一教, 教一, 一教学楼]
+        adjacent_buildings: [library, teaching_b, canteen_3]
+        floors:
+          - {code: "1", name: 一楼, aliases: [一楼, 一层, 1楼, 1层]}
+          - {code: "2", name: 二楼, aliases: [二楼, 二层, 2楼, 2层]}
+          - {code: "3", name: 三楼, aliases: [三楼, 三层, 3楼, 3层]}
+          - {code: "4", name: 四楼, aliases: [四楼, 四层, 4楼, 4层]}
+        spots:
+          - {code: classroom, name: 教室, aliases: [教室, 大教室, 阶梯教室, 自习教室]}
+          - {code: entrance, name: 门口, aliases: [门口, 大门, 出入口]}
+          - {code: corridor, name: 走廊, aliases: [走廊, 楼道, 过道]}
+      - code: teaching_b
+        name: 第二教学楼
+        aliases: [第二教学楼, 二教, 教二, 二教学楼]
+        adjacent_buildings: [teaching_a, canteen_3]
+        floors:
+          - {code: "1", name: 一楼, aliases: [一楼, 一层, 1楼, 1层]}
+          - {code: "2", name: 二楼, aliases: [二楼, 二层, 2楼, 2层]}
+          - {code: "3", name: 三楼, aliases: [三楼, 三层, 3楼, 3层]}
+        spots:
+          - {code: classroom, name: 教室, aliases: [教室, 大教室, 阶梯教室]}
+          - {code: entrance, name: 门口, aliases: [门口, 大门, 出入口]}
+      - code: canteen_3
+        name: 第三食堂
+        aliases: [第三食堂, 三食堂, 三食, 第三餐厅]
+        adjacent_buildings: [teaching_a, teaching_b, dorm_1]
+        floors:
+          - {code: "1", name: 一楼, aliases: [一楼, 一层, 1楼, 1层]}
+          - {code: "2", name: 二楼, aliases: [二楼, 二层, 2楼, 2层]}
+        spots:
+          - {code: entrance, name: 门口, aliases: [门口, 大门, 出入口]}
+          - {code: dining_hall, name: 就餐区, aliases: [就餐区, 餐厅, 大厅, 用餐区]}
+          - {code: service_desk, name: 服务台, aliases: [服务台, 前台, 收餐处]}
+      - code: student_center
+        name: 大学生活动中心
+        aliases: [大学生活动中心, 活动中心, 学活]
+        adjacent_buildings: [library, gym]
+        floors:
+          - {code: "1", name: 一楼, aliases: [一楼, 一层, 1楼, 1层]}
+          - {code: "2", name: 二楼, aliases: [二楼, 二层, 2楼, 2层]}
+          - {code: "3", name: 三楼, aliases: [三楼, 三层, 3楼, 3层]}
+        spots:
+          - {code: hall, name: 报告厅, aliases: [报告厅, 礼堂, 多功能厅]}
+          - {code: service_desk, name: 服务台, aliases: [服务台, 前台, 值班室]}
+          - {code: entrance, name: 门口, aliases: [门口, 大门, 出入口]}
+      - code: dorm_1
+        name: 一号宿舍楼
+        aliases: [一号宿舍楼, 一号楼, 1号宿舍楼, 一舍]
+        adjacent_buildings: [canteen_3, dorm_2, gym]
+        floors:
+          - {code: "1", name: 一楼, aliases: [一楼, 一层, 1楼, 1层]}
+          - {code: "2", name: 二楼, aliases: [二楼, 二层, 2楼, 2层]}
+          - {code: "3", name: 三楼, aliases: [三楼, 三层, 3楼, 3层]}
+          - {code: "4", name: 四楼, aliases: [四楼, 四层, 4楼, 4层]}
+        spots:
+          - {code: entrance, name: 门口, aliases: [门口, 大门, 楼门口, 出入口]}
+          - {code: laundry, name: 洗衣房, aliases: [洗衣房, 水房, 晾衣区]}
+      - code: dorm_2
+        name: 二号宿舍楼
+        aliases: [二号宿舍楼, 二号楼, 2号宿舍楼, 二舍]
+        adjacent_buildings: [dorm_1, gym]
+        floors:
+          - {code: "1", name: 一楼, aliases: [一楼, 一层, 1楼, 1层]}
+          - {code: "2", name: 二楼, aliases: [二楼, 二层, 2楼, 2层]}
+          - {code: "3", name: 三楼, aliases: [三楼, 三层, 3楼, 3层]}
+        spots:
+          - {code: entrance, name: 门口, aliases: [门口, 大门, 楼门口, 出入口]}
+      - code: gym
+        name: 体育馆
+        aliases: [体育馆, 风雨操场, 体育中心]
+        adjacent_buildings: [student_center, dorm_1, dorm_2, track]
+        floors:
+          - {code: "1", name: 一楼, aliases: [一楼, 一层, 1楼, 1层]}
+          - {code: "2", name: 二楼, aliases: [二楼, 二层, 2楼, 2层]}
+        spots:
+          - {code: entrance, name: 门口, aliases: [门口, 大门, 出入口]}
+          - {code: court, name: 球馆, aliases: [球馆, 篮球场, 羽毛球场, 场地]}
+          - {code: locker, name: 更衣室, aliases: [更衣室, 储物柜, 寄存处]}
+      - code: track
+        name: 田径场
+        aliases: [田径场, 操场, 运动场, 跑道]
+        adjacent_buildings: [gym]
+        floors:
+          - {code: "1", name: 地面层, aliases: [地面层, 一楼, 一层]}
+        spots:
+          - {code: entrance, name: 入口, aliases: [入口, 门口, 大门]}
+          - {code: stand, name: 看台, aliases: [看台, 观众席]}
+
+  - code: west
+    name: 西山校区
+    aliases: [西山, 西区, 西山校区]
+    adjacent_campuses: [east]
+    buildings:
+      - code: lab
+        name: 实验楼
+        aliases: [实验楼, 实验中心, 理化楼]
+        adjacent_buildings: [engineering, canteen_1]
+        floors:
+          - {code: "1", name: 一楼, aliases: [一楼, 一层, 1楼, 1层]}
+          - {code: "2", name: 二楼, aliases: [二楼, 二层, 2楼, 2层]}
+          - {code: "3", name: 三楼, aliases: [三楼, 三层, 3楼, 3层]}
+          - {code: "4", name: 四楼, aliases: [四楼, 四层, 4楼, 4层]}
+          - {code: "5", name: 五楼, aliases: [五楼, 五层, 5楼, 5层]}
+        spots:
+          - {code: lab_room, name: 实验室, aliases: [实验室, 机房, 操作间]}
+          - {code: entrance, name: 门口, aliases: [门口, 大门, 出入口]}
+          - {code: elevator, name: 电梯口, aliases: [电梯口, 电梯, 楼梯口]}
+      - code: engineering
+        name: 工程训练中心
+        aliases: [工程训练中心, 工训中心, 工训楼]
+        adjacent_buildings: [lab, canteen_1, gym_west]
+        floors:
+          - {code: "1", name: 一楼, aliases: [一楼, 一层, 1楼, 1层]}
+          - {code: "2", name: 二楼, aliases: [二楼, 二层, 2楼, 2层]}
+          - {code: "3", name: 三楼, aliases: [三楼, 三层, 3楼, 3层]}
+        spots:
+          - {code: workshop, name: 车间, aliases: [车间, 实训室, 加工间]}
+          - {code: entrance, name: 门口, aliases: [门口, 大门, 出入口]}
+      - code: canteen_1
+        name: 第一食堂
+        aliases: [第一食堂, 一食堂, 一食]
+        adjacent_buildings: [lab, engineering, dorm_3]
+        floors:
+          - {code: "1", name: 一楼, aliases: [一楼, 一层, 1楼, 1层]}
+          - {code: "2", name: 二楼, aliases: [二楼, 二层, 2楼, 2层]}
+        spots:
+          - {code: entrance, name: 门口, aliases: [门口, 大门, 出入口]}
+          - {code: dining_hall, name: 就餐区, aliases: [就餐区, 餐厅, 大厅]}
+      - code: dorm_3
+        name: 三号宿舍楼
+        aliases: [三号宿舍楼, 三号楼, 3号宿舍楼, 三舍]
+        adjacent_buildings: [canteen_1, library_west, gym_west]
+        floors:
+          - {code: "1", name: 一楼, aliases: [一楼, 一层, 1楼, 1层]}
+          - {code: "2", name: 二楼, aliases: [二楼, 二层, 2楼, 2层]}
+          - {code: "3", name: 三楼, aliases: [三楼, 三层, 3楼, 3层]}
+          - {code: "4", name: 四楼, aliases: [四楼, 四层, 4楼, 4层]}
+        spots:
+          - {code: entrance, name: 门口, aliases: [门口, 大门, 楼门口, 出入口]}
+          - {code: laundry, name: 洗衣房, aliases: [洗衣房, 水房]}
+      - code: library_west
+        name: 西区图书室
+        aliases: [西区图书室, 西图书室, 西区图书馆, 分馆]
+        adjacent_buildings: [dorm_3, gym_west, canteen_1]
+        floors:
+          - {code: "1", name: 一楼, aliases: [一楼, 一层, 1楼, 1层]}
+          - {code: "2", name: 二楼, aliases: [二楼, 二层, 2楼, 2层]}
+        spots:
+          - {code: reading_room, name: 阅览室, aliases: [阅览室, 自习区, 自习室]}
+          - {code: service_desk, name: 服务台, aliases: [服务台, 前台, 借还处]}
+          - {code: entrance, name: 门口, aliases: [门口, 大门, 出入口]}
+      - code: gym_west
+        name: 西区风雨操场
+        aliases: [西区风雨操场, 西操场, 风雨操场西区]
+        adjacent_buildings: [engineering, dorm_3, library_west]
+        floors:
+          - {code: "1", name: 地面层, aliases: [地面层, 一楼, 一层]}
+        spots:
+          - {code: entrance, name: 门口, aliases: [门口, 入口, 大门]}
+          - {code: court, name: 球场, aliases: [球场, 篮球场, 场地]}
+      - code: medical
+        name: 校医院
+        aliases: [校医院, 医务室, 门诊部]
+        adjacent_buildings: [library_west, canteen_1]
+        floors:
+          - {code: "1", name: 一楼, aliases: [一楼, 一层, 1楼, 1层]}
+          - {code: "2", name: 二楼, aliases: [二楼, 二层, 2楼, 2层]}
+        spots:
+          - {code: service_desk, name: 服务台, aliases: [服务台, 挂号处, 前台]}
+          - {code: entrance, name: 门口, aliases: [门口, 大门, 出入口]}
+
+# -----------------------------------------------------------------------------
+# 二、评分档位（代码只读这里的 tier → score 映射）
+# -----------------------------------------------------------------------------
+output:
+  tiers:
+    same_spot: 1.00        # 同一具体地点（同校区+同建筑+同楼层+同 spot）
+    same_floor: 1.00      # 同校区+同建筑+同楼层（spot 未指明或不同 spot）
+    same_building_diff_floor: 0.85   # 同一建筑不同楼层
+    adjacent_building: 0.60          # 相邻建筑（同校区）
+    same_campus_far: 0.35            # 同一校区较远地点
+    cross_campus: 0.10               # 不同校区
+    unknown: 0.50                    # 任一侧解析失败 / 缺失 → 中性分
+  tier_labels:
+    same_spot: 同一具体地点
+    same_floor: 同一建筑同一楼层
+    same_building_diff_floor: 同一建筑不同楼层
+    adjacent_building: 相邻建筑
+    same_campus_far: 同一校区较远地点
+    cross_campus: 不同校区
+    unknown: 地点未知
+  # 解析规则
+  parsing:
+    longest_alias_first: true
+    # 楼层可由「三楼 / 3楼 / 3层 / F3 / 三楼阅览室」等表达解析
+    floor_patterns:
+      - "([一二三四五六七八九十0-9]{1,2})(?:楼|层)"
+      - "F([0-9]{1,2})"
+    # 只有以下 spot 词不参与建筑判定（避免把「三食堂」错判为 spot）
+    spot_only_keywords: true
+
+# -----------------------------------------------------------------------------
+# 三、地点关键词补充表（中文地点字符串 → 层级），可选；解析不到则 unknown
+# -----------------------------------------------------------------------------
+keyword_hints:
+  图书馆三楼: {campus: east, building: library, floor: "3"}
+  图书馆: {campus: east, building: library}
+  三食堂门口: {campus: east, building: canteen_3, spot: entrance}
+  三食堂: {campus: east, building: canteen_3}
+  一教: {campus: east, building: teaching_a}
+  二教: {campus: east, building: teaching_b}
+  学活: {campus: east, building: student_center}
+  一舍: {campus: east, building: dorm_1}
+  二舍: {campus: east, building: dorm_2}
+  体育馆: {campus: east, building: gym}
+  操场: {campus: east, building: track}
+  田径场: {campus: east, building: track}
+  实验楼: {campus: west, building: lab}
+  工训中心: {campus: west, building: engineering}
+  一食堂: {campus: west, building: canteen_1}
+  三舍: {campus: west, building: dorm_3}
+  西区图书室: {campus: west, building: library_west}
+  校医院: {campus: west, building: medical}
+  西操场: {campus: west, building: gym_west}

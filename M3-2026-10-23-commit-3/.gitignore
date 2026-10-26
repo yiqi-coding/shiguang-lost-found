@@ -1,0 +1,120 @@
+# =============================================================================
+# 拾光 · 忽略规则
+# =============================================================================
+
+# ---------- 环境变量与密钥（红线：绝不提交） ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+!frontend/public/*.key
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# ---------- 测试与覆盖率 ----------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# ---------- 类型检查与 lint 缓存 ----------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+
+# ---------- Node / 前端 ----------
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+frontend/stats.html
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+*.local
+
+# ---------- 构建与运行时产物 ----------
+storage/
+backend/storage/
+*.log
+logs/
+celerybeat-schedule
+*.pid
+*.seed
+
+# ---------- IDE / 编辑器 ----------
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 大文件与演示素材（体积大，单独交接） ----------
+data/images/*
+!data/images/.gitkeep
+!data/images/README.md
+*.mp4
+*.mov
+*.zip
+*.7z
+*.tar.gz
+
+# ---------- 交付清单产物（由 scripts/make_manifest.py 生成） ----------
+# 说明：这两份文件随压缩包交付，但不进版本库 —— 每次内容变更都会让校验和全量失效，
+#       留着只会制造无意义的 diff。需要时运行 `python scripts/make_manifest.py` 重新生成。
+/MANIFEST.md
+/CHECKSUMS.sha256
+
+# ---------- 本地依赖解包目录（由 scripts/vendor_deps.py 生成） ----------
+# **绝不提交**：体积约 7MB / 500 个文件，且第三方库各有许可证，
+# 应由使用者在本地按需生成。重新生成：
+#     python scripts/vendor_deps.py
+#     $env:PYTHONPATH = "E:\ICT\.vendor"
+.vendor/
+.pipcache/
+
+# ---------- 临时目录 ----------
+tmp/
+temp/
+.tmp/

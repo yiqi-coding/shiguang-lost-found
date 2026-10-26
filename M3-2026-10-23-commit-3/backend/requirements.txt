@@ -1,0 +1,47 @@
+# 拾光 · 后端服务依赖
+# Python 3.11
+# 安装：pip install -r requirements.txt
+
+# ---- Web 框架 ----
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+gunicorn==23.0.0
+python-multipart==0.0.20          # multipart/form-data 文件上传
+
+# ---- 数据校验与配置 ----
+pydantic==2.10.4
+pydantic-settings==2.7.0
+
+# ---- 数据库 ----
+SQLAlchemy==2.0.36
+alembic==1.14.0
+PyMySQL==1.1.1
+cryptography==44.0.0              # PyMySQL 的 sha256_password / caching_sha2_password 依赖
+
+# ---- 缓存 ----
+redis==5.2.1
+
+# ---- 认证与安全 ----
+PyJWT==2.10.1
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.1
+
+# ---- 文件与图片校验 ----
+Pillow==11.0.0
+python-magic==0.4.27 ; sys_platform != "win32"   # Windows 下改用文件头手动嗅探，见 app/services/file_service.py
+
+# ---- 华为云 OBS ----
+esdk-obs-python==3.23.12
+
+# ---- HTTP 客户端（调用 MaaS / 算法服务） ----
+httpx==0.28.1
+
+# ---- 测试 ----
+pytest==8.3.4
+pytest-asyncio==0.25.0
+httpx==0.28.1
+pytest-cov==6.0.0
+
+# ---- 代码质量（开发期） ----
+ruff==0.8.4
+mypy==1.14.0

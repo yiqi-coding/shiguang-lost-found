@@ -1,0 +1,17 @@
+# 拾光 · 算法服务「服务化」依赖（用于 Docker / 正式部署）
+# ---------------------------------------------------------------------------
+# requirements.txt 里的依赖全部是**可选增强**（缺失也能跑通测试与演示）；
+# 本文件用于「确实要以 ASGI 服务运行」的场景，例如 Dockerfile：
+#     pip install -r requirements-service.txt
+#     uvicorn app.main:app --host 0.0.0.0 --port 9000
+# ---------------------------------------------------------------------------
+
+# Web 框架与 ASGI 服务器
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.27,<1.0
+
+# Schema 校验（Pydantic v2；缺失时 app/schemas.py 自动降级为 dataclass）
+pydantic>=2.5,<3.0
+
+# 配置解析（缺失时 app/config_loader.py 使用内置极简 YAML 解析器）
+PyYAML>=6.0,<7.0
